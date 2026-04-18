@@ -400,8 +400,13 @@ async function handleApiRequest(req, res, url) {
     return;
   }
 
-  if (req.method === "GET" && url.pathname.startsWith("/api/models/")) {
-    const company = decodeURIComponent(url.pathname.replace("/api/models/", ""));
+  if (
+    req.method === "GET" &&
+    (url.pathname === "/api/models" || url.pathname.startsWith("/api/models/"))
+  ) {
+    const company = url.pathname === "/api/models"
+      ? decodeURIComponent(url.searchParams.get("company") || "")
+      : decodeURIComponent(url.pathname.replace("/api/models/", ""));
     sendJson(res, 200, { models: dataset.modelsByCompany[company] || [] });
     return;
   }
