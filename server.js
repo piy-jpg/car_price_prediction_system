@@ -1,17 +1,14 @@
 const http = require("http");
 const fs = require("fs");
 const path = require("path");
-const { spawn } = require("child_process");
 const { URL } = require("url");
+const { predictPrice } = require("./lib/data");
 
 const HOST = "127.0.0.1";
 const PORT = Number(process.env.PORT || 3000);
 const ROOT_DIR = __dirname;
 const FRONTEND_DIR = path.join(ROOT_DIR, "frontend");
 const CSV_PATH = path.join(ROOT_DIR, "Cleaned_Car_data.csv");
-const PYTHON_BIN = process.env.PYTHON_BIN || "python3";
-const BRIDGE_PATH = path.join(ROOT_DIR, "predictor_bridge.py");
-
 const MIME_TYPES = {
   ".html": "text/html; charset=utf-8",
   ".js": "application/javascript; charset=utf-8",
@@ -317,44 +314,6 @@ function readBody(req) {
   });
 }
 
-function runPythonPrediction(payload) {
-  return new Promise((resolve, reject) => {
-    const child = spawn(PYTHON_BIN, [BRIDGE_PATH], {
-      cwd: ROOT_DIR,
-      stdio: ["pipe", "pipe", "pipe"],
-    });
-
-    let stdout = "";
-    let stderr = "";
-
-    child.stdout.on("data", (chunk) => {
-      stdout += chunk.toString("utf8");
-    });
-
-    child.stderr.on("data", (chunk) => {
-      stderr += chunk.toString("utf8");
-    });
-
-    child.on("error", reject);
-
-    child.on("close", (code) => {
-      if (code !== 0) {
-        reject(new Error(stderr.trim() || `Python bridge exited with code ${code}`));
-        return;
-      }
-
-      try {
-        resolve(JSON.parse(stdout));
-      } catch (error) {
-        reject(new Error(`Invalid bridge response: ${stdout}`));
-      }
-    });
-
-    child.stdin.write(JSON.stringify(payload));
-    child.stdin.end();
-  });
-}
-
 function serveStaticFile(reqPath, res) {
   const safePath = path.normalize(reqPath).replace(/^(\.\.[/\\])+/, "");
   const requestedPath = safePath === "/" ? "/index.html" : safePath;
@@ -458,21 +417,10 @@ async function handleApiRequest(req, res, url) {
       const startedAt = Date.now();
       const rawBody = await readBody(req);
       const payload = rawBody ? JSON.parse(rawBody) : {};
-      const result = await runPythonPrediction(payload);
+      const result = predictPrice(payload);
       const responseTimeMs = Date.now() - startedAt;
       const predictionEntry = {
-        timestamp: new Date().toISOString(),
-        company: result.input_data.company,
-        model: result.input_data.model,
-        year: result.input_data.year,
-        kilometers: result.input_data.kilometers_driven,
-        fuel_type: result.input_data.fuel_type,
-        predicted_price: result.predicted_price,
-        actual_price: result.actual_price,
-        price_numeric: result.price_numeric,
-        match_type: result.match_type || "fallback",
-        matched_records: result.matched_records || 0,
-        confidence: estimateConfidence(result.match_type, result.matched_records || 0),
+        ...result.recent_entry,
         response_time_ms: responseTimeMs,
       };
       recentPredictions.unshift(predictionEntry);
