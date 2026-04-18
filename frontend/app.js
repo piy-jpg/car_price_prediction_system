@@ -5,6 +5,7 @@ class CarPricePredictor {
         this.handleCompanyChange = this.handleCompanyChange.bind(this);
         this.handlePredictionSubmit = this.handlePrediction.bind(this);
         this.initialDataPromise = null;
+        this.initialDataCache = null;
         this.initializeApp();
     }
 
@@ -34,10 +35,11 @@ class CarPricePredictor {
                     fuelResponse.json()
                 ]);
 
-                this.populateSelect('company', companiesData.companies || []);
-                this.populateSelect('year', yearsData.years || []);
-                this.populateSelect('fuel_type', fuelData.fuel_types || []);
-                this.resetModelSelect();
+                this.initialDataCache = {
+                    companies: companiesData.companies || [],
+                    years: yearsData.years || [],
+                    fuelTypes: fuelData.fuel_types || [],
+                };
             })().catch((error) => {
                 this.initialDataPromise = null;
                 throw error;
@@ -45,6 +47,13 @@ class CarPricePredictor {
         }
 
         await this.initialDataPromise;
+
+        if (this.initialDataCache) {
+            this.populateSelect('company', this.initialDataCache.companies);
+            this.populateSelect('year', this.initialDataCache.years);
+            this.populateSelect('fuel_type', this.initialDataCache.fuelTypes);
+            this.resetModelSelect();
+        }
     }
 
     populateSelect(elementId, options) {
