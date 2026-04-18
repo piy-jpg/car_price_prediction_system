@@ -1,0 +1,9 @@
+{
+  "name": "car-price-predictor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Node.js frontend and backend for the car price predictor model",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

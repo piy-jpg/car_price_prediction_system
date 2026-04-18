@@ -1,0 +1,1497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Price Predictor Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;600;800;900&family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* ===== CSS Variables ===== */
+        :root {
+            --bg: #0B0E11;
+            --bg-secondary: #12161C;
+            --bg-card: #171C24;
+            --bg-card-hover: #1C2230;
+            --border: #242B37;
+            --border-light: #2E3746;
+            --fg: #E8ECF1;
+            --fg-muted: #7A8599;
+            --fg-dim: #4A5568;
+            --accent: #E8A838;
+            --accent-glow: rgba(232, 168, 56, 0.15);
+            --accent-dim: #C48A20;
+            --success: #34D399;
+            --danger: #F87171;
+            --info: #60A5FA;
+            --card-radius: 16px;
+            --sidebar-width: 250px;
+            --header-height: 64px;
+        }
+
+        /* ===== Reset & Base ===== */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+            background: var(--bg);
+            color: var(--fg);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* ===== Animated Background ===== */
+        body::before {
+            content: '';
+            position: fixed;
+            top: -40%; left: -20%;
+            width: 70vw; height: 70vw;
+            background: radial-gradient(circle, rgba(232,168,56,0.06) 0%, transparent 60%);
+            pointer-events: none;
+            z-index: 0;
+            animation: bgFloat 20s ease-in-out infinite alternate;
+        }
+        body::after {
+            content: '';
+            position: fixed;
+            bottom: -30%; right: -15%;
+            width: 50vw; height: 50vw;
+            background: radial-gradient(circle, rgba(96,165,250,0.04) 0%, transparent 60%);
+            pointer-events: none;
+            z-index: 0;
+            animation: bgFloat2 25s ease-in-out infinite alternate;
+        }
+        @keyframes bgFloat { 0% { transform: translate(0,0) scale(1); } 100% { transform: translate(60px, 40px) scale(1.1); } }
+        @keyframes bgFloat2 { 0% { transform: translate(0,0) scale(1); } 100% { transform: translate(-40px, -30px) scale(1.15); } }
+
+        /* ===== Scrollbar ===== */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: var(--bg-secondary); }
+        ::-webkit-scrollbar-thumb { background: var(--border-light); border-radius: 3px; }
+        ::-webkit-scrollbar-thumb:hover { background: var(--fg-dim); }
+
+        /* ===== Header ===== */
+        .header {
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            height: var(--header-height);
+            background: rgba(11, 14, 17, 0.85);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 28px;
+            z-index: 100;
+        }
+
+        .logo {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 900;
+            font-size: 22px;
+            letter-spacing: 3px;
+            background: linear-gradient(135deg, var(--accent), #F0C060);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .logo-sub {
+            font-size: 10px;
+            font-weight: 400;
+            letter-spacing: 2px;
+            color: var(--fg-muted);
+            display: block;
+            margin-top: -2px;
+        }
+
+        .search-bar {
+            position: relative;
+            width: 320px;
+        }
+        .search-bar input {
+            width: 100%;
+            padding: 9px 16px 9px 40px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            color: var(--fg);
+            font-family: inherit;
+            font-size: 13px;
+            outline: none;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+        .search-bar input::placeholder { color: var(--fg-dim); }
+        .search-bar input:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px var(--accent-glow);
+        }
+        .search-bar i {
+            position: absolute;
+            left: 14px; top: 50%;
+            transform: translateY(-50%);
+            color: var(--fg-dim);
+            font-size: 13px;
+        }
+
+        .header-icons {
+            display: flex;
+            align-items: center;
+            gap: 18px;
+        }
+        .header-icons > i {
+            font-size: 16px;
+            color: var(--fg-muted);
+            cursor: pointer;
+            transition: color 0.2s;
+            position: relative;
+        }
+        .header-icons > i:hover { color: var(--accent); }
+        .header-icons > i .badge {
+            position: absolute;
+            top: -6px; right: -8px;
+            width: 16px; height: 16px;
+            background: var(--danger);
+            border-radius: 50%;
+            font-size: 9px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-style: normal;
+        }
+
+        .user-profile {
+            width: 36px; height: 36px;
+            border-radius: 10px;
+            overflow: hidden;
+            border: 2px solid var(--border);
+            cursor: pointer;
+            transition: border-color 0.2s;
+        }
+        .user-profile:hover { border-color: var(--accent); }
+        .user-profile img { width: 100%; height: 100%; object-fit: cover; }
+
+        /* ===== Layout ===== */
+        .main-content {
+            display: flex;
+            margin-top: var(--header-height);
+            min-height: calc(100vh - var(--header-height));
+            position: relative;
+            z-index: 1;
+        }
+
+        /* ===== Sidebar ===== */
+        .sidebar {
+            width: var(--sidebar-width);
+            background: var(--bg-secondary);
+            border-right: 1px solid var(--border);
+            padding: 24px 0;
+            position: fixed;
+            top: var(--header-height);
+            bottom: 0;
+            left: 0;
+            overflow-y: auto;
+            z-index: 50;
+            transition: transform 0.3s;
+        }
+
+        .menu-header {
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            color: var(--fg-dim);
+            padding: 0 24px;
+            margin-bottom: 12px;
+        }
+        .menu-section + .menu-section { margin-top: 28px; }
+
+        .menu-items { display: flex; flex-direction: column; gap: 2px; }
+
+        .menu-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 11px 24px;
+            cursor: pointer;
+            transition: all 0.2s;
+            color: var(--fg-muted);
+            font-size: 14px;
+            font-weight: 400;
+            border-left: 3px solid transparent;
+            position: relative;
+        }
+        .menu-item i:first-child { width: 18px; text-align: center; font-size: 15px; }
+        .menu-item .fa-chevron-right { margin-left: auto; font-size: 10px; opacity: 0.5; }
+        .menu-item:hover {
+            background: rgba(232, 168, 56, 0.05);
+            color: var(--fg);
+        }
+        .menu-item.active {
+            background: var(--accent-glow);
+            color: var(--accent);
+            border-left-color: var(--accent);
+            font-weight: 600;
+        }
+        .menu-item.active i:first-child { color: var(--accent); }
+
+        /* ===== Content Area ===== */
+        .content-area {
+            margin-left: var(--sidebar-width);
+            flex: 1;
+            padding: 28px 32px 60px;
+            max-width: calc(100vw - var(--sidebar-width));
+        }
+
+        /* ===== Page Title ===== */
+        .page-title {
+            margin-bottom: 28px;
+        }
+        .page-title h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 28px;
+            font-weight: 800;
+            color: var(--fg);
+            line-height: 1.2;
+        }
+        .page-title h1 span { color: var(--accent); }
+        .page-title p {
+            color: var(--fg-muted);
+            font-size: 14px;
+            margin-top: 6px;
+        }
+
+        /* ===== Stats Grid ===== */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 18px;
+            margin-bottom: 28px;
+        }
+
+        .stat-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--card-radius);
+            padding: 22px;
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            transition: all 0.3s;
+            cursor: default;
+            position: relative;
+            overflow: hidden;
+        }
+        .stat-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 3px;
+            background: linear-gradient(90deg, var(--accent), transparent);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .stat-card:hover {
+            border-color: var(--border-light);
+            background: var(--bg-card-hover);
+            transform: translateY(-2px);
+        }
+        .stat-card:hover::before { opacity: 1; }
+
+        .stat-icon {
+            width: 48px; height: 48px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            flex-shrink: 0;
+        }
+        .stat-icon.amber { background: rgba(232,168,56,0.12); color: var(--accent); }
+        .stat-icon.green { background: rgba(52,211,153,0.12); color: var(--success); }
+        .stat-icon.blue { background: rgba(96,165,250,0.12); color: var(--info); }
+        .stat-icon.red { background: rgba(248,113,113,0.12); color: var(--danger); }
+
+        .stat-content h3 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 24px;
+            font-weight: 800;
+            line-height: 1.1;
+        }
+        .stat-content p {
+            font-size: 12px;
+            color: var(--fg-muted);
+            margin-top: 4px;
+        }
+        .stat-change {
+            font-size: 11px;
+            margin-top: 6px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        .stat-change.up { color: var(--success); }
+        .stat-change.down { color: var(--danger); }
+
+        /* ===== Two Column Layout ===== */
+        .two-col {
+            display: grid;
+            grid-template-columns: 400px 1fr;
+            gap: 24px;
+            margin-bottom: 28px;
+        }
+
+        /* ===== Predictor Panel ===== */
+        .predictor-panel {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--card-radius);
+            padding: 28px;
+            position: relative;
+            overflow: hidden;
+        }
+        .predictor-panel::after {
+            content: '';
+            position: absolute;
+            top: -60px; right: -60px;
+            width: 160px; height: 160px;
+            background: radial-gradient(circle, var(--accent-glow), transparent 70%);
+            pointer-events: none;
+        }
+
+        .panel-title {
+            font-family: 'Outfit', sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 24px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .panel-title i { color: var(--accent); }
+
+        .form-group {
+            margin-bottom: 18px;
+        }
+        .form-group label {
+            display: block;
+            font-size: 12px;
+            font-weight: 500;
+            color: var(--fg-muted);
+            margin-bottom: 7px;
+            letter-spacing: 0.5px;
+        }
+        .form-group select,
+        .form-group input {
+            width: 100%;
+            padding: 10px 14px;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            color: var(--fg);
+            font-family: inherit;
+            font-size: 13px;
+            outline: none;
+            transition: border-color 0.3s, box-shadow 0.3s;
+            appearance: none;
+            -webkit-appearance: none;
+        }
+        .form-group select {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%237A8599' viewBox='0 0 16 16'%3E%3Cpath d='M8 11L3 6h10z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 14px center;
+            padding-right: 36px;
+            cursor: pointer;
+        }
+        .form-group select option { background: var(--bg-card); color: var(--fg); }
+        .form-group input:focus,
+        .form-group select:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px var(--accent-glow);
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 14px;
+        }
+
+        .btn-predict {
+            width: 100%;
+            padding: 13px;
+            background: linear-gradient(135deg, var(--accent), var(--accent-dim));
+            color: #0B0E11;
+            font-family: 'Outfit', sans-serif;
+            font-weight: 700;
+            font-size: 15px;
+            letter-spacing: 0.5px;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin-top: 6px;
+            position: relative;
+            overflow: hidden;
+        }
+        .btn-predict:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 8px 30px rgba(232, 168, 56, 0.3);
+        }
+        .btn-predict:active { transform: translateY(0); }
+        .btn-predict .spinner {
+            display: none;
+            width: 18px; height: 18px;
+            border: 2px solid rgba(11,14,17,0.3);
+            border-top-color: #0B0E11;
+            border-radius: 50%;
+            animation: spin 0.6s linear infinite;
+            margin: 0 auto;
+        }
+        .btn-predict.loading .btn-text { display: none; }
+        .btn-predict.loading .spinner { display: block; }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* ===== Prediction Result ===== */
+        .prediction-result {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--card-radius);
+            padding: 28px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            transition: all 0.5s;
+        }
+        .prediction-result.has-result {
+            border-color: var(--accent);
+            box-shadow: 0 0 60px rgba(232,168,56,0.08);
+        }
+
+        .result-placeholder {
+            color: var(--fg-dim);
+        }
+        .result-placeholder i {
+            font-size: 48px;
+            margin-bottom: 16px;
+            display: block;
+            opacity: 0.4;
+        }
+        .result-placeholder p { font-size: 14px; }
+
+        .result-content { display: none; }
+        .prediction-result.has-result .result-placeholder { display: none; }
+        .prediction-result.has-result .result-content { display: block; animation: fadeUp 0.5s ease; }
+
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .result-label {
+            font-size: 13px;
+            color: var(--fg-muted);
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        .result-price {
+            font-family: 'Outfit', sans-serif;
+            font-size: 52px;
+            font-weight: 900;
+            color: var(--accent);
+            line-height: 1;
+            margin-bottom: 6px;
+        }
+        .result-range {
+            font-size: 13px;
+            color: var(--fg-muted);
+            margin-bottom: 28px;
+        }
+        .result-range span { color: var(--fg); font-weight: 600; }
+
+        .result-details {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            width: 100%;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+        }
+        .result-detail-item {
+            text-align: center;
+        }
+        .result-detail-item .val {
+            font-family: 'Outfit', sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--fg);
+        }
+        .result-detail-item .lbl {
+            font-size: 11px;
+            color: var(--fg-dim);
+            margin-top: 3px;
+        }
+
+        /* ===== Charts Section ===== */
+        .charts-section {
+            margin-bottom: 28px;
+        }
+        .section-title {
+            font-family: 'Outfit', sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 18px;
+        }
+
+        .charts-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 18px;
+        }
+
+        .chart-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--card-radius);
+            padding: 22px;
+            transition: border-color 0.3s;
+        }
+        .chart-card:hover { border-color: var(--border-light); }
+        .chart-card.full-width { grid-column: 1 / -1; }
+
+        .chart-card h3 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 18px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .chart-card h3 .dot {
+            width: 8px; height: 8px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .chart-wrapper {
+            position: relative;
+            height: 260px;
+        }
+        .chart-card.full-width .chart-wrapper { height: 220px; }
+
+        /* ===== Recent Predictions Table ===== */
+        .table-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--card-radius);
+            overflow: hidden;
+        }
+        .table-card .table-header {
+            padding: 18px 22px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid var(--border);
+        }
+        .table-card .table-header h3 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+        }
+        .table-card .table-header .count {
+            font-size: 12px;
+            color: var(--fg-dim);
+            background: var(--bg);
+            padding: 3px 10px;
+            border-radius: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        thead th {
+            padding: 12px 22px;
+            font-size: 11px;
+            font-weight: 600;
+            color: var(--fg-dim);
+            letter-spacing: 0.8px;
+            text-transform: uppercase;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+            background: rgba(0,0,0,0.15);
+        }
+        tbody tr {
+            transition: background 0.2s;
+        }
+        tbody tr:hover { background: rgba(232,168,56,0.03); }
+        tbody td {
+            padding: 14px 22px;
+            font-size: 13px;
+            color: var(--fg-muted);
+            border-bottom: 1px solid rgba(36,43,55,0.5);
+        }
+        tbody td:first-child { color: var(--fg); font-weight: 500; }
+        .price-cell {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 700 !important;
+            color: var(--accent) !important;
+        }
+        .confidence-badge {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 600;
+        }
+        .confidence-badge.high { background: rgba(52,211,153,0.12); color: var(--success); }
+        .confidence-badge.medium { background: rgba(232,168,56,0.12); color: var(--accent); }
+        .confidence-badge.low { background: rgba(248,113,113,0.12); color: var(--danger); }
+
+        /* ===== Toast ===== */
+        .toast-container {
+            position: fixed;
+            top: 80px; right: 24px;
+            z-index: 9999;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .toast {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 14px 20px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 13px;
+            box-shadow: 0 12px 40px rgba(0,0,0,0.4);
+            animation: toastIn 0.4s ease;
+            min-width: 280px;
+        }
+        .toast.out { animation: toastOut 0.3s ease forwards; }
+        .toast i { font-size: 16px; }
+        .toast.success i { color: var(--success); }
+        .toast.error i { color: var(--danger); }
+        @keyframes toastIn { from { opacity: 0; transform: translateX(60px); } to { opacity: 1; transform: translateX(0); } }
+        @keyframes toastOut { to { opacity: 0; transform: translateX(60px); } }
+
+        /* ===== Responsive ===== */
+        @media (max-width: 1200px) {
+            .stats-grid { grid-template-columns: repeat(2, 1fr); }
+            .two-col { grid-template-columns: 1fr; }
+            .charts-grid { grid-template-columns: 1fr; }
+        }
+        @media (max-width: 768px) {
+            .sidebar { transform: translateX(-100%); }
+            .content-area { margin-left: 0; max-width: 100vw; padding: 20px 16px 60px; }
+            .stats-grid { grid-template-columns: 1fr; }
+            .search-bar { width: 180px; }
+            .form-row { grid-template-columns: 1fr; }
+            .result-price { font-size: 36px; }
+            .result-details { grid-template-columns: repeat(3, 1fr); gap: 12px; }
+        }
+
+        /* ===== Entrance Animations ===== */
+        .animate-in {
+            opacity: 0;
+            transform: translateY(24px);
+            animation: slideIn 0.6s ease forwards;
+        }
+        .animate-in:nth-child(1) { animation-delay: 0.05s; }
+        .animate-in:nth-child(2) { animation-delay: 0.1s; }
+        .animate-in:nth-child(3) { animation-delay: 0.15s; }
+        .animate-in:nth-child(4) { animation-delay: 0.2s; }
+        @keyframes slideIn { to { opacity: 1; transform: translateY(0); } }
+
+        .delay-1 { animation-delay: 0.15s !important; }
+        .delay-2 { animation-delay: 0.3s !important; }
+        .delay-3 { animation-delay: 0.4s !important; }
+        .delay-4 { animation-delay: 0.5s !important; }
+
+        /* ===== Pulse dot on active menu ===== */
+        .menu-item.active::after {
+            content: '';
+            position: absolute;
+            right: 20px;
+            width: 7px; height: 7px;
+            background: var(--accent);
+            border-radius: 50%;
+            animation: pulse 2s ease-in-out infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.4; transform: scale(0.7); }
+        }
+
+        /* ===== Mobile menu toggle ===== */
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--fg);
+            font-size: 20px;
+            cursor: pointer;
+        }
+        @media (max-width: 768px) {
+            .mobile-menu-btn { display: block; }
+            .sidebar.open { transform: translateX(0); }
+            .sidebar-overlay {
+                position: fixed;
+                inset: 0;
+                background: rgba(0,0,0,0.5);
+                z-index: 49;
+                display: none;
+            }
+            .sidebar-overlay.show { display: block; }
+        }
+    </style>
+</head>
+<body>
+    <div class="toast-container" id="toastContainer"></div>
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <div style="display:flex;align-items:center;gap:16px;">
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div>
+                <div class="logo">AUTOPRICE</div>
+                <span class="logo-sub">PREDICTOR ENGINE</span>
+            </div>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search make, model, or feature...">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="header-icons">
+            <i class="fas fa-bell">
+                <span class="badge">3</span>
+            </i>
+            <i class="fas fa-cog"></i>
+            <div class="user-profile">
+                <img src="https://picsum.photos/seed/analyst42/40/40.jpg" alt="User">
+            </div>
+        </div>
+    </header>
+
+    <div class="main-content">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="menu-section">
+                <div class="menu-header">MAIN</div>
+                <div class="menu-items">
+                    <div class="menu-item active" data-page="dashboard">
+                        <i class="fas fa-tachometer-alt"></i>
+                        <span>Dashboard</span>
+                    </div>
+                    <div class="menu-item" data-page="predict">
+                        <i class="fas fa-calculator"></i>
+                        <span>Predict Price</span>
+                    </div>
+                    <div class="menu-item" data-page="market">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Market Trends</span>
+                    </div>
+                    <div class="menu-item" data-page="compare">
+                        <i class="fas fa-exchange-alt"></i>
+                        <span>Compare</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-section">
+                <div class="menu-header">DATA</div>
+                <div class="menu-items">
+                    <div class="menu-item" data-page="database">
+                        <i class="fas fa-database"></i>
+                        <span>Database</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                    <div class="menu-item" data-page="exports">
+                        <i class="fas fa-file-export"></i>
+                        <span>Exports</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                    <div class="menu-item" data-page="reports">
+                        <i class="fas fa-file-alt"></i>
+                        <span>Reports</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-section">
+                <div class="menu-header">SYSTEM</div>
+                <div class="menu-items">
+                    <div class="menu-item" data-page="settings">
+                        <i class="fas fa-sliders-h"></i>
+                        <span>Settings</span>
+                    </div>
+                    <div class="menu-item" data-page="help">
+                        <i class="fas fa-question-circle"></i>
+                        <span>Help Center</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Content Area -->
+        <div class="content-area">
+            <!-- Page Title -->
+            <div class="page-title animate-in">
+                <h1>Car Price <span>Predictor</span></h1>
+                <p>Real-time ML-powered valuation engine — analyze market data and predict vehicle prices instantly.</p>
+            </div>
+
+            <!-- Stats Row -->
+            <div class="stats-grid">
+                <div class="stat-card animate-in">
+                    <div class="stat-icon amber"><i class="fas fa-car"></i></div>
+                    <div class="stat-content">
+                        <h3>48,293</h3>
+                        <p>Vehicles Analyzed</p>
+                        <div class="stat-change up"><i class="fas fa-arrow-up"></i> 12.4% this month</div>
+                    </div>
+                </div>
+                <div class="stat-card animate-in">
+                    <div class="stat-icon green"><i class="fas fa-bullseye"></i></div>
+                    <div class="stat-content">
+                        <h3>94.7%</h3>
+                        <p>Prediction Accuracy</p>
+                        <div class="stat-change up"><i class="fas fa-arrow-up"></i> 2.1% improvement</div>
+                    </div>
+                </div>
+                <div class="stat-card animate-in">
+                    <div class="stat-icon blue"><i class="fas fa-brain"></i></div>
+                    <div class="stat-content">
+                        <h3>7</h3>
+                        <p>ML Models Active</p>
+                        <div class="stat-change up"><i class="fas fa-arrow-up"></i> 2 new this quarter</div>
+                    </div>
+                </div>
+                <div class="stat-card animate-in">
+                    <div class="stat-icon red"><i class="fas fa-clock"></i></div>
+                    <div class="stat-content">
+                        <h3>0.3s</h3>
+                        <p>Avg. Response Time</p>
+                        <div class="stat-change down"><i class="fas fa-arrow-down"></i> 15% faster</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Predictor + Result -->
+            <div class="two-col animate-in delay-1">
+                <div class="predictor-panel">
+                    <div class="panel-title"><i class="fas fa-sliders-h"></i> Configure Vehicle</div>
+                    <form id="predictForm" autocomplete="off">
+                        <div class="form-group">
+                            <label>Make</label>
+                            <select id="make" required>
+                                <option value="">Select manufacturer</option>
+                                <option>Toyota</option>
+                                <option>Honda</option>
+                                <option>Ford</option>
+                                <option>Chevrolet</option>
+                                <option>BMW</option>
+                                <option>Mercedes-Benz</option>
+                                <option>Audi</option>
+                                <option>Lexus</option>
+                                <option>Tesla</option>
+                                <option>Hyundai</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Model</label>
+                            <select id="model" required>
+                                <option value="">Select model</option>
+                            </select>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Year</label>
+                                <select id="year" required>
+                                    <option value="">Select year</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Mileage (mi)</label>
+                                <input type="number" id="mileage" placeholder="e.g. 35000" min="0" max="300000" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Fuel Type</label>
+                                <select id="fuel" required>
+                                  // Load companies from backend
+        async function loadCompanies() {
+            try {
+                const response = await fetch('/');
+                const text = await response.text();
+                // Extract companies from the rendered template
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(text, 'text/html');
+                const companySelect = document.getElementById('company');
+                const backendCompanySelect = doc.getElementById('company');
+                
+                if (backendCompanySelect) {
+                    Array.from(backendCompanySelect.options).forEach(option => {
+                        const newOption = document.createElement('option');
+                        newOption.value = option.value;
+                        newOption.textContent = option.textContent;
+                        companySelect.appendChild(newOption);
+                    });
+                }
+            } catch (error) {
+                console.error('Error loading companies:', error);
+                // Fallback to hardcoded companies
+                const companies = [
+                    'Maruti Suzuki', 'Hyundai', 'Tata', 'Mahindra', 'Honda', 'Toyota', 
+                    'Ford', 'Volkswagen', 'Skoda', 'Renault', 'Nissan', 'Datsun',
+                    'Audi', 'BMW', 'Mercedes-Benz', 'Jaguar', 'Land Rover', 'Volvo',
+                    'Porsche', 'Ferrari', 'Lamborghini', 'Maserati', 'Bentley',
+                    'Rolls Royce', 'Mini', 'Jeep', 'MG', 'Kia', 'Citroen'
+                ];
+                
+                const companySelect = document.getElementById('company');
+                companies.forEach(company => {
+                    const option = document.createElement('option');
+                    option.value = company;
+                    option.textContent = company;
+                    companySelect.appendChild(option);
+                });
+            }
+        }    
+                                <option value="">Select fuel</option>
+                                <option>Gasoline</option>
+                                <option>Diesel</option>
+                                <option>Hybrid</option>
+                                <option>Electric</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                                <label>Engine Size (L)</label>
+                                <input type="number" id="engine" placeholder="e.g. 2.5" min="0.5" max="8.0" step="0.1" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Condition</label>
+                                <select id="condition" required>
+                                    <option value="">Select condition</option>
+                                    <option>Excellent</option>
+                                    <option>Good</option>
+                                    <option>Fair</option>
+                                    <option>Poor</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn-predict" id="predictBtn">
+                            <span class="btn-text">Predict Price</span>
+                            <div class="spinner"></div>
+                        </button>
+                    </form>
+                </div>
+
+                <div class="prediction-result" id="predictionResult">
+                    <div class="result-placeholder">
+                        <i class="fas fa-car-side"></i>
+                        <p>Configure a vehicle and click<br>"Predict Price" to get an estimate</p>
+                    </div>
+                    <div class="result-content">
+                        <div class="result-label">Estimated Market Value</div>
+                        <div class="result-price" id="resultPrice">$0</div>
+                        <div class="result-range">
+                            Range: <span id="resultLow">$0</span> — <span id="resultHigh">$0</span>
+                        </div>
+                        <div class="result-details">
+                            <div class="result-detail-item">
+                                <div class="val" id="resultDepreciation">0%</div>
+                                <div class="lbl">Depreciation</div>
+                            </div>
+                            <div class="result-detail-item">
+                                <div class="val" id="resultPerMile">$0</div>
+                                <div class="lbl">Cost / Mile</div>
+                            </div>
+                            <div class="result-detail-item">
+                                <div class="val" id="resultConfidence">0%</div>
+                                <div class="lbl">Confidence</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Charts -->
+            <div class="charts-section animate-in delay-2">
+                <div class="section-title">Market Analytics</div>
+                <div class="charts-grid">
+                    <div class="chart-card">
+                        <h3><span class="dot" style="background:var(--accent)"></span> Price Distribution</h3>
+                        <div class="chart-wrapper">
+                            <canvas id="priceDistChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="chart-card">
+                        <h3><span class="dot" style="background:var(--success)"></span> Depreciation by Age</h3>
+                        <div class="chart-wrapper">
+                            <canvas id="depreciationChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="chart-card">
+                        <h3><span class="dot" style="background:var(--info)"></span> Market Share by Make</h3>
+                        <div class="chart-wrapper">
+                            <canvas id="marketShareChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="chart-card">
+                        <h3><span class="dot" style="background:var(--danger)"></span> Fuel Type Popularity</h3>
+                        <div class="chart-wrapper">
+                            <canvas id="fuelTypeChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="chart-card full-width">
+                        <h3><span class="dot" style="background:var(--accent)"></span> Average Price Trend by Year (2024 Models)</h3>
+                        <div class="chart-wrapper">
+                            <canvas id="trendChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recent Predictions Table -->
+            <div class="table-card animate-in delay-3">
+                <div class="table-header">
+                    <h3>Recent Predictions</h3>
+                    <span class="count" id="tableCount">5 entries</span>
+                </div>
+                <div style="overflow-x:auto;">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Vehicle</th>
+                                <th>Year</th>
+                                <th>Mileage</th>
+                                <th>Condition</th>
+                                <th>Predicted Price</th>
+                                <th>Confidence</th>
+                            </tr>
+                        </thead>
+                        <tbody id="predictionsTable">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // ===== Vehicle Data (in-file dataset) =====
+        const vehicleData = {
+            'Toyota': { 'Camry': [24000, 0.12], 'Corolla': [21000, 0.10], 'RAV4': [28000, 0.13], 'Highlander': [36000, 0.14], 'Tacoma': [32000, 0.09] },
+            'Honda': { 'Civic': [22500, 0.11], 'Accord': [27000, 0.12], 'CR-V': [30000, 0.13], 'Pilot': [38000, 0.14] },
+            'Ford': { 'F-150': [35000, 0.10], 'Mustang': [30000, 0.11], 'Explorer': [34000, 0.15], 'Escape': [27000, 0.14] },
+            'Chevrolet': { 'Silverado': [34000, 0.11], 'Equinox': [26500, 0.14], 'Camaro': [28000, 0.12], 'Tahoe': [45000, 0.13] },
+            'BMW': { '3 Series': [42000, 0.16], '5 Series': [55000, 0.18], 'X3': [46000, 0.17], 'X5': [60000, 0.19] },
+            'Mercedes-Benz': { 'C-Class': [44000, 0.17], 'E-Class': [58000, 0.19], 'GLC': [48000, 0.18], 'GLE': [62000, 0.20] },
+            'Audi': { 'A4': [40000, 0.16], 'A6': [52000, 0.18], 'Q5': [45000, 0.17], 'Q7': [58000, 0.19] },
+            'Lexus': { 'IS': [40000, 0.13], 'ES': [42000, 0.12], 'RX': [48000, 0.14], 'NX': [40000, 0.13] },
+            'Tesla': { 'Model 3': [42000, 0.15], 'Model Y': [48000, 0.16], 'Model S': [80000, 0.18], 'Model X': [90000, 0.19] },
+            'Hyundai': { 'Tucson': [26500, 0.14], 'Elantra': [20500, 0.13], 'Sonata': [25000, 0.14], 'Palisade': [34000, 0.15] }
+        };
+
+        const fuelMultiplier = { 'Gasoline': 1.0, 'Diesel': 1.05, 'Hybrid': 1.15, 'Electric': 1.20 };
+        const transmissionMultiplier = { 'Automatic': 1.0, 'Manual': 0.95, 'CVT': 1.02 };
+        const conditionMultiplier = { 'Excellent': 1.12, 'Good': 1.0, 'Fair': 0.85, 'Poor': 0.68 };
+
+        // Populate year dropdown
+        const yearSelect = document.getElementById('year');
+        for (let y = 2024; y >= 2005; y--) {
+            const opt = document.createElement('option');
+            opt.value = y; opt.textContent = y;
+            yearSelect.appendChild(opt);
+        }
+
+        // Make → Model cascade
+        document.getElementById('make').addEventListener('change', function() {
+            const modelSelect = document.getElementById('model');
+            modelSelect.innerHTML = '<option value="">Select model</option>';
+            const models = vehicleData[this.value];
+            if (models) {
+                Object.keys(models).forEach(m => {
+                    const opt = document.createElement('option');
+                    opt.value = m; opt.textContent = m;
+                    modelSelect.appendChild(opt);
+                });
+            }
+        });
+
+        // ===== Prediction Logic =====
+        function predictPrice(make, model, year, mileage, fuel, transmission, engine, condition) {
+            const baseData = vehicleData[make]?.[model];
+            if (!baseData) return null;
+
+            const [basePrice, annualDepRate] = baseData;
+            const age = 2024 - year;
+            const depreciation = Math.pow(1 - annualDepRate, age);
+            const mileagePenalty = Math.max(0.55, 1 - (mileage / 200000) * 0.45);
+            const fuelMult = fuelMultiplier[fuel] || 1;
+            const transMult = transmissionMultiplier[transmission] || 1;
+            const condMult = conditionMultiplier[condition] || 1;
+            const engineFactor = 1 + (engine - 2.0) * 0.06;
+
+            let price = basePrice * depreciation * mileagePenalty * fuelMult * transMult * condMult * engineFactor;
+            price = Math.round(price / 50) * 50; // Round to nearest $50
+
+            const confidence = Math.max(72, Math.min(97, 97 - age * 1.5 - (mileage > 100000 ? 8 : 0) - (condition === 'Poor' ? 6 : 0)));
+            const rangePct = (100 - confidence) / 100 * 0.3;
+            const low = Math.round(price * (1 - rangePct) / 50) * 50;
+            const high = Math.round(price * (1 + rangePct) / 50) * 50;
+            const depPercent = Math.round((1 - depreciation) * 100);
+            const costPerMile = mileage > 0 ? (basePrice - price) / mileage : 0;
+
+            return { price, low, high, confidence: Math.round(confidence), depreciation: depPercent, costPerMile: costPerMile.toFixed(2) };
+        }
+
+        // ===== Form Submission =====
+        const predictions = [
+            { vehicle: 'Toyota Camry', year: 2021, mileage: '28,400', condition: 'Good', price: '$24,150', confidence: 'high' },
+            { vehicle: 'BMW 3 Series', year: 2019, mileage: '45,200', condition: 'Excellent', price: '$31,800', confidence: 'high' },
+            { vehicle: 'Ford F-150', year: 2020, mileage: '52,100', condition: 'Fair', price: '$26,350', confidence: 'medium' },
+            { vehicle: 'Tesla Model 3', year: 2022, mileage: '18,900', condition: 'Excellent', price: '$38,200', confidence: 'high' },
+            { vehicle: 'Honda Civic', year: 2017, mileage: '78,500', condition: 'Good', price: '$14,600', confidence: 'medium' }
+        ];
+
+        function renderTable() {
+            const tbody = document.getElementById('predictionsTable');
+            tbody.innerHTML = '';
+            predictions.forEach(p => {
+                const confClass = p.confidence === 'high' ? 'high' : p.confidence === 'medium' ? 'medium' : 'low';
+                const confLabel = p.confidence === 'high' ? 'High' : p.confidence === 'medium' ? 'Medium' : 'Low';
+                tbody.innerHTML += `
+                    <tr>
+                        <td>${p.vehicle}</td>
+                        <td>${p.year}</td>
+                        <td>${p.mileage} mi</td>
+                        <td>${p.condition}</td>
+                        <td class="price-cell">${p.price}</td>
+                        <td><span class="confidence-badge ${confClass}">${confLabel}</span></td>
+                    </tr>`;
+            });
+            document.getElementById('tableCount').textContent = predictions.length + ' entries';
+        }
+        renderTable();
+
+        document.getElementById('predictForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const make = document.getElementById('make').value;
+            const model = document.getElementById('model').value;
+            const year = parseInt(document.getElementById('year').value);
+            const mileage = parseInt(document.getElementById('mileage').value);
+            const fuel = document.getElementById('fuel').value;
+            const transmission = document.getElementById('transmission').value;
+            const engine = parseFloat(document.getElementById('engine').value);
+            const condition = document.getElementById('condition').value;
+
+            // Validation
+            if (!make || !model || !year || isNaN(mileage) || !fuel || !transmission || isNaN(engine) || !condition) {
+                showToast('Please fill in all fields correctly.', 'error');
+                return;
+            }
+            if (mileage < 0 || mileage > 300000) {
+                showToast('Mileage must be between 0 and 300,000.', 'error');
+                return;
+            }
+
+            const btn = document.getElementById('predictBtn');
+            btn.classList.add('loading');
+
+            // Simulate processing delay
+            setTimeout(() => {
+                btn.classList.remove('loading');
+                const result = predictPrice(make, model, year, mileage, fuel, transmission, engine, condition);
+                if (!result) {
+                    showToast('Could not compute price for this combination.', 'error');
+                    return;
+                }
+
+                // Display result
+                const resultEl = document.getElementById('predictionResult');
+                resultEl.classList.add('has-result');
+                document.getElementById('resultPrice').textContent = '$' + result.price.toLocaleString();
+                document.getElementById('resultLow').textContent = '$' + result.low.toLocaleString();
+                document.getElementById('resultHigh').textContent = '$' + result.high.toLocaleString();
+                document.getElementById('resultDepreciation').textContent = result.depreciation + '%';
+                document.getElementById('resultPerMile').textContent = '$' + result.costPerMile;
+                document.getElementById('resultConfidence').textContent = result.confidence + '%';
+
+                // Add to table
+                const confLevel = result.confidence >= 90 ? 'high' : result.confidence >= 80 ? 'medium' : 'low';
+                predictions.unshift({
+                    vehicle: make + ' ' + model,
+                    year: year,
+                    mileage: mileage.toLocaleString(),
+                    condition: condition,
+                    price: '$' + result.price.toLocaleString(),
+                    confidence: confLevel
+                });
+                if (predictions.length > 10) predictions.pop();
+                renderTable();
+
+                showToast('Price predicted successfully!', 'success');
+            }, 800);
+        });
+
+        // ===== Toast System =====
+        function showToast(message, type) {
+            const container = document.getElementById('toastContainer');
+            const toast = document.createElement('div');
+            toast.className = 'toast ' + type;
+            const icon = type === 'success' ? 'fa-check-circle' : 'fa-exclamation-circle';
+            toast.innerHTML = `<i class="fas ${icon}"></i><span>${message}</span>`;
+            container.appendChild(toast);
+            setTimeout(() => {
+                toast.classList.add('out');
+                setTimeout(() => toast.remove(), 300);
+            }, 3000);
+        }
+
+        // ===== Charts =====
+        // Chart.js global defaults for dark theme
+        Chart.defaults.color = '#7A8599';
+        Chart.defaults.borderColor = 'rgba(36,43,55,0.6)';
+        Chart.defaults.font.family = "'Space Grotesk', sans-serif";
+
+        // Price Distribution (Histogram-like bar chart)
+        new Chart(document.getElementById('priceDistChart'), {
+            type: 'bar',
+            data: {
+                labels: ['<10K', '10-15K', '15-20K', '20-25K', '25-30K', '30-40K', '40-50K', '50K+'],
+                datasets: [{
+                    label: 'Vehicles',
+                    data: [3200, 6800, 9400, 11200, 8700, 5400, 2200, 800],
+                    backgroundColor: [
+                        'rgba(232,168,56,0.25)', 'rgba(232,168,56,0.35)', 'rgba(232,168,56,0.5)',
+                        'rgba(232,168,56,0.85)', 'rgba(232,168,56,0.6)', 'rgba(232,168,56,0.45)',
+                        'rgba(232,168,56,0.3)', 'rgba(232,168,56,0.2)'
+                    ],
+                    borderColor: 'rgba(232,168,56,0.8)',
+                    borderWidth: 1,
+                    borderRadius: 6
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: {
+                    y: { beginAtZero: true, grid: { color: 'rgba(36,43,55,0.4)' } },
+                    x: { grid: { display: false } }
+                }
+            }
+        });
+
+        // Depreciation by Age
+        new Chart(document.getElementById('depreciationChart'), {
+            type: 'line',
+            data: {
+                labels: ['New', '1 yr', '2 yr', '3 yr', '5 yr', '7 yr', '10 yr', '15 yr'],
+                datasets: [{
+                    label: 'Value Retained %',
+                    data: [100, 82, 70, 60, 48, 38, 28, 18],
+                    borderColor: '#34D399',
+                    backgroundColor: 'rgba(52,211,153,0.08)',
+                    fill: true,
+                    tension: 0.4,
+                    pointBackgroundColor: '#34D399',
+                    pointBorderColor: '#171C24',
+                    pointBorderWidth: 2,
+                    pointRadius: 5,
+                    pointHoverRadius: 7
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: {
+                    y: { beginAtZero: true, max: 105, grid: { color: 'rgba(36,43,55,0.4)' }, ticks: { callback: v => v + '%' } },
+                    x: { grid: { display: false } }
+                }
+            }
+        });
+
+        // Market Share by Make (Doughnut)
+        new Chart(document.getElementById('marketShareChart'), {
+            type: 'doughnut',
+            data: {
+                labels: ['Toyota', 'Honda', 'Ford', 'Chevy', 'BMW', 'Mercedes', 'Others'],
+                datasets: [{
+                    data: [22, 15, 13, 11, 9, 8, 22],
+                    backgroundColor: [
+                        '#E8A838', '#34D399', '#60A5FA', '#F87171',
+                        '#A78BFA', '#FB923C', '#4A5568'
+                    ],
+                    borderWidth: 0,
+                    hoverOffset: 8
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                cutout: '65%',
+                plugins: {
+                    legend: {
+                        position: 'right',
+                        labels: { padding: 14, usePointStyle: true, pointStyleWidth: 10, font: { size: 11 } }
+                    }
+                }
+            }
+        });
+
+        // Fuel Type Popularity (Polar Area)
+        new Chart(document.getElementById('fuelTypeChart'), {
+            type: 'polarArea',
+            data: {
+                labels: ['Gasoline', 'Diesel', 'Hybrid', 'Electric'],
+                datasets: [{
+                    data: [58, 18, 14, 10],
+                    backgroundColor: [
+                        'rgba(232,168,56,0.7)', 'rgba(96,165,250,0.7)',
+                        'rgba(52,211,153,0.7)', 'rgba(167,139,250,0.7)'
+                    ],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'right',
+                        labels: { padding: 14, usePointStyle: true, pointStyleWidth: 10, font: { size: 11 } }
+                    }
+                },
+                scales: {
+                    r: {
+                        grid: { color: 'rgba(36,43,55,0.4)' },
+                        ticks: { display: false }
+                    }
+                }
+            }
+        });
+
+        // Price Trend by Year
+        new Chart(document.getElementById('trendChart'), {
+            type: 'line',
+            data: {
+                labels: ['2005', '2008', '2011', '2014', '2017', '2019', '2021', '2022', '2023', '2024'],
+                datasets: [
+                    {
+                        label: 'Sedan',
+                        data: [8200, 10500, 12800, 15200, 18400, 21000, 23800, 26500, 28200, 29500],
+                        borderColor: '#E8A838',
+                        backgroundColor: 'rgba(232,168,56,0.06)',
+                        fill: true,
+                        tension: 0.4,
+                        pointRadius: 4,
+                        pointBackgroundColor: '#E8A838'
+                    },
+                    {
+                        label: 'SUV',
+                        data: [12000, 14500, 17200, 21000, 25800, 29000, 33500, 37000, 39500, 41500],
+                        borderColor: '#60A5FA',
+                        backgroundColor: 'rgba(96,165,250,0.06)',
+                        fill: true,
+                        tension: 0.4,
+                        pointRadius: 4,
+                        pointBackgroundColor: '#60A5FA'
+                    },
+                    {
+                        label: 'Truck',
+                        data: [14000, 17000, 20000, 24000, 29000, 32000, 37000, 40500, 43000, 45000],
+                        borderColor: '#34D399',
+                        backgroundColor: 'rgba(52,211,153,0.06)',
+                        fill: true,
+                        tension: 0.4,
+                        pointRadius: 4,
+                        pointBackgroundColor: '#34D399'
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                interaction: { mode: 'index', intersect: false },
+                plugins: {
+                    legend: {
+                        labels: { usePointStyle: true, pointStyleWidth: 10, padding: 20, font: { size: 12 } }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: false,
+                        grid: { color: 'rgba(36,43,55,0.4)' },
+                        ticks: { callback: v => '$' + (v/1000) + 'K' }
+                    },
+                    x: { grid: { display: false } }
+                }
+            }
+        });
+
+        // ===== Sidebar Interactions =====
+        document.querySelectorAll('.menu-item').forEach(item => {
+            item.addEventListener('click', function() {
+                document.querySelectorAll('.menu-item').forEach(i => i.classList.remove('active'));
+                this.classList.add('active');
+                // Close mobile sidebar
+                document.getElementById('sidebar').classList.remove('open');
+                document.getElementById('sidebarOverlay').classList.remove('show');
+            });
+        });
+
+        // Mobile menu
+        document.getElementById('mobileMenuBtn').addEventListener('click', () => {
+            document.getElementById('sidebar').classList.toggle('open');
+            document.getElementById('sidebarOverlay').classList.toggle('show');
+        });
+        document.getElementById('sidebarOverlay').addEventListener('click', () => {
+            document.getElementById('sidebar').classList.remove('open');
+            document.getElementById('sidebarOverlay').classList.remove('show');
+        });
+
+        // ===== Search bar interaction =====
+        document.querySelector('.search-bar input').addEventListener('input', function() {
+            const val = this.value.toLowerCase().trim();
+            if (!val) return;
+            const makes = Object.keys(vehicleData);
+            const match = makes.find(m => m.toLowerCase().startsWith(val));
+            if (match && val.length >= 2) {
+                document.getElementById('make').value = match;
+                document.getElementById('make').dispatchEvent(new Event('change'));
+            }
+        });
+
+        // ===== Subtle mouse parallax on stats cards =====
+        document.querySelector('.stats-grid').addEventListener('mousemove', function(e) {
+            const cards = this.querySelectorAll('.stat-card');
+            cards.forEach(card => {
+                const rect = card.getBoundingClientRect();
+                const x = e.clientX - rect.left - rect.width / 2;
+                const y = e.clientY - rect.top - rect.height / 2;
+                card.style.transform = `translateY(-2px) perspective(600px) rotateX(${-y * 0.01}deg) rotateY(${x * 0.01}deg)`;
+            });
+        });
+        document.querySelector('.stats-grid').addEventListener('mouseleave', function() {
+            this.querySelectorAll('.stat-card').forEach(card => {
+                card.style.transform = '';
+            });
+        });
+    </script>
+</body>
+</html>

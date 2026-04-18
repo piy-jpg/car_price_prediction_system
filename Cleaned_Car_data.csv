@@ -1,0 +1,3541 @@
+name,company,year,kms_driven,fuel_type,Price
+Jaguar XJ,Jaguar,2018,143649,Petrol,11640961
+Skoda Superb,Skoda,2011,157084,Petrol,3266474
+Mercedes-Benz AMG A35,Mercedes-Benz,2020,78053,Petrol,5840459
+Hyundai Alcazar,Hyundai,2019,106366,Diesel,1722265
+Toyota Camry,Toyota,2015,148568,Petrol,4761222
+Jeep Wrangler,Jeep,2020,56557,Petrol,5899136
+Audi Q7,Audi,2017,175332,Petrol,8736215
+Land Rover Range Rover,Land Rover,2016,172429,Petrol,29610065
+Maruti Suzuki Jimny,Maruti,2026,347,Petrol,1289825
+Jaguar XE,Jaguar,2025,10117,Petrol,5038878
+Maruti Suzuki Ertiga,Maruti,2015,200104,Petrol,1108464
+BMW M2,BMW,2021,46608,Petrol,9903028
+Kia EV9,Kia,2023,50753,Electric,13523209
+Renault Kiger,Renault,2019,118531,Petrol,1113381
+Toyota Urban Cruiser Hyryder,Toyota,2011,182676,Petrol,1675895
+McLaren 750S,McLaren,2015,144150,Petrol,41458001
+Lamborghini Huracan,Lamborghini,2022,70304,Petrol,44338663
+Mahindra XUV300,Mahindra,2010,131226,Petrol,1347050
+Genesis GV80,Genesis,2024,26409,Diesel,6410304
+Nissan Leaf,Nissan,2016,144262,Petrol,4408471
+Toyota Urban Cruiser Hyryder,Toyota,2012,246347,Petrol,1374301
+Volvo S60,Volvo,2017,153910,Petrol,5632308
+Lincoln Corsair,Lincoln,2025,10847,Petrol,6740257
+Tata Harrier EV,Tata,2010,155878,Electric,2109126
+Lexus RZ 450e,Lexus,2022,66016,Petrol,12971821
+Honda Jazz,Honda,2013,185382,Diesel,986081
+Maserati MC20,Maserati,2014,124130,Petrol,21813127
+Honda City,Honda,2021,73346,Diesel,1484647
+Volkswagen Tiguan,Volkswagen,2021,99687,Petrol,3769368
+Hyundai Verna,Hyundai,2018,139082,Electric,1331981
+McLaren 570S,McLaren,2025,19996,Diesel,37964006
+MG Comet EV,MG,2025,15890,Electric,767116
+Maruti Suzuki Ciaz,Maruti,2026,4341,Petrol,1065624
+BMW X3,BMW,2021,57306,Petrol,7118448
+Porsche 718 Spyder,Porsche,2010,214676,Petrol,17489735
+Audi A8,Audi,2022,53062,Petrol,15689850
+Audi A8,Audi,2020,52719,Diesel,14852278
+Volkswagen Tiguan,Volkswagen,2024,22440,Diesel,3520654
+Porsche 911,Porsche,2011,158750,Petrol,32109177
+Audi A6,Audi,2019,82053,Electric,7181014
+Maserati Quattroporte,Maserati,2022,34819,Petrol,20728595
+Lincoln Navigator,Lincoln,2026,2811,Diesel,9282070
+Genesis G90,Genesis,2011,287806,Diesel,7061298
+Jeep Meridian,Jeep,2019,56909,Diesel,3477676
+Jaguar F-Type,Jaguar,2012,135230,Petrol,12495021
+Mercedes-Benz AMG A45,Mercedes-Benz,2011,149622,Diesel,7841847
+Lincoln Corsair,Lincoln,2015,157513,Diesel,5391007
+Maserati Grecale,Maserati,2010,168915,Petrol,13711790
+Mercedes-Benz C-Class,Mercedes-Benz,2010,204277,Petrol,6282054
+Land Rover Range Rover Sport,Land Rover,2013,152337,Diesel,14888537
+Hyundai Exter,Hyundai,2020,97234,Diesel,761472
+Maserati MC20,Maserati,2022,72430,Diesel,23313719
+Mahindra Bolero,Mahindra,2025,11508,Diesel,1098844
+Lincoln MKZ,Lincoln,2014,170022,Petrol,4477896
+Maruti Suzuki Celerio,Maruti,2017,123959,Diesel,572496
+Citroen C3,Citroen,2023,34641,Petrol,792317
+Honda Jazz,Honda,2016,91433,Petrol,943527
+Honda HR-V,Honda,2020,109904,Diesel,1412167
+Volkswagen Golf GTI,Volkswagen,2011,152027,Diesel,3382694
+Maserati Levante,Maserati,2018,74737,Diesel,18115126
+Audi RS5,Audi,2013,152507,Diesel,12340438
+Volvo EX30,Volvo,2023,54368,Petrol,5036008
+MG 5 EV,MG,2024,28597,Electric,2733906
+Porsche 718 Spyder,Porsche,2025,19561,Diesel,16966153
+Mahindra KUV100,Mahindra,2014,203638,Petrol,715230
+BMW 7 Series,BMW,2018,148002,Petrol,15686083
+Ferrari Roma,Ferrari,2023,26572,Petrol,36834495
+Porsche 911 GT3 RS,Porsche,2010,250950,Petrol,42353574
+Aston Martin DB12,Aston,2023,28919,Petrol,46238394
+BMW M4,BMW,2024,33979,Petrol,14574048
+Cadillac XT4,Cadillac,2011,158676,Petrol,5090499
+MG Hector,MG,2014,135996,Diesel,1621418
+BMW 7 Series,BMW,2018,140118,Diesel,16597899
+Land Rover Discovery Sport,Land Rover,2016,109186,Petrol,7238982
+BMW 4 Series,BMW,2013,220559,Diesel,5971983
+Lincoln MKZ,Lincoln,2017,150109,Petrol,4731053
+Toyota Camry,Toyota,2010,198753,Petrol,4524997
+Nissan Sunny,Nissan,2013,114353,Petrol,1119720
+Hyundai Ioniq 5,Hyundai,2015,109970,Diesel,4620930
+BMW X1,BMW,2024,26610,Electric,4940042
+Audi Q3,Audi,2018,93742,Petrol,4438030
+Toyota Urban Cruiser Hyryder,Toyota,2013,204521,Petrol,1489575
+Cadillac CT4,Cadillac,2022,42943,Diesel,5826382
+Lexus ES,Lexus,2024,16472,Petrol,6803213
+Porsche 718 Boxster,Porsche,2023,41581,Petrol,17098304
+Genesis GV60,Genesis,2017,159739,Petrol,6818665
+MG Comet EV,MG,2013,171630,Electric,868424
+Hyundai Grand i10,Hyundai,2023,49196,CNG,674726
+Lexus UX,Lexus,2018,142676,Petrol,4577804
+Jaguar E-Pace,Jaguar,2013,250107,Diesel,6919326
+Jaguar F-Pace,Jaguar,2018,146174,Petrol,8093032
+BMW X6 M,BMW,2012,230721,Petrol,18444995
+Rolls Royce Cullinan,Rolls,2019,125092,Diesel,79113614
+Toyota Camry Hybrid,Toyota,2019,79465,Electric,4799995
+Genesis G90,Genesis,2024,34374,Petrol,7167315
+Tata Nexon,Tata,2022,38239,Petrol,842196
+Genesis G80,Genesis,2019,116650,Diesel,6001914
+Lamborghini Aventador,Lamborghini,2011,192078,Petrol,60304934
+Mercedes-Benz AMG E63,Mercedes-Benz,2022,71711,Petrol,18562233
+MG 5 EV,MG,2012,205873,Electric,2908935
+Maruti Suzuki Baleno,Maruti,2021,91390,Petrol,897051
+Jeep Wagoneer,Jeep,2011,163837,Diesel,4590058
+Audi RS7,Audi,2018,84747,Electric,17868700
+BMW 6 Series,BMW,2013,138226,Petrol,7199308
+Toyota Corolla,Toyota,2018,92806,Petrol,1888594
+Kia Sportage,Kia,2017,104187,Petrol,2726094
+Maruti Suzuki Jimny,Maruti,2016,111020,Petrol,1408179
+BMW Z4,BMW,2011,178506,Petrol,9820123
+Mahindra Bolero,Mahindra,2017,125181,Petrol,968661
+Mercedes-Benz AMG GT,Mercedes-Benz,2023,55039,Petrol,29770949
+Jaguar F-Type,Jaguar,2024,22834,Diesel,12823142
+BMW Z4,BMW,2017,152488,Petrol,9198127
+Lamborghini Revuelto,Lamborghini,2021,98442,Petrol,84689369
+Rolls Royce Dawn,Rolls,2011,164027,Petrol,80435727
+Mercedes-Benz AMG SL63,Mercedes-Benz,2026,4566,Diesel,24962409
+BMW X6 M,BMW,2026,3807,Petrol,19989492
+Volvo S60,Volvo,2010,159404,Petrol,5763437
+Mercedes-Benz AMG C63,Mercedes-Benz,2013,184071,Petrol,15074086
+Toyota Camry Hybrid,Toyota,2010,268652,Electric,4843003
+Tata Harrier,Tata,2021,59115,Petrol,1630422
+Hyundai Exter,Hyundai,2015,116881,Petrol,687700
+Honda CR-V,Honda,2021,63678,Petrol,4361817
+Porsche Taycan,Porsche,2017,134281,Petrol,19348118
+Bentley Flying Spur,Bentley,2015,132106,Petrol,62010867
+Maruti Suzuki S-Cross,Maruti,2022,43273,Petrol,866045
+Audi RS6,Audi,2015,153995,Diesel,15600524
+Audi RS3,Audi,2011,215283,Diesel,9059054
+Audi R8,Audi,2020,61678,Petrol,24007070
+Maserati MC20,Maserati,2020,113766,Petrol,21467161
+Aston Martin DBX,Aston,2019,69222,Petrol,38839436
+Genesis G90,Genesis,2018,129231,Diesel,7747842
+MG 4 EV,MG,2017,151166,Electric,2822365
+Toyota Land Cruiser,Toyota,2011,203597,Diesel,21968114
+Ferrari SF90 Stradale,Ferrari,2012,114425,Petrol,76740023
+Genesis G70,Genesis,2013,211413,Diesel,4290850
+Aston Martin DBX,Aston,2024,18354,Petrol,39012502
+Lexus UX,Lexus,2023,31188,Petrol,4990321
+Mahindra Thar 5-Door,Mahindra,2011,178212,Petrol,2117245
+Cadillac XT5,Cadillac,2017,108233,Diesel,7042676
+BMW M2,BMW,2016,92872,Petrol,10863522
+Jaguar XF Sportbrake,Jaguar,2016,110389,Petrol,6761101
+BMW 5 Series,BMW,2014,105508,Petrol,8002758
+Lamborghini Huracan,Lamborghini,2010,309909,Diesel,42686735
+Rolls Royce Wraith,Rolls,2018,143041,Petrol,72364748
+BMW M4,BMW,2012,115569,Petrol,16193531
+Audi A3,Audi,2016,161460,Electric,3892203
+Lexus ES,Lexus,2012,225121,Diesel,6664649
+Land Rover Range Rover,Land Rover,2017,111934,Diesel,30535963
+Ferrari Portofino,Ferrari,2012,160119,Diesel,40881016
+Audi RS e-tron GT,Audi,2012,224914,Electric,19922724
+Land Rover Discovery Sport,Land Rover,2019,132042,Diesel,6995690
+Hyundai Casper,Hyundai,2016,122344,Diesel,621888
+Genesis G70,Genesis,2017,76465,Petrol,4462927
+BMW Z4,BMW,2013,185484,Petrol,9564491
+Land Rover Range Rover Evoque,Land Rover,2015,154561,Diesel,7815780
+Jeep Compass,Jeep,2022,46237,Petrol,3183577
+Skoda Kodiaq,Skoda,2017,157160,Petrol,3789296
+MG 5 EV,MG,2012,256200,Electric,2663309
+Volvo XC90,Volvo,2010,301231,Petrol,10843841
+Maruti Suzuki Baleno,Maruti,2014,221500,Petrol,1034923
+Maruti Suzuki S-Cross,Maruti,2017,117774,Petrol,853624
+Bentley Bentayga,Bentley,2016,123840,Diesel,46480991
+Honda Elevate,Honda,2025,8453,Petrol,1247531
+Skoda Octavia,Skoda,2020,110854,Petrol,2864062
+MG 4 EV,MG,2013,172135,Electric,2853056
+Volvo C40,Volvo,2013,154808,Petrol,5875578
+Jaguar XF,Jaguar,2015,91713,Petrol,5841229
+Tata Nexon EV,Tata,2025,15051,Electric,1812993
+Genesis GV70,Genesis,2019,73727,Diesel,5608981
+Mahindra BE 5,Mahindra,2022,78999,Diesel,3255088
+Audi TT RS,Audi,2013,194319,Diesel,8744718
+Volvo C40,Volvo,2015,156124,Petrol,6071228
+McLaren 720S,McLaren,2019,98789,Petrol,46662719
+Porsche 911,Porsche,2024,19600,Petrol,31913309
+Audi RS3,Audi,2020,108615,Diesel,9146277
+Audi RS5,Audi,2024,37741,Petrol,11951685
+Mercedes-Benz E-Class,Mercedes-Benz,2023,47414,Petrol,9086403
+Audi RS3,Audi,2017,128187,Petrol,8637016
+Honda Amaze,Honda,2024,28673,Petrol,982266
+Maruti Suzuki Ciaz,Maruti,2015,209716,Petrol,1179058
+Volkswagen Golf GTI,Volkswagen,2013,248963,Diesel,3056318
+Mercedes-Benz AMG A35,Mercedes-Benz,2020,70303,Petrol,6254976
+Maruti Suzuki XL6,Maruti,2011,247484,Petrol,1239409
+Mercedes-Benz SLK,Mercedes-Benz,2024,24726,Diesel,6506645
+Mercedes-Benz AMG E63,Mercedes-Benz,2025,15819,Petrol,18060196
+Audi A8,Audi,2024,36530,Diesel,15486499
+Maruti Suzuki Grand Vitara,Maruti,2012,155426,Petrol,1823040
+Mercedes-Benz A-Class,Mercedes-Benz,2024,37367,Petrol,4192524
+Cadillac XT4,Cadillac,2013,206742,Petrol,5406803
+Bentley Continental GT,Bentley,2014,210355,Petrol,48667910
+Mercedes-Benz SL,Mercedes-Benz,2026,2833,Electric,16203301
+Maserati Grecale,Maserati,2024,38002,Petrol,13699166
+Jaguar XF,Jaguar,2015,134533,Petrol,5810605
+Mahindra KUV100,Mahindra,2011,127732,Diesel,785870
+Maserati Levante,Maserati,2024,39610,Petrol,15324210
+MG 5 EV,MG,2017,94404,Electric,2941441
+Renault Duster,Renault,2018,106552,Petrol,1029573
+Maruti Suzuki Alto,Maruti,2017,178462,Petrol,396487
+Jeep Renegade,Jeep,2017,139642,Petrol,1803338
+Tata Punch,Tata,2017,174195,Petrol,927837
+Maruti Suzuki Fronx,Maruti,2015,99173,Petrol,1103594
+Rolls Royce Phantom,Rolls,2018,138181,Petrol,92245740
+Jeep Grand Cherokee,Jeep,2018,101788,Petrol,8325204
+McLaren 765LT,McLaren,2014,207592,Diesel,58469665
+Toyota Innova Hycross,Toyota,2010,266960,Petrol,2799439
+Volkswagen Tiguan,Volkswagen,2021,84638,Petrol,3664851
+BMW X5 M,BMW,2020,61885,Petrol,17637359
+Mercedes-Benz GLE,Mercedes-Benz,2013,257439,Petrol,10102282
+Porsche Macan,Porsche,2026,1617,Petrol,17988930
+Audi Q4 e-tron,Audi,2025,16847,Electric,11344858
+Maserati MC20,Maserati,2014,191277,Petrol,22954574
+Toyota Fortuner Legender,Toyota,2025,15328,Petrol,4403181
+Audi Q3,Audi,2024,18153,Diesel,4657516
+Jeep Gladiator,Jeep,2018,97560,Petrol,5827994
+Hyundai Verna,Hyundai,2016,83899,CNG,1269880
+Audi RSQ8,Audi,2017,82127,Diesel,23684363
+BMW M8,BMW,2015,91468,Electric,24034761
+Volvo EX30,Volvo,2013,184394,Petrol,4704710
+Lexus IS,Lexus,2013,244532,Petrol,6612409
+Jaguar F-Type,Jaguar,2023,39910,Petrol,11892045
+Audi RS5,Audi,2016,166502,Petrol,12677380
+Lamborghini Aventador,Lamborghini,2025,16070,Petrol,61871594
+Hyundai Grand i10,Hyundai,2018,82389,Petrol,660238
+Jeep Renegade,Jeep,2015,93073,Petrol,1764058
+McLaren 570S,McLaren,2022,79411,Petrol,41191099
+Tata Nexon EV,Tata,2014,220914,Electric,1739048
+Audi Q5,Audi,2018,94620,Petrol,7313445
+MG ZS EV,MG,2020,102803,Electric,2326288
+Volvo V90,Volvo,2019,138449,Diesel,7465771
+Ferrari 296 GTB,Ferrari,2021,90056,Diesel,54620475
+Mercedes-Benz GLE,Mercedes-Benz,2015,217700,Diesel,11554109
+BMW M2,BMW,2010,158431,Petrol,10222033
+Land Rover Range Rover Evoque,Land Rover,2022,71376,Petrol,7331472
+Renault Kwid EV,Renault,2024,22480,Electric,965928
+Porsche 911 Turbo S,Porsche,2011,170918,Diesel,33586213
+Lincoln Aviator,Lincoln,2018,129613,Diesel,8738041
+Volkswagen Vento,Volkswagen,2019,86788,Diesel,1420257
+McLaren P1,McLaren,2015,100181,Petrol,83292640
+MG 5 EV,MG,2015,99837,Electric,2767072
+Audi A3,Audi,2014,209308,Petrol,3891471
+Jaguar E-Pace,Jaguar,2017,129537,Diesel,6758753
+Volvo Polestar 2,Volvo,2014,155922,Petrol,7879088
+Renault Kwid EV,Renault,2010,312016,Electric,974952
+Jaguar XE,Jaguar,2019,93512,Diesel,5062750
+Toyota Camry Hybrid,Toyota,2025,16591,Electric,4958636
+Honda WR-V,Honda,2019,77859,Petrol,1176865
+Honda Jazz,Honda,2014,227965,Diesel,1053156
+Volvo C40,Volvo,2016,197688,Petrol,5922803
+Nissan Sunny,Nissan,2015,210350,Diesel,1042587
+Maruti Suzuki WagonR,Maruti,2025,18401,Diesel,648964
+Nissan Magnite,Nissan,2024,37164,Petrol,760670
+Audi TT,Audi,2025,15195,Electric,6695955
+Jeep Renegade,Jeep,2024,16800,Diesel,1960592
+Mahindra Thar 5-Door,Mahindra,2022,59995,Diesel,2064954
+Maruti Suzuki Grand Vitara,Maruti,2025,14631,Petrol,1884585
+Jaguar F-Type,Jaguar,2011,277212,Diesel,12169594
+Land Rover Range Rover Sport,Land Rover,2014,236716,Diesel,15060884
+Lexus UX 300e,Lexus,2019,132968,Petrol,6129260
+Land Rover Discovery 5,Land Rover,2023,44652,Diesel,12917795
+Maruti Suzuki Dzire,Maruti,2023,55917,Petrol,832118
+Aston Martin DB12,Aston,2016,175745,Petrol,46932275
+Honda City,Honda,2014,112284,Petrol,1258511
+Citroen C3 Aircross,Citroen,2022,42024,Diesel,1023794
+Tata Curvv,Tata,2026,4660,Petrol,1526791
+Renault Kwid EV,Renault,2023,29561,Electric,974563
+Cadillac CT5,Cadillac,2010,215399,Petrol,5136746
+Citroen C3 Aircross,Citroen,2021,50379,Petrol,1093782
+Toyota Fortuner,Toyota,2021,91629,Diesel,4240263
+Mahindra XUV300,Mahindra,2010,289631,Petrol,909585
+BMW Z4 M40i,BMW,2010,136008,Petrol,8402736
+Jaguar I-Pace,Jaguar,2023,49785,Petrol,12226262
+Lamborghini Huracan,Lamborghini,2018,156037,Petrol,41439947
+Tata Harrier,Tata,2013,105581,Petrol,1547025
+Audi A4,Audi,2021,97463,Petrol,4804633
+Cadillac XT5,Cadillac,2019,77951,Diesel,5971459
+Audi RS6,Audi,2026,2807,Diesel,15791856
+Skoda Octavia RS,Skoda,2011,183147,Petrol,3746754
+Hyundai Aura,Hyundai,2025,16046,Petrol,699703
+Land Rover Discovery 5,Land Rover,2012,263708,Diesel,13818841
+Mercedes-Benz AMG GTR,Mercedes-Benz,2015,167208,Petrol,38535999
+Audi R8,Audi,2020,107769,Electric,23172709
+Lexus IS,Lexus,2015,216766,Petrol,6336110
+Audi R8,Audi,2023,35977,Diesel,23378342
+Mahindra XUV700,Mahindra,2011,124763,Diesel,1640545
+Audi Q3,Audi,2021,57637,Petrol,4569831
+Toyota Camry Hybrid,Toyota,2010,222785,Electric,5276668
+Audi RS3,Audi,2013,162187,Diesel,9015367
+Audi A7,Audi,2023,53751,Petrol,8172434
+Mercedes-Benz GLC,Mercedes-Benz,2014,114162,Petrol,7741705
+Toyota Innova,Toyota,2023,40963,Petrol,2277007
+Bentley Continental GT,Bentley,2010,282046,Petrol,47799407
+Mahindra Scorpio N,Mahindra,2018,155285,Petrol,2350958
+Lincoln Nautilus,Lincoln,2023,44989,Petrol,7708381
+Mahindra BE 6,Mahindra,2023,25086,Petrol,3141480
+Lamborghini Revuelto,Lamborghini,2023,45343,Petrol,88311380
+Honda City,Honda,2026,2597,Petrol,1413923
+Mahindra BE 5,Mahindra,2022,75168,Petrol,2781729
+BMW 3 Series,BMW,2020,67106,Petrol,5947188
+Cadillac XT4,Cadillac,2014,103876,Diesel,4654042
+Honda HR-V,Honda,2016,155124,Diesel,1607080
+Maruti Suzuki S-Presso,Maruti,2014,151506,Petrol,489926
+Hyundai Grand i10,Hyundai,2016,181524,Diesel,620542
+Skoda Octavia RS,Skoda,2012,130965,Petrol,3681912
+Toyota Fortuner,Toyota,2023,58534,Petrol,3256808
+Aston Martin DBS Superleggera,Aston,2013,224187,Petrol,58491900
+BMW M4,BMW,2024,33129,Diesel,15617804
+Audi A3,Audi,2017,90706,Petrol,3604700
+Tata Nexon EV,Tata,2011,155653,Electric,1635843
+Mercedes-Benz AMG A35,Mercedes-Benz,2018,71420,Electric,5921315
+Tata Harrier,Tata,2022,62687,Petrol,1664981
+Mercedes-Benz GLA,Mercedes-Benz,2026,2465,Petrol,4824734
+Mahindra XUV300,Mahindra,2012,248329,Petrol,1165032
+Volkswagen Polo,Volkswagen,2011,192352,Diesel,713441
+Aston Martin Vantage,Aston,2010,318455,Diesel,30217295
+Mercedes-Benz SL,Mercedes-Benz,2018,136630,Diesel,17887314
+Ferrari Portofino,Ferrari,2013,110256,Diesel,41834788
+Lincoln Nautilus,Lincoln,2025,14481,Petrol,7258785
+Mercedes-Benz GLB,Mercedes-Benz,2011,279662,Petrol,5581577
+Volkswagen Virtus,Volkswagen,2012,200551,Petrol,1147322
+BMW 7 Series,BMW,2013,174748,Diesel,17409745
+Honda City,Honda,2017,161572,Diesel,1237546
+Hyundai Exter,Hyundai,2019,92240,Petrol,658799
+Volvo V40,Volvo,2011,173170,Petrol,4542596
+BMW X1,BMW,2023,44070,Petrol,4714636
+Maserati MC20,Maserati,2016,154272,Petrol,24244352
+Nissan Leaf,Nissan,2018,157734,Petrol,4061142
+Citroen eC3,Citroen,2026,2552,Petrol,1252546
+Maruti Suzuki S-Presso,Maruti,2013,152143,Petrol,555883
+Genesis GV70,Genesis,2024,23736,Petrol,5666306
+Maruti Suzuki Fronx,Maruti,2019,109651,Petrol,1171483
+Maruti Suzuki S-Presso,Maruti,2019,89990,Diesel,452164
+BMW X6 M,BMW,2015,110745,Electric,19580137
+Jaguar E-Pace,Jaguar,2021,47814,Diesel,7159457
+Maruti Suzuki S-Cross,Maruti,2020,95293,Petrol,911562
+Mercedes-Benz GLC,Mercedes-Benz,2012,131554,Petrol,7700547
+Tata Harrier,Tata,2025,15830,Petrol,1677969
+Toyota Camry,Toyota,2023,52952,Petrol,4602691
+McLaren 765LT,McLaren,2014,217535,Diesel,57463307
+BMW M3,BMW,2017,162949,Petrol,13594690
+Rolls Royce Cullinan,Rolls,2025,16760,Petrol,78023228
+Kia EV9,Kia,2022,63752,Electric,13112524
+Lincoln Corsair,Lincoln,2012,244296,Diesel,5932598
+Bentley Azure,Bentley,2021,62809,Diesel,62372956
+Audi A3,Audi,2021,40018,Diesel,3870662
+Mahindra Scorpio N,Mahindra,2019,85847,Petrol,1700735
+Hyundai Creta,Hyundai,2018,102409,Diesel,1469080
+Tata Punch EV,Tata,2021,44090,Electric,1379610
+BMW 2 Series,BMW,2020,113532,Petrol,4770584
+Volkswagen Passat,Volkswagen,2010,306650,Diesel,2743491
+Porsche 911,Porsche,2016,112659,Petrol,20822407
+Rolls Royce Phantom,Rolls,2021,59385,Petrol,92435761
+Tata Harrier EV,Tata,2022,67855,Electric,2704046
+Jeep Gladiator,Jeep,2025,8939,Diesel,5830101
+Volvo S90,Volvo,2021,74868,Diesel,6638404
+Lexus GX,Lexus,2014,214972,Petrol,11790816
+Jaguar XF,Jaguar,2020,71206,Petrol,6037529
+Lamborghini Temerario,Lamborghini,2020,90743,Petrol,59992701
+Lamborghini Temerario,Lamborghini,2012,249732,Petrol,57324635
+Mahindra XUV700,Mahindra,2012,195564,Petrol,1796474
+MG ZS EV,MG,2020,87732,Electric,2406766
+Rolls Royce Spectre,Rolls,2015,92709,Petrol,95447690
+Jaguar XF Sportbrake,Jaguar,2016,114209,Diesel,6597781
+BMW X3 M,BMW,2017,176807,Diesel,8609963
+Genesis GV70,Genesis,2015,205961,Petrol,5521698
+Hyundai Tucson,Hyundai,2020,68356,Diesel,3082865
+Volvo V40,Volvo,2014,146370,Petrol,4806685
+Maruti Suzuki Baleno,Maruti,2014,157435,Diesel,1066692
+Kia EV6,Kia,2019,104649,Electric,6581195
+Land Rover Range Rover,Land Rover,2015,190915,Petrol,30188583
+Rolls Royce Phantom,Rolls,2018,137591,Petrol,97596769
+Honda CR-V,Honda,2018,118520,Petrol,4500855
+Citroen eC3,Citroen,2015,98058,Diesel,1256386
+BMW M2,BMW,2017,178385,Diesel,10703243
+Tata Curvv,Tata,2016,182516,Diesel,1484491
+Jaguar I-Pace,Jaguar,2023,43333,Diesel,12753862
+BMW X6 M,BMW,2016,136863,Petrol,18544880
+Volvo EX90,Volvo,2010,169866,Diesel,8357894
+Jeep Wrangler,Jeep,2011,156942,Diesel,5843489
+Rolls Royce Spectre,Rolls,2017,140736,Petrol,97660511
+Mercedes-Benz AMG E53,Mercedes-Benz,2018,95581,Diesel,13829225
+Lamborghini Urus,Lamborghini,2021,84785,Diesel,46213975
+Volvo XC90,Volvo,2024,37654,Diesel,10922671
+Maruti Suzuki Grand Vitara,Maruti,2023,56404,Petrol,1402513
+Cadillac Escalade,Cadillac,2012,143737,Diesel,13561688
+Jaguar E-Pace,Jaguar,2025,11647,Petrol,7093827
+Porsche Macan,Porsche,2014,200428,Petrol,19186747
+Tata Punch,Tata,2013,129867,Diesel,748280
+Mercedes-Benz GLA,Mercedes-Benz,2021,49623,Petrol,4565440
+Honda City,Honda,2016,144481,Diesel,1408291
+Audi TT RS,Audi,2022,60117,Diesel,8346551
+Mahindra XUV 3XO,Mahindra,2024,16585,Petrol,1833252
+BMW Z4 M40i,BMW,2016,134495,Electric,9365405
+Volkswagen Ameo,Volkswagen,2010,237299,Diesel,939121
+Hyundai Casper,Hyundai,2020,57559,CNG,667136
+Kia Sonet,Kia,2020,88667,CNG,1268272
+Ferrari F8 Tributo,Ferrari,2020,109499,Petrol,48143108
+Lexus LS,Lexus,2016,186363,Petrol,19756806
+Lincoln Aviator,Lincoln,2015,179534,Diesel,7110907
+Jeep Wrangler,Jeep,2011,166298,Petrol,5697167
+Citroen C3,Citroen,2013,238200,Diesel,737125
+Toyota Yaris,Toyota,2013,167216,Diesel,1885432
+Mercedes-Benz GLB,Mercedes-Benz,2022,74083,Petrol,5553452
+Toyota Fortuner,Toyota,2024,20178,Diesel,3518062
+Rolls Royce Phantom,Rolls,2015,209069,Petrol,95541406
+Nissan GT-R,Nissan,2017,169120,Petrol,22775082
+Skoda Kodiaq,Skoda,2026,2801,Diesel,4199059
+Mercedes-Benz GLB,Mercedes-Benz,2019,98875,Diesel,5590605
+Porsche 911 GT3,Porsche,2017,138160,Petrol,26806264
+Jeep Renegade,Jeep,2017,121645,Petrol,1684216
+Mercedes-Benz A-Class,Mercedes-Benz,2019,118860,Diesel,4653954
+Lamborghini Huracan,Lamborghini,2014,166103,Petrol,43548082
+Jaguar XE,Jaguar,2014,105598,Petrol,4694096
+Toyota Hilux,Toyota,2015,139199,Petrol,3393703
+Ferrari Daytona SP3,Ferrari,2019,136282,Petrol,46458667
+Mercedes-Benz GLS,Mercedes-Benz,2021,46753,Petrol,13129913
+Mercedes-Benz CLA,Mercedes-Benz,2013,222362,Diesel,5132885
+MG HS,MG,2010,273743,Petrol,2150976
+Maruti Suzuki Dzire,Maruti,2015,187903,Petrol,709956
+Maruti Suzuki Fronx,Maruti,2019,126899,Petrol,1168619
+Lexus RC,Lexus,2026,4467,Petrol,7105890
+Lamborghini Revuelto,Lamborghini,2022,72197,Diesel,80772680
+Audi RS4,Audi,2023,59869,Petrol,10613517
+Aston Martin DBS Superleggera,Aston,2022,66884,Petrol,58815289
+MG ZS EV,MG,2025,14890,Electric,2630954
+Maserati Grecale,Maserati,2026,2740,Petrol,12485863
+Hyundai Casper,Hyundai,2018,112230,Diesel,633368
+Kia Carnival,Kia,2018,118761,Petrol,2964404
+Maserati Ghibli,Maserati,2011,177877,Petrol,13738969
+Mercedes-Benz E-Class,Mercedes-Benz,2020,110116,Petrol,9055819
+Tata Tigor,Tata,2022,38965,Petrol,650381
+Toyota Vellfire,Toyota,2013,110936,Diesel,98563897
+Jaguar XJ,Jaguar,2026,1972,Petrol,12262339
+Audi RS3,Audi,2011,133035,Diesel,8889793
+Mahindra Bolero,Mahindra,2014,107521,Petrol,1010585
+Honda HR-V,Honda,2016,88538,Diesel,1415231
+Audi RSQ8,Audi,2020,88986,Petrol,22124536
+Mahindra Bolero,Mahindra,2016,114065,Petrol,1065989
+Audi RS e-tron GT,Audi,2024,17559,Electric,21398854
+BMW X1,BMW,2012,176705,Diesel,5035881
+Lincoln Nautilus,Lincoln,2022,71042,Petrol,6174608
+Bentley Mulliner Bacalar,Bentley,2012,123715,Petrol,84199499
+McLaren 765LT,McLaren,2010,217825,Petrol,55180102
+Toyota Camry,Toyota,2010,167949,Petrol,4679574
+Genesis GV70,Genesis,2024,25147,Diesel,5215899
+Lexus UX,Lexus,2021,67782,Petrol,4747024
+Mercedes-Benz AMG GTR,Mercedes-Benz,2016,140867,Diesel,35365130
+Volvo V60,Volvo,2014,202034,Diesel,5774323
+Lexus GX,Lexus,2017,153767,Petrol,10277160
+Land Rover Range Rover Velar,Land Rover,2012,267383,Diesel,9229026
+Porsche Taycan,Porsche,2012,227397,Petrol,23913423
+Mercedes-Benz CLA,Mercedes-Benz,2026,4245,Petrol,5173403
+Citroen C5 Aircross,Citroen,2024,18435,Petrol,3218395
+Maserati Ghibli,Maserati,2012,197560,Petrol,14143581
+McLaren GT,McLaren,2013,119914,Petrol,45651167
+Toyota Yaris,Toyota,2024,36728,Petrol,1803623
+BMW 3 Series,BMW,2013,197073,Petrol,6306226
+Audi Q8,Audi,2017,155514,Petrol,13767038
+Honda Civic,Honda,2016,123101,Petrol,2166368
+Audi RS6,Audi,2011,130974,Petrol,15438139
+Volvo V40,Volvo,2019,128428,Petrol,4589667
+Volkswagen Passat,Volkswagen,2021,59707,Petrol,2970563
+Mercedes-Benz AMG GT,Mercedes-Benz,2023,55697,Diesel,28186886
+Audi RS4,Audi,2014,114472,Petrol,10595052
+BMW 7 Series,BMW,2012,208584,Petrol,13865804
+Porsche 911 GT3 RS,Porsche,2016,181427,Petrol,42096681
+Bentley Mulliner Bacalar,Bentley,2011,187299,Diesel,86292301
+BMW 2 Series,BMW,2019,63960,Petrol,4939244
+BMW X1,BMW,2018,155012,Diesel,4743032
+Mahindra XUV300,Mahindra,2025,11121,Petrol,923375
+Mercedes-Benz AMG SL63,Mercedes-Benz,2022,78240,Petrol,27584357
+Citroen C3,Citroen,2013,162751,Petrol,706846
+Kia Carens,Kia,2012,260790,Petrol,1389085
+Mahindra KUV100,Mahindra,2023,57499,Petrol,734906
+Land Rover Discovery 5,Land Rover,2016,183762,Diesel,12425379
+Maruti Suzuki Dzire,Maruti,2015,193442,Petrol,698647
+Nissan Micra,Nissan,2019,111673,Petrol,869767
+Volvo Polestar 2,Volvo,2018,78381,Diesel,8505935
+Porsche 718 Cayman,Porsche,2019,63090,Diesel,15107146
+Maserati Grecale,Maserati,2026,1792,Petrol,12233091
+Tata Altroz,Tata,2017,80855,Diesel,815457
+Aston Martin Valhalla,Aston,2018,157262,Petrol,72358601
+Nissan Micra,Nissan,2023,47974,Petrol,696193
+Mahindra Scorpio N,Mahindra,2013,150198,Diesel,1716558
+Audi RS6,Audi,2022,67579,Diesel,15004393
+Lexus IS,Lexus,2023,45723,Petrol,6155037
+Audi A8,Audi,2012,121934,Petrol,14188267
+Porsche 911 GT3,Porsche,2021,93704,Petrol,27446426
+Volkswagen Golf GTI,Volkswagen,2024,38509,Diesel,3064017
+Volkswagen Passat,Volkswagen,2022,79332,Diesel,2617905
+Mahindra XUV900,Mahindra,2022,67367,Diesel,2209972
+Tata Punch,Tata,2026,4122,Petrol,609857
+Land Rover Discovery Sport,Land Rover,2023,49961,Petrol,7220601
+Nissan GT-R,Nissan,2023,40505,Diesel,24417851
+Lincoln Nautilus,Lincoln,2020,53751,Petrol,6763961
+McLaren GT,McLaren,2023,53253,Petrol,41507135
+Audi e-tron,Audi,2014,159922,Electric,16516785
+Audi RS6,Audi,2024,27483,Petrol,14888330
+BMW X1,BMW,2012,152614,Petrol,4862606
+Audi TT,Audi,2012,249507,Petrol,6508708
+Lamborghini Aventador,Lamborghini,2024,20563,Petrol,65741121
+Hyundai Venue,Hyundai,2020,117928,CNG,1267585
+Land Rover Range Rover Velar,Land Rover,2010,230434,Diesel,9274035
+Audi RS4,Audi,2023,47919,Petrol,10568490
+Cadillac XT5,Cadillac,2025,12182,Petrol,5310053
+Mercedes-Benz AMG C43,Mercedes-Benz,2021,42182,Petrol,9510514
+BMW X1,BMW,2024,24048,Petrol,4786105
+Toyota Innova,Toyota,2014,196624,Diesel,2162789
+Rolls Royce Phantom,Rolls,2012,233754,Petrol,95278331
+Lexus LC,Lexus,2020,118239,Petrol,22209706
+BMW Z4,BMW,2018,71985,Diesel,9077380
+Rolls Royce Wraith,Rolls,2018,117025,Petrol,69097650
+Genesis G90,Genesis,2016,121496,Diesel,7227110
+BMW 5 Series,BMW,2021,49827,Diesel,7530573
+BMW Z4 M40i,BMW,2010,207479,Petrol,8498903
+Toyota Vellfire,Toyota,2015,156620,Petrol,97065280
+Jaguar F-Pace,Jaguar,2012,208586,Petrol,7959927
+Land Rover Range Rover Velar,Land Rover,2018,143421,Petrol,9658283
+Tata Tiago EV,Tata,2025,16491,Electric,911174
+Volkswagen Vento,Volkswagen,2019,62904,Petrol,1344225
+Skoda Slavia,Skoda,2022,46745,Diesel,1636762
+BMW 6 Series,BMW,2013,194227,Petrol,6642918
+Audi RS3,Audi,2010,225948,Diesel,8443585
+BMW Z4 M40i,BMW,2026,1347,Petrol,8810055
+Mercedes-Benz CLS,Mercedes-Benz,2011,240125,Petrol,10122532
+Hyundai Creta,Hyundai,2013,139771,Diesel,1941666
+McLaren GT,McLaren,2024,26342,Petrol,43671384
+Audi A6,Audi,2013,159314,Diesel,6859483
+Mercedes-Benz SL,Mercedes-Benz,2016,82911,Diesel,17163478
+Mahindra XUV700,Mahindra,2022,36385,Petrol,2544834
+Volvo V40,Volvo,2011,214167,Diesel,4863339
+Mahindra Scorpio N,Mahindra,2020,93554,Petrol,1919734
+Porsche 718 Cayman,Porsche,2017,106704,Petrol,14327924
+Audi A4,Audi,2022,49009,Electric,4864836
+Porsche Cayenne,Porsche,2023,29462,Petrol,18251336
+Land Rover Range Rover Evoque,Land Rover,2014,187270,Petrol,7680919
+Lincoln MKZ,Lincoln,2013,128791,Diesel,4897748
+Volvo EX90,Volvo,2018,109303,Petrol,8646942
+Lexus LS,Lexus,2017,172094,Diesel,19833495
+Lamborghini Huracan,Lamborghini,2017,80908,Petrol,41819659
+Genesis GV80,Genesis,2010,152610,Diesel,7298293
+Mahindra BE 6,Mahindra,2011,139029,Petrol,3191749
+Cadillac XT4,Cadillac,2019,109137,Diesel,5859881
+Hyundai i20,Hyundai,2020,57243,Diesel,1029261
+BMW M2,BMW,2013,122560,Petrol,10821421
+Toyota Innova,Toyota,2019,88319,Petrol,2151108
+Rolls Royce Phantom,Rolls,2012,263182,Petrol,92802849
+Aston Martin DBS Superleggera,Aston,2011,154603,Diesel,57174594
+Land Rover Range Rover Velar,Land Rover,2010,225055,Petrol,9528723
+Jeep Wagoneer,Jeep,2011,295349,Petrol,4842191
+Mahindra BE 6,Mahindra,2026,1779,Petrol,3181593
+Volvo C40,Volvo,2010,253567,Diesel,5654730
+Volkswagen Polo,Volkswagen,2026,3027,Petrol,749322
+Ferrari Daytona SP3,Ferrari,2014,195973,Diesel,48197873
+Cadillac XT6,Cadillac,2025,9170,Petrol,7622736
+Lexus RX,Lexus,2016,137299,Petrol,9575195
+Mercedes-Benz AMG C63,Mercedes-Benz,2012,204062,Petrol,16225731
+Aston Martin DBX,Aston,2019,100065,Petrol,40160801
+Mahindra Bolero,Mahindra,2022,57501,Diesel,982869
+Kia Carens,Kia,2019,65641,Petrol,1822236
+Tata Nexon,Tata,2019,114385,Petrol,1566520
+Porsche Cayenne,Porsche,2022,67905,Diesel,20484493
+Tata Safari,Tata,2014,195714,Diesel,2164827
+Lexus RC,Lexus,2026,3706,Petrol,7233552
+Kia Sportage,Kia,2026,3282,Petrol,3011728
+Maruti Suzuki Ertiga,Maruti,2016,113186,Petrol,1109582
+Toyota Glanza,Toyota,2025,17285,Diesel,751049
+Mercedes-Benz AMG SL63,Mercedes-Benz,2019,88133,Diesel,26148015
+Genesis GV80,Genesis,2022,45027,Diesel,6915185
+Mercedes-Benz AMG E53,Mercedes-Benz,2011,137696,Petrol,13773376
+Ferrari 296 GTB,Ferrari,2011,220606,Diesel,59420982
+Cadillac CT4,Cadillac,2021,60270,Diesel,4819783
+Aston Martin DB11,Aston,2018,123388,Petrol,42734243
+Honda Jazz,Honda,2017,174152,Diesel,1050100
+Audi TT,Audi,2021,85790,Petrol,7062314
+Renault Kiger,Renault,2016,183495,Petrol,944585
+Volkswagen Tiguan,Volkswagen,2016,81175,Petrol,3636518
+Volvo XC40,Volvo,2010,231866,Diesel,4816678
+Lexus LX,Lexus,2010,239011,Diesel,17637469
+Maruti Suzuki Invicto,Maruti,2010,166106,Petrol,2567760
+Lexus RZ 450e,Lexus,2018,116331,Diesel,12709514
+Maserati Grecale,Maserati,2010,168606,Petrol,14468324
+Volvo EX30,Volvo,2022,78197,Diesel,4567781
+Hyundai Alcazar,Hyundai,2010,140709,Diesel,1769446
+Audi RS7,Audi,2019,113119,Petrol,17566910
+Jaguar XJ,Jaguar,2017,72474,Petrol,11143070
+Mercedes-Benz AMG SL63,Mercedes-Benz,2013,154080,Petrol,29148672
+Rolls Royce Boat Tail,Rolls,2021,68511,Petrol,227410043
+Maruti Suzuki Jimny,Maruti,2010,263070,Petrol,1401333
+Kia EV6,Kia,2024,24881,Electric,6306460
+Lexus UX 300e,Lexus,2020,110791,Petrol,5898854
+Cadillac XT6,Cadillac,2018,117013,Petrol,7747013
+Maruti Suzuki Dzire,Maruti,2014,234318,Diesel,896858
+Mercedes-Benz AMG C63,Mercedes-Benz,2022,77325,Electric,14972096
+Toyota Glanza,Toyota,2026,4585,Petrol,897078
+Audi RS5,Audi,2023,36764,Petrol,12525904
+Kia Seltos,Kia,2016,124352,Petrol,1276819
+Toyota Yaris,Toyota,2024,38671,Petrol,1741822
+BMW 4 Series,BMW,2020,99302,Petrol,5609123
+Genesis G70,Genesis,2026,37,Petrol,4398479
+Audi A3,Audi,2020,68813,Petrol,3911699
+Bentley Bentayga,Bentley,2013,176640,Petrol,51945098
+Volkswagen Virtus,Volkswagen,2020,73746,Petrol,1534559
+Jaguar I-Pace,Jaguar,2026,4896,Diesel,12546357
+Nissan Leaf,Nissan,2024,26039,Petrol,4258564
+Volkswagen Golf GTI,Volkswagen,2019,101461,Diesel,3447586
+Genesis GV60,Genesis,2014,220515,Diesel,6414005
+Lexus RC,Lexus,2022,64669,Petrol,7509439
+Bentley Azure,Bentley,2020,71695,Diesel,65033361
+BMW X3 M,BMW,2018,139779,Petrol,8243071
+Audi Q3,Audi,2021,64244,Diesel,4426015
+Porsche 911,Porsche,2016,112827,Petrol,27081448
+BMW 4 Series,BMW,2021,46131,Petrol,5804142
+Audi e-tron GT,Audi,2011,145456,Electric,19227071
+Volvo XC40,Volvo,2014,119043,Diesel,4965554
+Tata Safari EV,Tata,2022,43283,Electric,2330099
+Nissan Leaf,Nissan,2015,159587,Petrol,4076482
+Porsche 911 Turbo S,Porsche,2024,25631,Diesel,34076066
+BMW X7,BMW,2015,203647,Petrol,14168379
+Toyota Fortuner Legender,Toyota,2012,137254,Petrol,4412114
+McLaren Artura,McLaren,2020,69584,Petrol,52920222
+Cadillac Escalade,Cadillac,2011,176002,Diesel,13132596
+Bentley Flying Spur,Bentley,2019,115810,Petrol,55429951
+Mahindra Scorpio,Mahindra,2026,1271,Petrol,1344703
+Mahindra XUV 3XO,Mahindra,2015,208801,Petrol,1657717
+Audi R8,Audi,2025,14359,Electric,23705287
+Ferrari SF90 Stradale,Ferrari,2018,132147,Petrol,76020481
+Mercedes-Benz AMG A45,Mercedes-Benz,2015,154664,Petrol,7541180
+Mercedes-Benz GLA,Mercedes-Benz,2024,27813,Petrol,4632627
+McLaren 570S,McLaren,2012,246444,Diesel,39457439
+Maruti Suzuki XL6,Maruti,2025,19237,Petrol,1242494
+Cadillac CT5,Cadillac,2019,126908,Petrol,5951451
+Audi A4,Audi,2021,66427,Electric,4878829
+Ferrari SF90 Stradale,Ferrari,2011,251195,Petrol,75656805
+Honda CR-V,Honda,2010,269499,Petrol,4484630
+BMW X6 M,BMW,2025,15886,Petrol,20247496
+Citroen C5 Aircross,Citroen,2024,21275,Petrol,3386559
+Skoda Rapid,Skoda,2011,256253,Petrol,936145
+MG Cyberster,MG,2013,146723,Petrol,5429195
+MG HS,MG,2019,110273,Diesel,2102781
+Porsche 911 GT3 RS,Porsche,2018,98915,Electric,41424114
+Audi A5,Audi,2015,108346,Diesel,5751923
+Volvo Polestar 2,Volvo,2018,95190,Petrol,8137151
+Mahindra Thar,Mahindra,2020,101619,Diesel,1377411
+Mahindra XUV300,Mahindra,2022,65377,Diesel,1327236
+BMW M4,BMW,2012,141409,Diesel,14680730
+Lexus UX 300e,Lexus,2013,118158,Diesel,5785432
+Skoda Kodiaq,Skoda,2020,73609,Diesel,4100596
+Maruti Suzuki Jimny,Maruti,2023,53680,Petrol,1409724
+BMW M8,BMW,2023,54975,Petrol,22004408
+Audi TT,Audi,2019,94185,Petrol,6630503
+Porsche 911,Porsche,2019,85695,Diesel,20916532
+Citroen eC3,Citroen,2020,94977,Petrol,1256886
+Lamborghini Urus,Lamborghini,2021,92238,Diesel,50017275
+Toyota Land Cruiser,Toyota,2024,19195,Petrol,22402109
+Maruti Suzuki Jimny,Maruti,2017,109430,Petrol,1335591
+Mercedes-Benz GLA,Mercedes-Benz,2026,429,Petrol,4675979
+Porsche 911 GT3 RS,Porsche,2025,10768,Diesel,42669361
+Maserati MC20,Maserati,2018,98693,Diesel,20238390
+Porsche Panamera,Porsche,2015,165702,Petrol,23539249
+Lexus RC,Lexus,2026,3768,Petrol,7485522
+Lexus UX,Lexus,2010,179577,Diesel,5114922
+Mahindra Thar,Mahindra,2011,299205,Petrol,1168595
+Volvo V90,Volvo,2026,4229,Diesel,7318570
+Maruti Suzuki Grand Vitara,Maruti,2022,47468,Diesel,1165230
+Cadillac Lyriq,Cadillac,2013,191938,Diesel,7794042
+Ferrari Daytona SP3,Ferrari,2025,12394,Petrol,49711011
+Volkswagen Passat,Volkswagen,2023,45787,Petrol,2531760
+Rolls Royce Spectre,Rolls,2012,161594,Petrol,90722470
+BMW 2 Series,BMW,2017,140345,Diesel,4756423
+Mercedes-Benz AMG S63,Mercedes-Benz,2018,133924,Diesel,30102450
+Mercedes-Benz AMG GT,Mercedes-Benz,2024,24997,Petrol,28727335
+Skoda Octavia,Skoda,2021,64329,Diesel,3017683
+Jeep Wrangler,Jeep,2025,19771,Diesel,6021132
+Hyundai Venue,Hyundai,2010,311827,Diesel,833325
+BMW M5,BMW,2014,125112,Diesel,19533792
+BMW X3,BMW,2019,90815,Petrol,7308288
+Audi Q8,Audi,2018,73917,Diesel,13476301
+Hyundai i20,Hyundai,2011,134268,Diesel,777981
+Jaguar XF,Jaguar,2021,71421,Diesel,5934049
+Land Rover Defender,Land Rover,2010,144019,Petrol,11563509
+Mahindra Bolero,Mahindra,2025,10453,Petrol,1022665
+Toyota Innova Hycross,Toyota,2025,8380,Petrol,2163195
+BMW X1,BMW,2013,225994,Petrol,5106460
+McLaren 570S,McLaren,2010,138097,Petrol,40594517
+Nissan Kicks,Nissan,2021,93730,Petrol,995881
+Volkswagen Virtus,Volkswagen,2021,75434,Petrol,1316897
+Mercedes-Benz E-Class,Mercedes-Benz,2021,73107,Petrol,8675446
+Cadillac Lyriq,Cadillac,2024,17412,Petrol,7099283
+Honda City e:HEV,Honda,2017,116940,Electric,1923260
+Lamborghini Huracan,Lamborghini,2016,131476,Diesel,41298523
+Ferrari Daytona SP3,Ferrari,2012,189717,Petrol,46011079
+Kia Carnival,Kia,2020,68947,Electric,2680226
+Honda WR-V,Honda,2011,143803,Petrol,1044814
+Tata Punch EV,Tata,2020,70446,Electric,1393878
+Land Rover Range Rover,Land Rover,2016,161327,Diesel,35902175
+Audi RSQ8,Audi,2025,15740,Petrol,22460181
+Lincoln MKZ,Lincoln,2022,68221,Petrol,5339590
+Mahindra XUV 3XO,Mahindra,2012,189932,Diesel,1745745
+Audi Q3,Audi,2011,140746,Petrol,4401021
+Citroen C3,Citroen,2020,79041,Petrol,704107
+Tata Punch,Tata,2018,157319,Petrol,750560
+BMW X6 M,BMW,2011,225618,Petrol,18580600
+Hyundai Ioniq 5,Hyundai,2010,315853,Diesel,4702450
+Toyota Innova Hycross,Toyota,2013,219334,Diesel,2845156
+Mahindra KUV100,Mahindra,2022,32999,Petrol,826692
+Honda Amaze,Honda,2023,24101,Petrol,989525
+Lamborghini Revuelto,Lamborghini,2012,264607,Diesel,87400714
+BMW X4,BMW,2021,75151,Diesel,7693400
+McLaren 765LT,McLaren,2016,175990,Petrol,56252859
+Volkswagen Vento,Volkswagen,2014,237744,Petrol,1248352
+Land Rover Defender,Land Rover,2020,59039,Petrol,13082692
+Nissan Micra,Nissan,2024,36440,Diesel,792548
+Lamborghini Temerario,Lamborghini,2023,26580,Diesel,55927111
+MG 4 EV,MG,2021,96652,Electric,2902953
+Volkswagen Tiguan,Volkswagen,2015,203208,Petrol,3769980
+Volvo S90,Volvo,2023,25886,Petrol,7032564
+Maserati Ghibli,Maserati,2010,302187,Petrol,14521895
+Bentley Mulliner Bacalar,Bentley,2021,76690,Petrol,90791988
+Honda Jazz,Honda,2012,132700,Diesel,1100877
+Porsche 718 Cayman,Porsche,2018,77356,Petrol,15543681
+Nissan Kicks,Nissan,2023,31744,Petrol,922198
+Toyota Innova Hycross,Toyota,2023,28634,Petrol,2313923
+Honda Jazz,Honda,2021,78480,Diesel,949936
+Mahindra Bolero,Mahindra,2025,18360,Petrol,1082129
+Citroen C3,Citroen,2010,172031,Diesel,663446
+Lamborghini Huracan,Lamborghini,2014,115263,Diesel,41416816
+Citroen C3,Citroen,2014,217040,Petrol,769396
+Kia Carnival,Kia,2017,90228,Petrol,2498631
+Volvo EX90,Volvo,2013,116702,Diesel,8187636
+Audi A5,Audi,2025,8627,Electric,5835798
+Kia Carens,Kia,2017,160651,Petrol,1687323
+Jeep Wrangler,Jeep,2023,37727,Petrol,5733641
+Nissan Leaf,Nissan,2022,76479,Petrol,4064869
+Citroen eC3,Citroen,2017,163821,Diesel,1266697
+Ferrari SF90 Stradale,Ferrari,2017,122860,Petrol,79387668
+Rolls Royce Cullinan,Rolls,2013,201769,Diesel,76331855
+Genesis GV70,Genesis,2018,130703,Petrol,5183504
+Mahindra Thar,Mahindra,2026,4503,Petrol,1312809
+Tata Safari,Tata,2022,50054,Petrol,2124311
+Mahindra BE 5,Mahindra,2014,201788,Petrol,3278673
+Mercedes-Benz AMG A45,Mercedes-Benz,2020,54601,Diesel,7723492
+Audi Q7,Audi,2014,131178,Diesel,9054450
+Land Rover Discovery,Land Rover,2020,102405,Diesel,9705478
+Jaguar XJ,Jaguar,2010,199893,Diesel,11363267
+Tata Punch,Tata,2021,53224,Petrol,710332
+Mahindra Thar 5-Door,Mahindra,2018,139885,Petrol,1852634
+Honda CR-V,Honda,2018,86122,Diesel,4417338
+Volvo XC60,Volvo,2023,46033,Petrol,7534227
+Mercedes-Benz CLS,Mercedes-Benz,2012,217401,Petrol,10113606
+Lexus LX,Lexus,2025,10750,Diesel,15655191
+Honda Jazz,Honda,2025,15071,Petrol,1014688
+Genesis G70,Genesis,2010,258734,Petrol,4318597
+Citroen C3 Aircross,Citroen,2014,152111,Petrol,1064598
+Audi Q3,Audi,2017,175326,Electric,4413885
+Jeep Compass,Jeep,2017,87093,Diesel,2562707
+BMW M2,BMW,2013,235493,Petrol,10158480
+Renault Duster,Renault,2020,62071,Petrol,1267125
+Lexus RZ 450e,Lexus,2010,149217,Petrol,12706690
+Maruti Suzuki Fronx,Maruti,2025,17995,Petrol,1326022
+Maserati MC20,Maserati,2017,145163,Diesel,22456142
+McLaren P1,McLaren,2011,239416,Petrol,90505470
+Citroen C5 Aircross,Citroen,2010,129155,Petrol,3272152
+Skoda Octavia RS,Skoda,2025,9885,Petrol,3939775
+Mahindra BE 6,Mahindra,2015,124741,Diesel,3366521
+Lamborghini Aventador,Lamborghini,2013,142245,Diesel,70276139
+Jeep Wagoneer,Jeep,2018,86865,Diesel,4190150
+BMW 2 Series,BMW,2014,228629,Diesel,4782836
+MG 4 EV,MG,2020,118501,Electric,2855205
+Kia Sportage,Kia,2016,143516,Petrol,3111471
+Hyundai Ioniq 5,Hyundai,2025,10264,Petrol,4818140
+Bentley Mulliner Bacalar,Bentley,2012,138707,Petrol,88985722
+MG HS,MG,2010,295592,Petrol,2450891
+Renault Duster,Renault,2023,49438,Diesel,1421721
+Maruti Suzuki Baleno,Maruti,2024,34048,Petrol,913601
+Lexus GX,Lexus,2013,149309,Diesel,11476905
+Maserati Quattroporte,Maserati,2024,30476,Petrol,20261140
+Aston Martin DB11,Aston,2018,133582,Petrol,45114678
+Maruti Suzuki XL6,Maruti,2015,90171,Petrol,1322389
+Toyota Glanza,Toyota,2017,174502,Petrol,778746
+McLaren P1,McLaren,2019,62427,Petrol,85898254
+BMW X5,BMW,2019,121003,Diesel,10705846
+Aston Martin Valhalla,Aston,2022,57538,Petrol,75577466
+MG Comet EV,MG,2021,78536,Electric,857819
+Ferrari Purosangue,Ferrari,2013,152241,Petrol,51944430
+Porsche 911 GT3,Porsche,2014,113919,Diesel,29275004
+Tata Safari EV,Tata,2011,262388,Electric,2042729
+Skoda Rapid,Skoda,2020,56979,Petrol,1292275
+Bentley Mulliner Bacalar,Bentley,2024,20859,Petrol,90735199
+Toyota Camry,Toyota,2023,28776,Petrol,4677197
+BMW 8 Series,BMW,2023,45783,Petrol,16637556
+Mercedes-Benz AMG A45,Mercedes-Benz,2021,41878,Diesel,7626548
+Mercedes-Benz AMG GT,Mercedes-Benz,2013,188825,Diesel,27525122
+Maruti Suzuki WagonR,Maruti,2011,224944,Diesel,597030
+Porsche 911,Porsche,2025,10696,Petrol,29584063
+Maruti Suzuki WagonR,Maruti,2016,132268,Petrol,594658
+Mahindra Bolero Neo,Mahindra,2017,152572,Petrol,957984
+Porsche Taycan,Porsche,2025,14413,Petrol,17978753
+Porsche Macan,Porsche,2017,168013,Petrol,17430729
+BMW 7 Series,BMW,2010,220489,Diesel,16191054
+Audi RS3,Audi,2013,246454,Petrol,8748109
+Lexus UX 300e,Lexus,2024,21127,Petrol,6056155
+Mahindra BE 6,Mahindra,2025,15937,Petrol,3151435
+Honda Civic,Honda,2015,98772,Petrol,1914744
+Maserati Grecale,Maserati,2017,140386,Petrol,12773484
+Mahindra XUV 3XO,Mahindra,2021,69510,Petrol,1368765
+Bentley Continental GT,Bentley,2016,92656,Petrol,51342422
+Maserati Grecale,Maserati,2016,127088,Diesel,13468296
+Hyundai i20,Hyundai,2022,61186,Petrol,1042067
+Jeep Grand Cherokee,Jeep,2023,29132,Petrol,8243844
+Renault Kwid,Renault,2011,125797,Diesel,522347
+Skoda Octavia,Skoda,2020,96766,Petrol,2849496
+Mahindra BE 5,Mahindra,2026,1002,Petrol,2745040
+Tata Tiago EV,Tata,2018,98703,Electric,937283
+Kia Carens,Kia,2022,77972,Petrol,1570921
+BMW X1,BMW,2025,11378,Diesel,4838282
+Kia Sonet,Kia,2023,44575,CNG,1224445
+BMW M3,BMW,2020,109439,Petrol,13441702
+Porsche Cayenne,Porsche,2019,89427,Diesel,21713432
+BMW Z4 M40i,BMW,2011,253071,Petrol,9153628
+Audi A3,Audi,2026,4453,Petrol,3790105
+Nissan Sunny,Nissan,2023,41117,Diesel,1114348
+Ferrari Purosangue,Ferrari,2015,218216,Diesel,54644428
+Nissan Magnite,Nissan,2022,63821,Diesel,713424
+Tata Tiago,Tata,2015,198523,Petrol,702102
+Mercedes-Benz CLA,Mercedes-Benz,2017,75744,Petrol,5425331
+Maruti Suzuki WagonR,Maruti,2024,16045,Petrol,662347
+Honda City e:HEV,Honda,2019,104444,Electric,1962768
+Honda City e:HEV,Honda,2016,95142,Electric,1929772
+Lexus RX,Lexus,2023,46840,Petrol,10729710
+BMW 2 Series,BMW,2021,67258,Diesel,4976575
+Mercedes-Benz SLK,Mercedes-Benz,2018,73291,Petrol,6198253
+Volkswagen Virtus,Volkswagen,2026,1485,Petrol,1190756
+Jeep Compass,Jeep,2022,68623,Petrol,3196721
+Mahindra BE 5,Mahindra,2018,115286,Petrol,2826491
+Maruti Suzuki S-Presso,Maruti,2022,64050,Diesel,449131
+Mercedes-Benz GLS,Mercedes-Benz,2014,111952,Petrol,13714762
+BMW X7,BMW,2012,262736,Petrol,13978702
+Volkswagen Ameo,Volkswagen,2026,2476,Petrol,880370
+Lexus NX,Lexus,2010,217714,Diesel,7628894
+Audi A5,Audi,2018,85510,Diesel,5427348
+Audi Q7,Audi,2026,3232,Petrol,9261814
+Mercedes-Benz E-Class,Mercedes-Benz,2021,87667,Petrol,8839870
+Mercedes-Benz GLA,Mercedes-Benz,2011,190546,Petrol,4583247
+Mercedes-Benz SL,Mercedes-Benz,2019,73535,Petrol,16645827
+Lamborghini Urus,Lamborghini,2020,78261,Diesel,46104808
+Lexus RZ 450e,Lexus,2021,98111,Petrol,12541256
+Lincoln Corsair,Lincoln,2025,19188,Petrol,5535876
+Toyota Fortuner,Toyota,2022,77822,Petrol,3548625
+Maserati Levante,Maserati,2018,144460,Petrol,16683727
+Porsche 911 GT3,Porsche,2013,133567,Petrol,25069491
+Lincoln Corsair,Lincoln,2012,145692,Petrol,5475926
+Jeep Compass,Jeep,2011,264538,Petrol,2351732
+Mahindra KUV100,Mahindra,2010,139814,Diesel,691181
+McLaren 750S,McLaren,2025,11933,Petrol,43718927
+MG Astor,MG,2021,78711,Petrol,1254200
+Audi Q6 e-tron,Audi,2011,192348,Electric,12726706
+Mercedes-Benz GLC,Mercedes-Benz,2015,125972,Petrol,7948871
+Genesis GV70,Genesis,2017,162541,Petrol,5682181
+Tata Harrier,Tata,2020,110803,Petrol,2115428
+Aston Martin DB12,Aston,2012,273647,Petrol,45384359
+Hyundai Verna,Hyundai,2020,92726,Diesel,1741429
+Volvo S90,Volvo,2024,37029,Petrol,7160236
+Volvo XC90,Volvo,2016,81810,Petrol,10203855
+MG Hector,MG,2025,9739,Petrol,1915194
+Tata Safari EV,Tata,2021,58295,Electric,1845042
+Volvo V60,Volvo,2021,72644,Petrol,5919107
+Kia Sportage,Kia,2020,49527,CNG,2719199
+Audi Q8,Audi,2013,205107,Petrol,13296163
+Ferrari 296 GTB,Ferrari,2025,9864,Petrol,59634865
+Maruti Suzuki XL6,Maruti,2021,90666,Diesel,1125032
+Porsche 911 GT3,Porsche,2012,162992,Petrol,25738141
+Citroen eC3,Citroen,2024,18278,Petrol,1236561
+Mahindra Bolero,Mahindra,2010,233653,Petrol,1025512
+Audi Q5,Audi,2010,230854,Diesel,7313143
+Maruti Suzuki Ciaz,Maruti,2026,3330,Petrol,1043973
+Mahindra XUV 3XO,Mahindra,2022,63213,Petrol,1527524
+Land Rover Range Rover Velar,Land Rover,2019,88169,Petrol,9337304
+Tata Nexon EV,Tata,2014,204112,Electric,1679892
+Audi e-tron,Audi,2021,72402,Electric,17498982
+BMW 8 Series,BMW,2017,131086,Petrol,17815199
+Audi RS7,Audi,2012,145909,Petrol,18031829
+Maruti Suzuki Dzire,Maruti,2012,113620,Diesel,817159
+Honda WR-V,Honda,2022,53263,Diesel,1053237
+Audi Q3,Audi,2010,319002,Petrol,4966816
+BMW M2,BMW,2017,132299,Petrol,10609293
+Volvo S90,Volvo,2023,52955,Petrol,6624488
+Mahindra XUV700,Mahindra,2014,236933,Diesel,1420989
+BMW M4,BMW,2019,127550,Petrol,15081449
+Volkswagen Virtus,Volkswagen,2014,164871,Diesel,1488323
+Audi RS4,Audi,2011,261228,Diesel,10470667
+Cadillac Lyriq,Cadillac,2026,587,Petrol,7857869
+Maruti Suzuki Baleno,Maruti,2011,165096,Petrol,904520
+Land Rover Discovery Sport,Land Rover,2026,4640,Petrol,6767362
+Skoda Rapid,Skoda,2010,293858,Diesel,1222090
+Cadillac Escalade,Cadillac,2019,65678,Diesel,14861402
+McLaren Artura,McLaren,2012,228309,Petrol,53514092
+Mercedes-Benz S-Class,Mercedes-Benz,2018,139437,Diesel,19006681
+Cadillac XT5,Cadillac,2017,146213,Diesel,5710826
+McLaren 765LT,McLaren,2020,101476,Petrol,54668704
+Maruti Suzuki Jimny,Maruti,2010,193123,Diesel,1314059
+Tata Harrier,Tata,2022,79034,Petrol,2004041
+Ferrari Portofino,Ferrari,2019,87664,Diesel,40020550
+Jaguar XF Sportbrake,Jaguar,2019,75773,Diesel,6778263
+Land Rover Defender,Land Rover,2015,103952,Petrol,13762923
+Lexus ES,Lexus,2024,26484,Petrol,6515629
+Porsche 911 GT3,Porsche,2020,81701,Electric,30214337
+Tata Punch,Tata,2023,36269,Diesel,650384
+Tata Safari EV,Tata,2023,37154,Electric,2035809
+Mahindra Thar 5-Door,Mahindra,2010,181496,Petrol,1859839
+Jaguar XJ,Jaguar,2026,4555,Petrol,13101439
+Bentley Azure,Bentley,2020,108550,Diesel,68572369
+BMW M4,BMW,2019,123509,Diesel,15404110
+Kia Sonet,Kia,2018,71356,Petrol,1347847
+Kia Sonet,Kia,2012,121192,Petrol,810370
+Hyundai Verna,Hyundai,2011,131183,Petrol,1663325
+Tata Curvv,Tata,2014,184685,Petrol,1980224
+Cadillac CT4,Cadillac,2015,107985,Petrol,5546780
+Mercedes-Benz AMG C63,Mercedes-Benz,2015,186848,Petrol,15913107
+Honda Civic,Honda,2015,132340,Petrol,2005842
+Rolls Royce Ghost,Rolls,2019,110134,Petrol,77568915
+Cadillac CT5,Cadillac,2020,106810,Petrol,5441251
+Volkswagen Taigun,Volkswagen,2010,278229,Petrol,1821528
+Toyota Camry Hybrid,Toyota,2025,13331,Electric,5184696
+Maserati Levante,Maserati,2010,285959,Diesel,16066048
+Nissan Kicks,Nissan,2023,44773,Petrol,1104243
+Ferrari 296 GTB,Ferrari,2013,257729,Petrol,59153674
+Ferrari Portofino,Ferrari,2025,9014,Petrol,40530823
+Cadillac XT6,Cadillac,2020,61141,Petrol,6135322
+Genesis G80,Genesis,2026,4484,Diesel,5533119
+Toyota Innova Hycross,Toyota,2017,175343,Petrol,2415514
+Volvo EX90,Volvo,2022,65195,Diesel,8191375
+Tata Safari,Tata,2012,203800,Diesel,2679372
+Tata Harrier EV,Tata,2014,119174,Electric,2058435
+Mahindra XUV900,Mahindra,2017,105088,Petrol,2450207
+Land Rover Discovery,Land Rover,2018,126470,Petrol,9593713
+Jeep Gladiator,Jeep,2018,119047,Diesel,5957706
+Volkswagen Polo,Volkswagen,2019,127868,Petrol,734313
+MG Hector,MG,2022,53307,Petrol,1667723
+Mahindra Scorpio N,Mahindra,2017,136933,Petrol,1562413
+BMW M5,BMW,2012,265347,Petrol,19104755
+Volvo V40,Volvo,2013,251984,Petrol,4984214
+Audi Q7,Audi,2022,68660,Diesel,9083313
+Mercedes-Benz AMG SL63,Mercedes-Benz,2018,97467,Petrol,29206933
+Lamborghini Revuelto,Lamborghini,2019,67571,Petrol,84615404
+BMW M2,BMW,2016,185627,Diesel,10896386
+MG HS,MG,2019,65978,Diesel,2062344
+Tata Altroz,Tata,2015,140441,Petrol,816444
+MG Gloster,MG,2022,75428,Petrol,3321143
+BMW 3 Series,BMW,2013,138667,Petrol,6579579
+Hyundai Exter,Hyundai,2013,139207,Petrol,755574
+Ferrari F8 Tributo,Ferrari,2014,120203,Petrol,48068442
+Toyota Land Cruiser,Toyota,2020,79419,Diesel,21672871
+Hyundai Tucson,Hyundai,2010,193964,Diesel,3241878
+Hyundai Verna,Hyundai,2024,25736,Petrol,1491055
+Tata Safari,Tata,2021,75441,Petrol,2023881
+Porsche Taycan,Porsche,2021,41073,Petrol,22248379
+BMW X3,BMW,2022,75388,Diesel,7401703
+Toyota Fortuner,Toyota,2016,104294,Petrol,4223238
+Tata Punch EV,Tata,2022,63243,Electric,1202015
+Bentley Mulliner Bacalar,Bentley,2022,56114,Petrol,90013887
+Mercedes-Benz AMG E53,Mercedes-Benz,2022,74681,Electric,13451287
+Land Rover Discovery 5,Land Rover,2012,248071,Diesel,13580486
+Mahindra Thar 5-Door,Mahindra,2026,2431,Petrol,2169655
+Audi Q7,Audi,2026,4290,Diesel,8887289
+Lincoln Nautilus,Lincoln,2011,136383,Petrol,6279639
+Maruti Suzuki Grand Vitara,Maruti,2025,19229,Petrol,1753790
+Audi Q6 e-tron,Audi,2019,80950,Electric,12768157
+Tata Curvv,Tata,2024,18166,Diesel,1733925
+Skoda Octavia RS,Skoda,2013,185901,Petrol,3971232
+Rolls Royce Ghost,Rolls,2015,194169,Petrol,71206553
+Ferrari Purosangue,Ferrari,2026,847,Petrol,50919524
+Toyota Corolla,Toyota,2020,48681,Petrol,2054635
+Maruti Suzuki S-Cross,Maruti,2026,4231,Petrol,1159095
+Lincoln Navigator,Lincoln,2022,72947,Petrol,8442010
+Mahindra XUV900,Mahindra,2019,136512,Petrol,2631867
+Hyundai Aura,Hyundai,2014,119691,Diesel,715050
+MG Gloster,MG,2012,162917,Diesel,3342148
+Mahindra XUV300,Mahindra,2025,10633,Petrol,858107
+Land Rover Discovery Sport,Land Rover,2023,26768,Diesel,6801659
+Mahindra XUV 3XO,Mahindra,2019,112785,Diesel,1403917
+Porsche Panamera,Porsche,2011,149568,Diesel,20308274
+Lincoln Navigator,Lincoln,2014,181059,Petrol,8549391
+Lexus RX,Lexus,2026,4775,Diesel,10762226
+Hyundai Grand i10,Hyundai,2021,74551,CNG,743513
+McLaren P1,McLaren,2015,180831,Petrol,88271365
+Mahindra XUV 3XO,Mahindra,2025,11252,Diesel,1274070
+Lexus RC,Lexus,2018,102018,Diesel,7127588
+Hyundai Exter,Hyundai,2019,124347,Petrol,609746
+Mahindra XUV 3XO,Mahindra,2011,193295,Diesel,1379147
+Nissan Kicks,Nissan,2020,74443,Petrol,1073588
+Porsche 911 Turbo S,Porsche,2020,81136,Diesel,33702668
+Mercedes-Benz AMG C43,Mercedes-Benz,2026,2992,Petrol,9894662
+Toyota Urban Cruiser Hyryder,Toyota,2024,29167,Petrol,1820996
+Toyota Glanza,Toyota,2025,19945,Diesel,696107
+Toyota Hilux,Toyota,2012,171780,Petrol,3349043
+BMW X4,BMW,2016,175061,Electric,7274489
+Honda City e:HEV,Honda,2024,36217,Electric,1926648
+Tata Tigor,Tata,2014,134871,Diesel,797039
+Hyundai Tucson,Hyundai,2010,185170,Diesel,3503571
+BMW Z4,BMW,2017,76486,Diesel,9534200
+Maruti Suzuki Fronx,Maruti,2019,106836,Petrol,1260461
+Porsche Cayenne,Porsche,2015,126748,Diesel,22047972
+Land Rover Range Rover Sport,Land Rover,2026,4994,Petrol,15118300
+Nissan Micra,Nissan,2024,18436,Diesel,696725
+Audi A3,Audi,2010,144452,Petrol,3651331
+Jaguar E-Pace,Jaguar,2026,4478,Petrol,6962853
+Skoda Kushaq,Skoda,2024,19022,Diesel,1564398
+Maruti Suzuki Baleno,Maruti,2011,251165,Petrol,974830
+BMW X6 M,BMW,2011,265564,Petrol,19397598
+Maruti Suzuki Invicto,Maruti,2021,92603,Diesel,2673757
+Lexus GX,Lexus,2013,121617,Petrol,11700727
+BMW 7 Series,BMW,2011,134679,Diesel,17271580
+McLaren 720S,McLaren,2019,84788,Diesel,49658285
+Lexus ES,Lexus,2025,12447,Petrol,6696080
+Mercedes-Benz SLK,Mercedes-Benz,2012,198323,Petrol,6224715
+Genesis G70,Genesis,2023,32364,Petrol,4116276
+Audi RS4,Audi,2013,112920,Petrol,10482819
+Volkswagen Virtus,Volkswagen,2017,133023,Petrol,1236047
+BMW M2,BMW,2023,29827,Diesel,9981785
+Tata Harrier EV,Tata,2021,98570,Electric,2263567
+Mahindra KUV100,Mahindra,2012,260192,Diesel,816742
+Kia Sportage,Kia,2025,14320,CNG,3279763
+Audi RS7,Audi,2013,135467,Petrol,17747540
+Jaguar XE,Jaguar,2020,99103,Petrol,5084974
+Tata Curvv,Tata,2023,32739,Petrol,1369261
+BMW X3 M,BMW,2015,160762,Diesel,9081144
+Jeep Wrangler,Jeep,2020,100328,Petrol,5913612
+Rolls Royce Wraith,Rolls,2011,150993,Diesel,69579400
+Lexus LX,Lexus,2019,85974,Diesel,16598481
+Lexus RC,Lexus,2010,144996,Petrol,7158637
+Lexus IS,Lexus,2014,125339,Diesel,6346077
+Tata Tiago,Tata,2017,95412,Diesel,556813
+BMW 6 Series,BMW,2013,133278,Petrol,6521111
+Toyota Land Cruiser,Toyota,2024,30006,Petrol,21390050
+Hyundai Aura,Hyundai,2019,64532,Electric,686833
+Hyundai Aura,Hyundai,2025,15734,Petrol,839936
+Mahindra BE 6,Mahindra,2013,122420,Petrol,3203037
+Mercedes-Benz S-Class,Mercedes-Benz,2023,35485,Diesel,19354265
+Rolls Royce Cullinan,Rolls,2021,59897,Petrol,77304586
+McLaren 750S,McLaren,2021,43558,Petrol,45603315
+Skoda Octavia RS,Skoda,2013,114958,Diesel,3841519
+BMW Z4 M40i,BMW,2026,2666,Petrol,9215413
+MG Gloster,MG,2024,24235,Diesel,3730295
+Maruti Suzuki Alto,Maruti,2026,724,Diesel,430939
+Tata Tiago,Tata,2017,113904,Petrol,781140
+Honda City e:HEV,Honda,2025,14653,Electric,1947281
+McLaren 720S,McLaren,2018,127428,Petrol,48059609
+Volvo V90,Volvo,2022,41996,Petrol,6985362
+Nissan Sunny,Nissan,2014,233535,Petrol,894582
+Volvo Polestar 2,Volvo,2012,176964,Petrol,8222594
+Jeep Meridian,Jeep,2015,108489,Diesel,3471463
+Mahindra Scorpio N,Mahindra,2013,245554,Petrol,2032339
+Mercedes-Benz AMG C63,Mercedes-Benz,2013,190375,Petrol,15785535
+Mercedes-Benz AMG A35,Mercedes-Benz,2011,198141,Petrol,6140709
+Audi RS5,Audi,2023,37107,Diesel,12214101
+McLaren Artura,McLaren,2012,214946,Diesel,52125314
+Hyundai Aura,Hyundai,2011,239658,Diesel,776572
+Lincoln Aviator,Lincoln,2015,190885,Petrol,8561713
+Audi TT,Audi,2014,115552,Petrol,6742923
+BMW X5,BMW,2012,244408,Petrol,11009908
+Genesis G80,Genesis,2018,139049,Petrol,5930883
+Toyota Camry,Toyota,2015,136528,Petrol,4672891
+Lexus RC,Lexus,2022,74069,Diesel,7420208
+Porsche 911 GT3,Porsche,2018,66602,Petrol,28842228
+Porsche 911 GT3 RS,Porsche,2012,154104,Diesel,41490848
+Maruti Suzuki Grand Vitara,Maruti,2026,3986,Petrol,1554524
+Lexus LS,Lexus,2015,103963,Petrol,18864461
+Maruti Suzuki Dzire,Maruti,2020,81644,Petrol,747422
+Skoda Octavia RS,Skoda,2019,74724,Diesel,3677914
+Mahindra Bolero Neo,Mahindra,2019,138599,Diesel,1144176
+Lexus RC,Lexus,2024,20633,Petrol,7866271
+Tata Punch,Tata,2015,121591,Diesel,997709
+Audi RSQ8,Audi,2019,108454,Petrol,22771230
+Ferrari SF90 Stradale,Ferrari,2011,181087,Petrol,77868759
+Nissan Magnite,Nissan,2020,78652,Petrol,827081
+Toyota Yaris,Toyota,2014,152322,Petrol,1710073
+Mercedes-Benz B-Class,Mercedes-Benz,2019,118286,Diesel,5004984
+Lincoln Nautilus,Lincoln,2025,15992,Petrol,6515042
+Citroen C5 Aircross,Citroen,2021,68726,Petrol,3285815
+Maruti Suzuki Swift,Maruti,2016,176083,Petrol,774691
+Audi A6,Audi,2020,90764,Diesel,6970527
+Ferrari Purosangue,Ferrari,2019,63197,Diesel,53250895
+Porsche Macan,Porsche,2011,125931,Petrol,17293971
+Renault Triber,Renault,2024,32305,Petrol,684328
+Audi RS6,Audi,2018,132605,Diesel,15338253
+Mercedes-Benz AMG E53,Mercedes-Benz,2022,43685,Petrol,13888010
+Maruti Suzuki Ignis,Maruti,2023,24080,Petrol,611102
+McLaren 765LT,McLaren,2024,21809,Petrol,55453693
+Lexus UX,Lexus,2023,34717,Petrol,4684163
+Lexus IS,Lexus,2011,243768,Petrol,6075494
+Skoda Kushaq,Skoda,2025,18582,Diesel,1606601
+Jaguar F-Pace,Jaguar,2021,91369,Petrol,8508150
+Hyundai Ioniq 5,Hyundai,2023,28603,Electric,4613544
+Mahindra Thar,Mahindra,2024,29363,Petrol,1426612
+Hyundai Grand i10,Hyundai,2024,30420,Petrol,664597
+Land Rover Discovery,Land Rover,2020,101017,Petrol,9864448
+BMW X6,BMW,2023,27842,Diesel,12010594
+Genesis G90,Genesis,2021,53310,Petrol,7194553
+Renault Triber,Renault,2019,139877,Petrol,657746
+Audi Q8,Audi,2024,17790,Diesel,13997396
+Audi Q6 e-tron,Audi,2022,55364,Electric,12872939
+Rolls Royce Dawn,Rolls,2013,173210,Petrol,76931232
+Mahindra Thar,Mahindra,2022,33658,Petrol,1131478
+Maruti Suzuki Ciaz,Maruti,2020,116076,Petrol,1135925
+Cadillac XT4,Cadillac,2026,4263,Petrol,4032560
+Jeep Compass,Jeep,2022,61867,Diesel,2734977
+MG 5 EV,MG,2017,148968,Electric,2597781
+Ferrari Roma,Ferrari,2022,62753,Petrol,35968122
+Audi A7,Audi,2020,116152,Diesel,8530267
+Honda HR-V,Honda,2019,136752,Diesel,1511002
+Lamborghini Aventador,Lamborghini,2020,89099,Diesel,62787401
+Toyota Camry Hybrid,Toyota,2019,135550,Electric,5208093
+Volvo XC60,Volvo,2011,192549,Diesel,7228293
+BMW 4 Series,BMW,2018,157853,Diesel,5437412
+Maruti Suzuki S-Presso,Maruti,2025,8151,Petrol,542852
+Toyota Innova,Toyota,2026,132,Diesel,2103276
+Lincoln Navigator,Lincoln,2016,152775,Petrol,10113303
+BMW X4,BMW,2013,172511,Petrol,7655831
+Jeep Wagoneer,Jeep,2024,22753,Petrol,4897660
+Mahindra Bolero Neo,Mahindra,2020,95441,Petrol,1037361
+Mercedes-Benz GLC,Mercedes-Benz,2022,74117,Electric,8607615
+Ferrari Daytona SP3,Ferrari,2016,143715,Diesel,49668858
+Kia Sonet,Kia,2023,30623,Electric,782780
+Maruti Suzuki Fronx,Maruti,2014,130463,Diesel,1208856
+Maserati Quattroporte,Maserati,2026,3937,Petrol,20973732
+BMW Z4,BMW,2013,132254,Petrol,9216564
+Land Rover Range Rover Evoque,Land Rover,2022,64779,Petrol,7381437
+Tata Altroz,Tata,2019,78601,Petrol,1089287
+Audi RS4,Audi,2025,15503,Petrol,10447929
+Cadillac CT4,Cadillac,2023,41167,Petrol,4106565
+Hyundai Verna,Hyundai,2023,28719,Petrol,1420940
+Volvo XC60,Volvo,2012,158667,Petrol,6980906
+Hyundai Exter,Hyundai,2017,93110,Electric,800462
+Hyundai Alcazar,Hyundai,2026,977,Petrol,1888221
+BMW 2 Series,BMW,2015,159708,Electric,4706059
+Honda City,Honda,2026,725,Diesel,1363005
+Bentley Mulliner Bacalar,Bentley,2015,111755,Petrol,81654482
+BMW Z4 M40i,BMW,2015,136162,Petrol,8758120
+Lexus LX,Lexus,2021,66399,Petrol,16824333
+Genesis G90,Genesis,2017,170709,Diesel,7961852
+MG 4 EV,MG,2013,257977,Electric,2856322
+Porsche Macan,Porsche,2014,122250,Petrol,18356257
+Maserati Grecale,Maserati,2024,25331,Petrol,14277203
+Audi R8,Audi,2018,142004,Petrol,24132356
+Skoda Octavia,Skoda,2020,51483,Petrol,2818712
+Ferrari Portofino,Ferrari,2019,106938,Petrol,40494244
+Jeep Gladiator,Jeep,2024,31704,Petrol,5916786
+Mercedes-Benz AMG C43,Mercedes-Benz,2010,315091,Diesel,9344694
+Volkswagen Polo,Volkswagen,2012,183325,Petrol,833590
+Toyota Glanza,Toyota,2014,104137,Petrol,831290
+Kia EV6,Kia,2014,168574,Electric,6086415
+Audi RS4,Audi,2010,249028,Petrol,10274756
+Mercedes-Benz GLB,Mercedes-Benz,2014,97340,Petrol,6061013
+Maruti Suzuki Ciaz,Maruti,2017,94542,Petrol,972180
+Rolls Royce Cullinan,Rolls,2023,52508,Petrol,72216707
+Toyota Fortuner Legender,Toyota,2025,13709,Diesel,4557035
+Toyota Glanza,Toyota,2024,36026,Petrol,738396
+Citroen C5 Aircross,Citroen,2022,64551,Diesel,3435044
+Mahindra XUV300,Mahindra,2019,109396,Petrol,874210
+Land Rover Range Rover Sport,Land Rover,2016,126421,Diesel,14590715
+Hyundai Tucson,Hyundai,2018,105684,Diesel,3251162
+Land Rover Range Rover Evoque,Land Rover,2019,91441,Petrol,7261014
+Land Rover Range Rover,Land Rover,2019,78534,Petrol,37935640
+Maruti Suzuki Ciaz,Maruti,2024,38829,Petrol,1259686
+Audi TT,Audi,2020,110867,Petrol,6649819
+Jaguar F-Type,Jaguar,2024,20865,Petrol,14020915
+Volvo EX90,Volvo,2024,35370,Petrol,8336787
+Mercedes-Benz E-Class,Mercedes-Benz,2011,124902,Diesel,9481744
+Ferrari SF90 Stradale,Ferrari,2011,204361,Diesel,77547446
+Mercedes-Benz AMG A45,Mercedes-Benz,2021,84058,Petrol,7465976
+Ferrari SF90 Stradale,Ferrari,2021,79351,Petrol,79207716
+BMW 3 Series,BMW,2026,3031,Diesel,6162632
+Hyundai Ioniq 5,Hyundai,2016,104486,Diesel,4460527
+Cadillac Escalade,Cadillac,2019,98717,Petrol,13302437
+Mahindra XUV 3XO,Mahindra,2013,160454,Petrol,1715361
+BMW X5 M,BMW,2022,44369,Diesel,17908766
+Maruti Suzuki Ertiga,Maruti,2017,154985,Diesel,1174768
+Kia EV6,Kia,2015,175080,Electric,6062049
+Cadillac Escalade,Cadillac,2023,30742,Petrol,13948419
+Audi A7,Audi,2011,134039,Petrol,9033666
+Mercedes-Benz B-Class,Mercedes-Benz,2025,12628,Electric,4860978
+Cadillac CT5,Cadillac,2018,70837,Petrol,6279940
+Audi Q4 e-tron,Audi,2013,180551,Electric,10671015
+Honda City,Honda,2025,8376,Petrol,1434241
+Citroen C3,Citroen,2017,146335,Diesel,670573
+Mercedes-Benz SL,Mercedes-Benz,2018,112269,Petrol,15279963
+Lexus RX,Lexus,2010,158470,Petrol,9848520
+Maruti Suzuki Jimny,Maruti,2017,99272,Petrol,1371614
+Mahindra BE 5,Mahindra,2022,32752,Petrol,2720072
+Audi e-tron,Audi,2020,93034,Electric,17744290
+Volkswagen Ameo,Volkswagen,2024,27834,Diesel,878200
+Renault Kwid EV,Renault,2014,235283,Electric,905219
+Jeep Wrangler,Jeep,2023,30140,Petrol,5944770
+Aston Martin Valhalla,Aston,2016,118186,Petrol,77167326
+Audi e-tron GT,Audi,2022,63017,Electric,18254227
+Mercedes-Benz AMG C63,Mercedes-Benz,2010,198163,Petrol,16160041
+Hyundai Grand i10,Hyundai,2011,172760,Petrol,601513
+Audi A8,Audi,2011,168688,Petrol,14842478
+Maserati Grecale,Maserati,2025,10105,Petrol,13762756
+BMW X5,BMW,2025,13600,Diesel,10629687
+Audi e-tron GT,Audi,2020,63615,Electric,18591138
+Mahindra Scorpio,Mahindra,2014,201862,Diesel,1717214
+BMW 5 Series,BMW,2011,281094,Diesel,7539695
+Volkswagen Golf GTI,Volkswagen,2011,187762,Diesel,3397657
+Audi Q3,Audi,2022,48097,Petrol,4603412
+McLaren GT,McLaren,2012,149273,Diesel,46608395
+Bentley Azure,Bentley,2018,127182,Petrol,63796083
+Mercedes-Benz B-Class,Mercedes-Benz,2017,127200,Petrol,4777623
+Volkswagen Vento,Volkswagen,2014,105029,Diesel,1162157
+Mercedes-Benz S-Class,Mercedes-Benz,2015,103563,Diesel,18028305
+Toyota Fortuner Legender,Toyota,2013,181844,Petrol,4622348
+Audi RS e-tron GT,Audi,2022,78361,Electric,20615992
+Maruti Suzuki XL6,Maruti,2012,242711,Petrol,1251834
+Jeep Gladiator,Jeep,2012,178191,Diesel,5657468
+Audi RS e-tron GT,Audi,2022,70219,Electric,21178777
+Honda Jazz,Honda,2023,52481,Petrol,921656
+Audi RS3,Audi,2023,33139,Petrol,8537525
+Audi Q7,Audi,2017,89797,Diesel,8967082
+Bentley Flying Spur,Bentley,2011,163332,Petrol,57300296
+BMW 6 Series,BMW,2020,73605,Diesel,7071579
+Maruti Suzuki Alto,Maruti,2015,90982,Petrol,416973
+Volvo V60,Volvo,2012,211185,Petrol,6334249
+Rolls Royce Dawn,Rolls,2019,67944,Petrol,76373771
+Bentley Azure,Bentley,2017,88599,Petrol,67013577
+Hyundai Aura,Hyundai,2010,192857,Diesel,832372
+Nissan Leaf,Nissan,2016,169889,Diesel,4132236
+MG Cyberster,MG,2020,111258,Petrol,5112706
+Jaguar F-Type,Jaguar,2010,216816,Diesel,13764473
+Jeep Wrangler,Jeep,2025,13947,Petrol,5875494
+Porsche Panamera,Porsche,2021,69664,Petrol,24509698
+Skoda Slavia,Skoda,2025,17937,Diesel,1351552
+Volkswagen Passat,Volkswagen,2023,54301,Petrol,2749347
+BMW Z4,BMW,2019,60722,Petrol,9877450
+Skoda Rapid,Skoda,2019,86800,Diesel,1036204
+Ferrari Roma,Ferrari,2015,117872,Petrol,37832253
+Mercedes-Benz CLA,Mercedes-Benz,2020,69803,Petrol,5314223
+Volvo V40,Volvo,2025,13720,Diesel,4659129
+Aston Martin DBS Superleggera,Aston,2018,70368,Petrol,61143994
+Audi RS7,Audi,2022,76644,Diesel,16817566
+Jeep Wagoneer,Jeep,2017,146020,Diesel,4652585
+Cadillac XT4,Cadillac,2022,60035,Petrol,5791081
+Land Rover Range Rover Evoque,Land Rover,2010,270599,Petrol,7913274
+Jaguar F-Pace,Jaguar,2023,28737,Petrol,8213075
+Rolls Royce Spectre,Rolls,2020,100319,Diesel,89751271
+Mahindra Thar,Mahindra,2018,80908,Petrol,1163684
+Audi RS7,Audi,2011,217304,Petrol,18122563
+Lexus UX,Lexus,2023,52659,Petrol,4649970
+Honda Jazz,Honda,2017,85901,Diesel,971838
+Maruti Suzuki Ciaz,Maruti,2014,186483,Petrol,1298954
+Mahindra XUV400,Mahindra,2021,42006,Petrol,1920503
+Jeep Gladiator,Jeep,2021,84010,Diesel,5760219
+Maruti Suzuki Celerio,Maruti,2013,119434,Diesel,559054
+Kia EV6,Kia,2013,116450,Electric,6438400
+Jeep Wrangler,Jeep,2024,18641,Petrol,5781022
+Skoda Kushaq,Skoda,2015,164627,Diesel,1123703
+Mahindra Bolero,Mahindra,2010,267397,Petrol,1037848
+Skoda Kushaq,Skoda,2021,82928,Diesel,1864581
+Kia Carnival,Kia,2026,1191,Diesel,3018723
+MG Cyberster,MG,2022,47980,Diesel,4633006
+Jaguar F-Type,Jaguar,2021,53617,Diesel,12439906
+Rolls Royce Ghost,Rolls,2017,116936,Diesel,69891122
+Renault Triber,Renault,2012,198444,Diesel,648537
+Honda WR-V,Honda,2015,187220,Petrol,1040163
+Rolls Royce Phantom,Rolls,2023,43238,Diesel,96909147
+Audi A6,Audi,2015,198663,Petrol,6679351
+Tata Altroz,Tata,2014,125218,Diesel,923093
+Audi A7,Audi,2020,93630,Petrol,8253743
+MG Hector,MG,2024,35831,Petrol,2000825
+Audi A8,Audi,2017,104068,Diesel,15768433
+Ferrari 812 Superfast,Ferrari,2016,145360,Petrol,67368123
+Lexus IS,Lexus,2021,43785,Diesel,6152443
+Maserati Grecale,Maserati,2025,13933,Petrol,14497765
+Ferrari 812 Superfast,Ferrari,2018,70266,Petrol,65867524
+Cadillac CT4,Cadillac,2019,60845,Diesel,4855617
+Hyundai Alcazar,Hyundai,2018,137399,Petrol,1888126
+Honda Jazz,Honda,2013,170556,Diesel,1039569
+BMW M8,BMW,2019,106778,Petrol,23218347
+Lexus RC,Lexus,2018,157599,Petrol,7903502
+Lincoln Corsair,Lincoln,2025,11045,Petrol,6115220
+Mercedes-Benz AMG SL63,Mercedes-Benz,2015,167175,Petrol,27555147
+Genesis GV70,Genesis,2013,219463,Petrol,5780065
+Volkswagen Passat,Volkswagen,2015,148761,Petrol,2605809
+McLaren 720S,McLaren,2021,57719,Petrol,45649043
+Mercedes-Benz GLE,Mercedes-Benz,2010,308645,Petrol,10500067
+Audi RS7,Audi,2013,104911,Petrol,17375470
+Maruti Suzuki Alto,Maruti,2014,234448,Petrol,387731
+Mercedes-Benz AMG A45,Mercedes-Benz,2025,17400,Electric,7523773
+Mercedes-Benz AMG C63,Mercedes-Benz,2016,147722,Petrol,15295144
+MG Cyberster,MG,2010,262640,Petrol,5033871
+Audi Q5,Audi,2018,99306,Petrol,7528168
+Volvo S60,Volvo,2020,74737,Diesel,5785066
+Lincoln Corsair,Lincoln,2025,19413,Petrol,5491143
+Ferrari Daytona SP3,Ferrari,2012,265028,Diesel,45548728
+Tata Tigor,Tata,2011,158928,Diesel,631415
+Citroen C3,Citroen,2017,104864,Diesel,681535
+Maruti Suzuki Dzire,Maruti,2014,195771,Petrol,742815
+Volkswagen Golf GTI,Volkswagen,2025,19754,Petrol,3260022
+Maruti Suzuki Grand Vitara,Maruti,2020,108099,Petrol,1429991
+Honda Elevate,Honda,2015,100380,Petrol,1372938
+Aston Martin DBX,Aston,2022,79441,Diesel,41248703
+Toyota Fortuner,Toyota,2011,262376,Petrol,3573203
+BMW 5 Series,BMW,2026,4165,Petrol,7319283
+Renault Triber,Renault,2013,141413,Diesel,681864
+Lexus RC,Lexus,2012,154721,Diesel,7671278
+Maruti Suzuki Alto,Maruti,2019,113847,Petrol,350687
+Mahindra Scorpio,Mahindra,2022,32035,Petrol,1361011
+Volvo S60,Volvo,2021,98502,Diesel,5847941
+Mahindra Scorpio,Mahindra,2021,42179,Petrol,1661358
+Audi Q7,Audi,2014,188140,Diesel,9387810
+McLaren 720S,McLaren,2017,146632,Petrol,44928004
+Aston Martin DBS Superleggera,Aston,2014,193393,Petrol,56092960
+Jeep Wrangler,Jeep,2020,50227,Diesel,6004303
+BMW 8 Series,BMW,2010,182770,Petrol,14869022
+Aston Martin Vantage,Aston,2018,109686,Petrol,32165737
+Maruti Suzuki Celerio,Maruti,2010,150928,Diesel,657052
+Mercedes-Benz A-Class,Mercedes-Benz,2023,56754,Petrol,4708561
+Maserati Quattroporte,Maserati,2010,240616,Diesel,20883158
+Land Rover Range Rover Evoque,Land Rover,2022,49314,Petrol,7283774
+Jaguar XJ,Jaguar,2021,83434,Diesel,12409182
+Genesis GV60,Genesis,2022,55082,Diesel,6401703
+Toyota Yaris,Toyota,2016,195006,Diesel,1989066
+McLaren Artura,McLaren,2012,268968,Diesel,51915957
+Cadillac XT4,Cadillac,2026,3891,Petrol,4505181
+Maserati MC20,Maserati,2022,68200,Diesel,22854486
+Volkswagen Tiguan,Volkswagen,2013,106617,Diesel,3653891
+Lexus GX,Lexus,2023,29872,Petrol,10375719
+Mahindra XUV300,Mahindra,2022,77936,Petrol,1075954
+Bentley Azure,Bentley,2024,27789,Diesel,66449000
+Lexus NX,Lexus,2024,25286,Petrol,7343156
+Bentley Mulliner Bacalar,Bentley,2021,84643,Petrol,81984802
+Maruti Suzuki Baleno,Maruti,2018,91421,Petrol,923164
+Audi A6,Audi,2013,115253,Petrol,7019364
+Honda City e:HEV,Honda,2010,186088,Electric,1954035
+Tata Nexon,Tata,2025,17499,Diesel,908768
+Honda City,Honda,2016,163075,Petrol,1195583
+Bentley Flying Spur,Bentley,2014,183031,Diesel,60970940
+Skoda Kodiaq,Skoda,2014,133713,Petrol,3853750
+Mahindra Thar 5-Door,Mahindra,2024,38783,Petrol,2085688
+Volvo XC40,Volvo,2011,151294,Petrol,4942290
+Volvo V90,Volvo,2017,159019,Petrol,7217523
+Audi A4,Audi,2022,33398,Petrol,4883657
+Tata Nexon,Tata,2016,142718,Diesel,1326879
+Ferrari 296 GTB,Ferrari,2011,280611,Diesel,57160196
+Audi RS4,Audi,2025,18638,Petrol,10347211
+Porsche Panamera,Porsche,2014,196095,Petrol,21300884
+Kia Sonet,Kia,2014,121322,Petrol,1376968
+Audi RS e-tron GT,Audi,2025,12252,Electric,21176275
+Mercedes-Benz AMG C43,Mercedes-Benz,2023,32423,Petrol,8887708
+Audi TT RS,Audi,2018,64996,Diesel,8590915
+Skoda Octavia,Skoda,2025,8133,Petrol,2741002
+Honda Elevate,Honda,2019,86039,Diesel,1303162
+Jeep Gladiator,Jeep,2020,51651,Petrol,5816165
+Rolls Royce Spectre,Rolls,2025,8168,Petrol,97777264
+Genesis G90,Genesis,2022,71821,Petrol,7755028
+Lexus RZ 450e,Lexus,2015,127814,Diesel,13461200
+Mercedes-Benz GLB,Mercedes-Benz,2024,36814,Diesel,5602590
+Jaguar E-Pace,Jaguar,2026,2693,Petrol,6811750
+Bentley Bentayga,Bentley,2014,113596,Petrol,51712990
+Maruti Suzuki Invicto,Maruti,2015,107926,Petrol,2685138
+Bentley Continental GT,Bentley,2023,40494,Diesel,53258180
+Bentley Bentayga,Bentley,2026,4233,Diesel,52439019
+Mahindra XUV400,Mahindra,2010,234505,Diesel,1923521
+Mercedes-Benz GLE,Mercedes-Benz,2011,268372,Petrol,11715689
+Jeep Compass,Jeep,2024,38460,Petrol,2249437
+Jeep Grand Cherokee,Jeep,2024,26715,Diesel,8560372
+Mercedes-Benz GLB,Mercedes-Benz,2013,121972,Petrol,5798836
+Rolls Royce Wraith,Rolls,2025,18593,Petrol,65952705
+Genesis G80,Genesis,2019,107984,Diesel,5179024
+BMW X6 M,BMW,2023,54943,Petrol,19230434
+Volvo EX30,Volvo,2022,64560,Petrol,4984192
+Tata Safari EV,Tata,2024,22163,Electric,2372575
+Kia EV9,Kia,2014,215197,Electric,14007227
+Lincoln MKZ,Lincoln,2022,48920,Diesel,5323677
+Honda Jazz,Honda,2012,194768,Diesel,1003241
+Tata Nexon EV,Tata,2011,199923,Electric,1600540
+Renault Triber,Renault,2026,189,Petrol,791577
+Bentley Azure,Bentley,2026,186,Petrol,65478931
+Tata Altroz,Tata,2017,120398,Petrol,1083234
+Toyota Corolla,Toyota,2024,24124,Diesel,1865605
+Volkswagen Ameo,Volkswagen,2017,164290,Petrol,865155
+Audi TT RS,Audi,2020,80909,Petrol,8113013
+Jeep Wrangler,Jeep,2026,1877,Petrol,5705048
+Ferrari SF90 Stradale,Ferrari,2016,148626,Petrol,76709004
+Mercedes-Benz AMG E53,Mercedes-Benz,2022,50898,Petrol,13878809
+Maserati Grecale,Maserati,2012,229119,Petrol,12455248
+Audi e-tron GT,Audi,2021,67953,Electric,18681016
+BMW X3,BMW,2010,151697,Diesel,6942983
+Jaguar F-Pace,Jaguar,2023,55570,Diesel,7698493
+Hyundai Aura,Hyundai,2023,56365,Electric,796096
+Cadillac CT4,Cadillac,2017,104133,Petrol,5758428
+Aston Martin Vantage,Aston,2011,280900,Diesel,34025862
+Maruti Suzuki S-Cross,Maruti,2012,181462,Diesel,1179773
+Rolls Royce Wraith,Rolls,2022,76374,Petrol,72236620
+Mercedes-Benz AMG S63,Mercedes-Benz,2011,193091,Diesel,29959867
+Volkswagen Tiguan,Volkswagen,2023,54401,Petrol,3678194
+Volkswagen Taigun,Volkswagen,2023,45305,Diesel,1677065
+Toyota Innova,Toyota,2021,72261,Petrol,2395368
+Kia Sonet,Kia,2016,163581,Petrol,843167
+Jeep Gladiator,Jeep,2020,51568,Diesel,5905992
+Audi RS e-tron GT,Audi,2020,92491,Electric,19983896
+Genesis GV70,Genesis,2018,115021,Diesel,5429314
+Hyundai i20,Hyundai,2011,258479,Diesel,1082706
+MG 4 EV,MG,2025,14691,Electric,2916655
+Cadillac Lyriq,Cadillac,2012,125650,Petrol,7187130
+Volvo C40,Volvo,2025,11715,Petrol,5778879
+Mercedes-Benz AMG S63,Mercedes-Benz,2026,799,Petrol,29768842
+Mercedes-Benz S-Class,Mercedes-Benz,2020,73876,Petrol,17822157
+Mahindra KUV100,Mahindra,2026,1866,Petrol,725629
+Land Rover Discovery Sport,Land Rover,2016,199309,Diesel,7209497
+Toyota Yaris,Toyota,2022,48137,Diesel,1945778
+BMW 4 Series,BMW,2020,79093,Petrol,6165630
+Mahindra KUV100,Mahindra,2022,61464,Diesel,731010
+Cadillac XT6,Cadillac,2023,35328,Petrol,7004450
+Citroen C3 Aircross,Citroen,2022,44989,Petrol,1299901
+Maruti Suzuki Swift,Maruti,2021,99854,Diesel,875362
+Mercedes-Benz AMG E63,Mercedes-Benz,2023,26497,Electric,19348169
+Genesis G80,Genesis,2015,172906,Diesel,5069599
+Lexus UX,Lexus,2015,178733,Petrol,4938921
+Mahindra XUV900,Mahindra,2020,115597,Diesel,2351031
+Maruti Suzuki Ciaz,Maruti,2024,32054,Petrol,1053213
+Mahindra BE 5,Mahindra,2024,19295,Petrol,2881004
+Renault Triber,Renault,2015,193471,Petrol,873213
+Land Rover Discovery 5,Land Rover,2010,189328,Petrol,12420718
+Bentley Mulliner Bacalar,Bentley,2015,155638,Diesel,84326222
+Audi A7,Audi,2019,95690,Diesel,8158037
+Maruti Suzuki Fronx,Maruti,2019,117110,Petrol,1132397
+Lexus IS,Lexus,2020,92035,Petrol,6125862
+Volkswagen Virtus,Volkswagen,2022,48427,Diesel,1605973
+Volkswagen Vento,Volkswagen,2025,18654,Diesel,1154649
+Mahindra Bolero Neo,Mahindra,2020,112536,Petrol,1123491
+Citroen C5 Aircross,Citroen,2011,253185,Diesel,3466418
+Volvo V40,Volvo,2024,19737,Diesel,4846676
+Volvo XC90,Volvo,2017,177989,Diesel,10880063
+Genesis GV60,Genesis,2017,161480,Diesel,6537127
+BMW M3,BMW,2021,41951,Petrol,13353536
+Jaguar F-Type,Jaguar,2022,63750,Petrol,12694296
+Lincoln Corsair,Lincoln,2019,136304,Petrol,5193064
+Cadillac XT5,Cadillac,2011,211577,Diesel,6427095
+Porsche 718 Cayman,Porsche,2017,90245,Petrol,14537060
+Honda WR-V,Honda,2010,226403,Petrol,1114075
+Bentley Bentayga,Bentley,2019,76188,Petrol,54587418
+Jeep Grand Cherokee,Jeep,2022,63526,Diesel,8356116
+Tata Harrier EV,Tata,2021,63592,Electric,2048480
+Mercedes-Benz GLS,Mercedes-Benz,2013,109068,Diesel,13837107
+Volvo EX30,Volvo,2017,143308,Diesel,4803856
+Jeep Wagoneer,Jeep,2018,71945,Diesel,4185441
+Land Rover Range Rover,Land Rover,2026,117,Diesel,30749966
+BMW M8,BMW,2025,13625,Petrol,24615761
+Genesis G70,Genesis,2022,41056,Petrol,4302762
+Skoda Kushaq,Skoda,2017,114033,Petrol,1692204
+Aston Martin DBS Superleggera,Aston,2015,188450,Diesel,57654591
+Genesis G70,Genesis,2016,169860,Petrol,4054334
+Mercedes-Benz SLK,Mercedes-Benz,2016,147901,Electric,6698168
+Volkswagen Virtus,Volkswagen,2020,66248,Diesel,1667446
+Audi A4,Audi,2016,196471,Petrol,4780685
+Mercedes-Benz AMG E53,Mercedes-Benz,2023,59306,Electric,13666672
+Maruti Suzuki Invicto,Maruti,2015,212006,Diesel,2597686
+Audi RSQ8,Audi,2012,117364,Petrol,22892501
+Volkswagen Passat,Volkswagen,2026,24,Petrol,2700086
+Audi RS7,Audi,2020,52434,Petrol,17689153
+Lincoln MKZ,Lincoln,2020,99674,Diesel,4174619
+Volvo EX90,Volvo,2020,93132,Diesel,8732132
+Porsche Cayenne,Porsche,2018,131513,Electric,22600351
+Audi A8,Audi,2017,148945,Electric,14427174
+Genesis G90,Genesis,2022,61285,Petrol,7808514
+BMW 6 Series,BMW,2020,94908,Petrol,6523446
+Volvo V60,Volvo,2026,4184,Diesel,6314408
+Lincoln MKZ,Lincoln,2022,68680,Diesel,4338331
+Maruti Suzuki Alto,Maruti,2023,43937,Petrol,391689
+Volkswagen Taigun,Volkswagen,2022,61922,Diesel,1863790
+Toyota Fortuner Legender,Toyota,2020,110619,Petrol,4354314
+McLaren Artura,McLaren,2022,47378,Petrol,52519908
+Audi RS e-tron GT,Audi,2013,174194,Electric,20416271
+Porsche Cayenne,Porsche,2023,37606,Petrol,19624652
+Lexus LC,Lexus,2025,15489,Petrol,22262166
+McLaren P1,McLaren,2020,95811,Diesel,89580150
+Volvo S60,Volvo,2022,74000,Diesel,6062254
+Mercedes-Benz CLS,Mercedes-Benz,2015,199764,Petrol,10161274
+BMW X7,BMW,2020,100448,Diesel,14785233
+Rolls Royce Cullinan,Rolls,2023,26911,Diesel,72086660
+MG 5 EV,MG,2023,38061,Electric,2948709
+Honda City e:HEV,Honda,2025,9539,Electric,1971984
+BMW X4,BMW,2012,195233,Petrol,7689418
+Cadillac Lyriq,Cadillac,2015,135039,Diesel,6462261
+Lexus IS,Lexus,2018,81533,Petrol,6734268
+Kia Carnival,Kia,2019,70546,Electric,2668210
+Genesis G80,Genesis,2025,9002,Petrol,5617826
+Aston Martin DB11,Aston,2024,31724,Petrol,43167406
+BMW X5 M,BMW,2023,33408,Diesel,16888182
+Nissan Magnite,Nissan,2025,9746,Petrol,965057
+Hyundai Aura,Hyundai,2022,44689,Petrol,877795
+Mercedes-Benz S-Class,Mercedes-Benz,2011,269320,Petrol,17576804
+Jaguar XF Sportbrake,Jaguar,2014,217877,Diesel,6245827
+Bentley Azure,Bentley,2011,171166,Petrol,65504818
+Mercedes-Benz AMG E63,Mercedes-Benz,2015,215884,Petrol,19415995
+Lamborghini Urus,Lamborghini,2016,85940,Petrol,45337415
+Volvo XC90,Volvo,2018,122366,Diesel,10569983
+Tata Tiago,Tata,2021,41563,Petrol,787647
+Volvo V60,Volvo,2014,229980,Petrol,6586892
+Mercedes-Benz AMG E53,Mercedes-Benz,2018,138320,Petrol,13035971
+Bentley Mulliner Bacalar,Bentley,2025,16172,Diesel,82353636
+Volvo XC60,Volvo,2026,2241,Petrol,7218198
+Audi Q7,Audi,2018,110847,Petrol,9016213
+Mercedes-Benz CLA,Mercedes-Benz,2014,227843,Petrol,5349734
+Mahindra XUV700,Mahindra,2015,141373,Petrol,1729250
+Volvo XC40,Volvo,2012,161437,Diesel,4762786
+Toyota Innova Hycross,Toyota,2025,19975,Petrol,2856239
+Audi Q8,Audi,2020,116626,Petrol,13839501
+Lexus RC,Lexus,2025,8062,Petrol,7484986
+Honda Amaze,Honda,2020,119220,Petrol,867079
+Toyota Glanza,Toyota,2022,73931,Petrol,874185
+Cadillac Escalade,Cadillac,2012,163617,Petrol,13702829
+Kia Carens,Kia,2018,114445,Petrol,1505482
+Audi A5,Audi,2013,250606,Petrol,5561474
+Cadillac CT5,Cadillac,2016,106202,Petrol,5558990
+MG Comet EV,MG,2021,93215,Electric,726103
+Maserati Grecale,Maserati,2024,19173,Petrol,12739277
+Lexus UX,Lexus,2012,234131,Diesel,4655686
+Maruti Suzuki Ciaz,Maruti,2022,48335,Petrol,1008615
+Mercedes-Benz AMG E53,Mercedes-Benz,2026,3276,Petrol,14124163
+Land Rover Range Rover,Land Rover,2026,444,Petrol,29926686
+Volkswagen Virtus,Volkswagen,2024,29100,Diesel,1637680
+McLaren Artura,McLaren,2013,254141,Petrol,53581217
+Volvo XC60,Volvo,2018,72432,Petrol,7470619
+Honda City,Honda,2018,117527,Petrol,1420958
+Bentley Azure,Bentley,2013,203625,Petrol,62104249
+Volvo EX30,Volvo,2016,100831,Petrol,4643462
+Porsche Panamera,Porsche,2026,417,Electric,17166357
+BMW 3 Series,BMW,2022,45941,Petrol,5952731
+Tata Punch,Tata,2010,267274,Petrol,893485
+Audi RS3,Audi,2012,123309,Diesel,8545509
+Audi Q3,Audi,2012,265742,Petrol,4631932
+Ferrari Roma,Ferrari,2025,19178,Diesel,36436247
+Mahindra Thar 5-Door,Mahindra,2013,143667,Diesel,1806499
+Lamborghini Temerario,Lamborghini,2022,53590,Petrol,52380037
+Lamborghini Urus,Lamborghini,2013,136137,Petrol,50414875
+Mercedes-Benz AMG E63,Mercedes-Benz,2012,141054,Petrol,19178292
+MG ZS EV,MG,2021,42158,Electric,2623230
+MG HS,MG,2025,14369,Petrol,2329625
+Jaguar XJ,Jaguar,2010,244126,Petrol,11604808
+Lexus GX,Lexus,2019,72517,Petrol,10944328
+Rolls Royce Boat Tail,Rolls,2024,31837,Petrol,213450729
+Bentley Flying Spur,Bentley,2020,60200,Petrol,63255257
+McLaren 765LT,McLaren,2013,200589,Petrol,57550597
+Mahindra XUV700,Mahindra,2010,251546,Petrol,2082734
+Lamborghini Urus,Lamborghini,2026,1870,Petrol,48367153
+Jaguar XF Sportbrake,Jaguar,2022,53410,Petrol,6793382
+BMW M2,BMW,2012,190534,Petrol,10999267
+Porsche 718 Boxster,Porsche,2019,70741,Petrol,16597523
+Lexus GX,Lexus,2024,38650,Diesel,10990814
+Maserati Ghibli,Maserati,2013,196000,Diesel,12415545
+Audi A6,Audi,2015,195405,Petrol,6943188
+Lexus LX,Lexus,2020,58736,Diesel,16204828
+Tata Nexon,Tata,2017,132448,Petrol,1101625
+Hyundai Alcazar,Hyundai,2019,69587,Petrol,1626093
+MG Astor,MG,2012,223899,Diesel,1637406
+Bentley Bentayga,Bentley,2012,132289,Petrol,49120473
+Audi A5,Audi,2018,157586,Diesel,5038982
+Audi Q5,Audi,2010,169080,Diesel,7343448
+Porsche 911 GT3 RS,Porsche,2019,86474,Diesel,42824598
+Aston Martin DBS Superleggera,Aston,2016,193902,Petrol,59759716
+Toyota Land Cruiser,Toyota,2013,182824,Diesel,21761994
+MG Cyberster,MG,2023,39623,Petrol,4556757
+Maruti Suzuki Dzire,Maruti,2010,209426,Petrol,694178
+BMW 8 Series,BMW,2023,33775,Diesel,16166841
+Renault Duster,Renault,2021,51870,Petrol,1260486
+Honda City,Honda,2017,178062,Petrol,1408149
+Audi Q7,Audi,2023,32096,Petrol,9466388
+Mercedes-Benz AMG GT,Mercedes-Benz,2016,189860,Diesel,28872761
+Rolls Royce Dawn,Rolls,2016,187248,Petrol,78766580
+Skoda Slavia,Skoda,2012,127653,Diesel,1662501
+Porsche 911 GT3 RS,Porsche,2017,119217,Petrol,40812150
+Tata Tigor,Tata,2010,169978,Petrol,671157
+Jeep Renegade,Jeep,2015,208872,Petrol,1922573
+Mercedes-Benz AMG S63,Mercedes-Benz,2020,97055,Diesel,35129585
+Aston Martin DB11,Aston,2020,119979,Petrol,46643038
+Maruti Suzuki S-Cross,Maruti,2020,84455,Petrol,1185661
+Audi RS6,Audi,2025,16790,Diesel,15214927
+Kia Carens,Kia,2017,97041,Petrol,1302002
+Aston Martin DBS Superleggera,Aston,2020,77154,Petrol,60980719
+Mercedes-Benz S-Class,Mercedes-Benz,2012,166392,Petrol,19017979
+Ferrari 812 Superfast,Ferrari,2022,70646,Petrol,67333747
+Kia Carens,Kia,2019,88977,Diesel,1044160
+BMW 8 Series,BMW,2021,45873,Petrol,15045744
+Volvo V40,Volvo,2016,141519,Diesel,4831315
+McLaren Artura,McLaren,2019,102559,Petrol,52781268
+Kia EV6,Kia,2021,65922,Electric,6480006
+Volvo S60,Volvo,2021,51308,Petrol,5531423
+Hyundai i20,Hyundai,2014,116663,Petrol,1065654
+Rolls Royce Spectre,Rolls,2017,76274,Diesel,91421077
+Audi RS e-tron GT,Audi,2024,33538,Electric,20955960
+McLaren Artura,McLaren,2020,61965,Diesel,54292308
+Volkswagen Vento,Volkswagen,2012,231914,Petrol,1286534
+Hyundai Aura,Hyundai,2025,11119,Petrol,744433
+Volvo XC90,Volvo,2014,135871,Petrol,9936129
+Audi Q7,Audi,2023,25866,Petrol,9306839
+Volkswagen Tiguan,Volkswagen,2018,123668,Petrol,3677660
+Mercedes-Benz CLS,Mercedes-Benz,2020,65516,Petrol,10479013
+Lincoln Aviator,Lincoln,2018,95358,Diesel,7491285
+Aston Martin Valhalla,Aston,2018,96934,Diesel,79359065
+BMW X3,BMW,2013,209963,Petrol,7316533
+Hyundai Ioniq 5,Hyundai,2010,290748,Petrol,4663286
+Toyota Urban Cruiser Hyryder,Toyota,2024,20901,Diesel,1771145
+Renault Triber,Renault,2023,38506,Petrol,622897
+Maruti Suzuki Alto,Maruti,2012,241114,Petrol,404951
+Kia Sonet,Kia,2018,138900,Electric,757713
+Bentley Bentayga,Bentley,2016,93341,Petrol,45416484
+Toyota Yaris,Toyota,2021,56795,Petrol,1781772
+Rolls Royce Dawn,Rolls,2011,252806,Diesel,76605184
+Mahindra BE 6,Mahindra,2014,230046,Petrol,3905579
+Lamborghini Aventador,Lamborghini,2011,145111,Petrol,66325364
+Maruti Suzuki Celerio,Maruti,2026,1702,Petrol,626198
+Land Rover Discovery 5,Land Rover,2015,174686,Petrol,12176585
+Jaguar F-Type,Jaguar,2013,256671,Petrol,13216314
+Tata Safari,Tata,2017,159609,Petrol,2454686
+Rolls Royce Spectre,Rolls,2022,40601,Petrol,96166125
+McLaren P1,McLaren,2012,267154,Diesel,88962503
+Tata Tiago EV,Tata,2013,192675,Electric,905816
+Porsche Cayenne,Porsche,2026,3994,Petrol,17430734
+Mercedes-Benz SL,Mercedes-Benz,2017,75253,Diesel,14961732
+Tata Tiago,Tata,2018,112987,Petrol,771760
+BMW Z4 M40i,BMW,2016,171487,Petrol,9490563
+Hyundai Creta,Hyundai,2010,220250,Diesel,1799431
+MG Hector,MG,2019,136560,Petrol,1905568
+Audi Q7,Audi,2024,37648,Petrol,8899810
+Maruti Suzuki WagonR,Maruti,2019,129445,Diesel,680991
+Cadillac XT6,Cadillac,2010,254906,Petrol,7681981
+Renault Kwid,Renault,2015,144490,Petrol,469888
+Skoda Rapid,Skoda,2020,48630,Diesel,1180250
+Audi RS6,Audi,2022,33013,Petrol,15270304
+Lexus RX,Lexus,2013,207622,Petrol,9801066
+Lexus GX,Lexus,2014,111833,Diesel,10173136
+Tata Safari EV,Tata,2010,131958,Electric,2138669
+Lexus ES,Lexus,2016,151120,Petrol,6697817
+Maserati Levante,Maserati,2016,107761,Petrol,16029690
+Jaguar E-Pace,Jaguar,2011,123614,Diesel,6552697
+Jeep Meridian,Jeep,2025,15902,Petrol,3031259
+Volvo EX90,Volvo,2016,82890,Petrol,8873390
+Rolls Royce Boat Tail,Rolls,2023,33509,Diesel,225512374
+BMW X4,BMW,2024,35723,Petrol,7530196
+Lamborghini Temerario,Lamborghini,2010,202724,Petrol,50777493
+Honda Amaze,Honda,2021,93873,Petrol,966601
+Tata Nexon EV,Tata,2012,176958,Electric,1451542
+Skoda Kodiaq,Skoda,2017,96652,Petrol,4108734
+Toyota Vellfire,Toyota,2019,79705,Diesel,97160869
+BMW M3,BMW,2022,50609,Diesel,14973994
+Toyota Innova Hycross,Toyota,2012,267552,Petrol,2572173
+Nissan Leaf,Nissan,2013,170141,Petrol,4473769
+Mahindra Bolero Neo,Mahindra,2014,201101,Diesel,969896
+Genesis G90,Genesis,2017,122792,Petrol,7781673
+Skoda Octavia,Skoda,2022,70132,Petrol,2740438
+Volkswagen Taigun,Volkswagen,2015,96682,Petrol,1795459
+Hyundai Aura,Hyundai,2015,168684,Diesel,878334
+Jaguar XF Sportbrake,Jaguar,2025,19610,Petrol,6843460
+Cadillac Lyriq,Cadillac,2017,147931,Diesel,6393879
+Bentley Bentayga,Bentley,2017,141920,Diesel,49935725
+Renault Kiger,Renault,2011,294473,Diesel,743846
+Porsche Macan,Porsche,2022,54097,Petrol,19758022
+Jeep Meridian,Jeep,2023,46060,Petrol,3238333
+Lincoln Navigator,Lincoln,2025,16277,Diesel,10152084
+Lincoln Aviator,Lincoln,2015,191965,Diesel,8554113
+Audi Q5,Audi,2026,874,Petrol,6871607
+Toyota Urban Cruiser Hyryder,Toyota,2017,107791,Petrol,1276279
+Mahindra BE 6,Mahindra,2014,192438,Petrol,3162768
+Volvo XC60,Volvo,2010,275782,Petrol,6855813
+Lexus NX,Lexus,2024,36548,Petrol,7731231
+Porsche Macan,Porsche,2024,36803,Petrol,19158714
+Honda Amaze,Honda,2023,31604,Petrol,869661
+BMW 4 Series,BMW,2020,86019,Petrol,6240284
+Land Rover Range Rover Velar,Land Rover,2018,119223,Petrol,9311405
+McLaren 750S,McLaren,2026,663,Petrol,43441504
+Land Rover Discovery,Land Rover,2020,78264,Petrol,9474888
+Kia EV9,Kia,2014,109051,Electric,13783411
+Rolls Royce Boat Tail,Rolls,2010,128437,Petrol,207652840
+Jeep Compass,Jeep,2016,133934,Diesel,3039380
+Lamborghini Urus,Lamborghini,2019,79167,Petrol,48881023
+Maserati Ghibli,Maserati,2016,139668,Petrol,14852040
+Honda City,Honda,2011,140589,Diesel,1099113
+Hyundai i20,Hyundai,2013,146016,Petrol,927057
+Rolls Royce Spectre,Rolls,2025,8717,Petrol,89516890
+Honda Amaze,Honda,2025,8244,Petrol,851850
+BMW M5,BMW,2016,179527,Diesel,18366444
+Hyundai Exter,Hyundai,2013,164677,Petrol,613672
+Citroen C3,Citroen,2018,123530,Petrol,648361
+Citroen C3,Citroen,2023,56437,Diesel,747366
+Jaguar I-Pace,Jaguar,2015,204698,Diesel,12914064
+BMW 5 Series,BMW,2018,148698,Petrol,7485410
+Volvo V60,Volvo,2017,80385,Petrol,5971457
+Skoda Octavia RS,Skoda,2012,206707,Petrol,3506529
+Kia Sonet,Kia,2010,312147,Diesel,927433
+Mercedes-Benz SL,Mercedes-Benz,2011,245153,Petrol,17291848
+MG Comet EV,MG,2025,17948,Electric,728386
+Renault Kiger,Renault,2014,205767,Diesel,604758
+Jeep Wagoneer,Jeep,2016,158503,Diesel,4458020
+BMW 7 Series,BMW,2012,264415,Petrol,18081527
+Audi TT RS,Audi,2018,93985,Petrol,8545957
+BMW X6,BMW,2019,68944,Electric,12047649
+Porsche 911,Porsche,2020,49401,Petrol,25197147
+Honda Jazz,Honda,2020,114854,Diesel,993609
+Lexus RZ 450e,Lexus,2025,17923,Diesel,13277214
+Mahindra XUV700,Mahindra,2022,63595,Diesel,1884094
+Mercedes-Benz C-Class,Mercedes-Benz,2016,195426,Diesel,6205383
+Mercedes-Benz C-Class,Mercedes-Benz,2013,251844,Diesel,6501309
+Porsche 718 Spyder,Porsche,2020,58623,Petrol,17751108
+Maserati Quattroporte,Maserati,2020,55970,Petrol,21814870
+Jaguar F-Pace,Jaguar,2013,154924,Petrol,8389487
+Lexus LX,Lexus,2021,67249,Petrol,15640193
+Porsche Taycan,Porsche,2014,128725,Petrol,21552580
+Maruti Suzuki Alto,Maruti,2021,62975,Diesel,435979
+Volkswagen Virtus,Volkswagen,2010,268796,Diesel,1207944
+Honda Jazz,Honda,2011,198332,Petrol,1065085
+Mercedes-Benz GLA,Mercedes-Benz,2024,27565,Petrol,4709809
+Mercedes-Benz GLA,Mercedes-Benz,2011,184237,Diesel,4548090
+Hyundai Alcazar,Hyundai,2014,200645,Petrol,1809280
+Lexus LX,Lexus,2014,126581,Petrol,15472068
+Bentley Mulliner Bacalar,Bentley,2011,199188,Diesel,89235438
+BMW 3 Series,BMW,2011,275779,Petrol,6269892
+Mercedes-Benz CLS,Mercedes-Benz,2020,103689,Diesel,9719333
+MG Comet EV,MG,2022,64429,Electric,767476
+Volkswagen Virtus,Volkswagen,2023,40874,Diesel,1459674
+MG Hector,MG,2016,168705,Petrol,1679981
+Ferrari SF90 Stradale,Ferrari,2014,131913,Petrol,80281281
+Jaguar I-Pace,Jaguar,2010,196794,Diesel,12599280
+MG Hector,MG,2017,152542,Petrol,1530832
+Tata Curvv,Tata,2012,145077,Petrol,1912944
+Mahindra Thar,Mahindra,2012,127229,Petrol,1141873
+Aston Martin DBX,Aston,2013,156915,Petrol,40435380
+Hyundai Grand i10,Hyundai,2026,123,Petrol,684688
+Honda HR-V,Honda,2012,224568,Diesel,1270647
+Audi Q8,Audi,2017,73914,Petrol,13688674
+Tata Tiago,Tata,2016,176848,Diesel,604124
+BMW X5 M,BMW,2020,50530,Petrol,17189712
+BMW 5 Series,BMW,2010,147131,Petrol,7257028
+Toyota Corolla,Toyota,2020,83268,Petrol,2196204
+Kia Carnival,Kia,2011,200108,Petrol,3212869
+Mercedes-Benz AMG A35,Mercedes-Benz,2014,224152,Diesel,5984609
+McLaren 720S,McLaren,2015,106400,Petrol,49635908
+Lexus LX,Lexus,2025,18581,Petrol,17635627
+Audi RS4,Audi,2016,133029,Diesel,10509300
+Genesis G80,Genesis,2018,108392,Petrol,5363689
+McLaren Artura,McLaren,2019,103185,Diesel,55445776
+BMW M8,BMW,2017,144119,Electric,23482836
+Mercedes-Benz SL,Mercedes-Benz,2011,249332,Diesel,15824985
+Mercedes-Benz AMG GTR,Mercedes-Benz,2025,11856,Petrol,37967431
+MG Cyberster,MG,2022,71917,Petrol,4575749
+Ferrari Roma,Ferrari,2011,201401,Petrol,38200237
+Maserati Grecale,Maserati,2014,136110,Petrol,14163923
+Tata Nexon EV,Tata,2024,32767,Electric,1630798
+BMW X3,BMW,2014,238681,Diesel,6927507
+Kia Carnival,Kia,2018,95439,Petrol,2843999
+Volvo EX90,Volvo,2015,91315,Petrol,8594337
+Mahindra KUV100,Mahindra,2011,202979,Diesel,681499
+Mercedes-Benz B-Class,Mercedes-Benz,2010,302258,Petrol,4667173
+Kia Sonet,Kia,2025,19459,Petrol,820470
+Mercedes-Benz AMG E63,Mercedes-Benz,2011,160232,Petrol,18977709
+Mercedes-Benz SLK,Mercedes-Benz,2023,50759,Petrol,6425577
+Mercedes-Benz GLC,Mercedes-Benz,2024,32224,Petrol,8124534
+Volvo S90,Volvo,2026,1478,Petrol,7098682
+Audi RS e-tron GT,Audi,2026,2569,Electric,21320485
+Hyundai Venue,Hyundai,2014,217747,Diesel,1180631
+MG Hector,MG,2019,129763,Petrol,1884295
+Maruti Suzuki S-Presso,Maruti,2025,13748,Petrol,533623
+Tata Safari EV,Tata,2025,9306,Electric,1970298
+Lincoln Aviator,Lincoln,2012,275073,Petrol,7766414
+Lincoln Aviator,Lincoln,2022,46439,Petrol,8142084
+Jaguar XF,Jaguar,2016,101733,Diesel,5672417
+Skoda Octavia,Skoda,2019,88344,Diesel,2996442
+Jaguar XF Sportbrake,Jaguar,2023,51929,Diesel,6533452
+Lincoln Navigator,Lincoln,2014,181448,Petrol,7977526
+Mercedes-Benz AMG GT,Mercedes-Benz,2013,206880,Diesel,28332110
+Jaguar F-Pace,Jaguar,2023,40302,Petrol,7733734
+Maruti Suzuki Alto,Maruti,2013,134066,Petrol,386690
+Lexus RZ 450e,Lexus,2012,237078,Diesel,12955837
+Lexus ES,Lexus,2012,140248,Petrol,6640672
+Mahindra Thar,Mahindra,2016,107689,Petrol,1318205
+Volvo EX90,Volvo,2014,181386,Petrol,8766318
+Cadillac XT4,Cadillac,2013,133630,Petrol,5963777
+Maruti Suzuki Ertiga,Maruti,2012,217241,Petrol,1152846
+Volkswagen Tiguan,Volkswagen,2011,238200,Petrol,3516672
+Porsche 718 Cayman,Porsche,2024,31437,Petrol,14395135
+Jeep Compass,Jeep,2014,157704,Petrol,3145264
+Tata Safari EV,Tata,2013,164642,Electric,2196610
+Jeep Grand Cherokee,Jeep,2010,284618,Diesel,8280702
+Genesis G90,Genesis,2019,130659,Petrol,7122649
+Tata Tigor,Tata,2013,154276,Diesel,704214
+Audi Q4 e-tron,Audi,2025,19838,Electric,10861859
+Ferrari F8 Tributo,Ferrari,2011,147622,Petrol,49792125
+Cadillac CT5,Cadillac,2022,62739,Petrol,6777082
+BMW X5 M,BMW,2011,258512,Petrol,16332046
+Hyundai Verna,Hyundai,2011,258330,Petrol,1711803
+Mercedes-Benz AMG C43,Mercedes-Benz,2023,39866,Petrol,9886316
+Toyota Camry Hybrid,Toyota,2018,107554,Electric,4941390
+Mahindra Scorpio N,Mahindra,2012,276946,Petrol,1614369
+Mercedes-Benz GLE,Mercedes-Benz,2014,144222,Petrol,11754066
+Tata Tiago,Tata,2020,86432,Diesel,740091
+Land Rover Discovery 5,Land Rover,2015,205513,Petrol,13792281
+Citroen C3 Aircross,Citroen,2013,137086,Petrol,1066429
+BMW M8,BMW,2016,151355,Diesel,24614868
+Skoda Superb,Skoda,2011,156883,Petrol,3213930
+BMW M4,BMW,2021,66716,Petrol,14696957
+Porsche 911 Turbo S,Porsche,2018,100972,Diesel,32200501
+Volkswagen Ameo,Volkswagen,2022,42027,Petrol,1023669
+Maruti Suzuki Ignis,Maruti,2024,17623,Diesel,743313
+Genesis GV70,Genesis,2013,203876,Diesel,5958453
+Renault Kwid EV,Renault,2010,219982,Electric,897491
+Mercedes-Benz AMG A45,Mercedes-Benz,2016,121764,Petrol,8028564
+Audi RS3,Audi,2020,110197,Petrol,8679243
+Maruti Suzuki Ignis,Maruti,2015,133462,Petrol,729311
+Volkswagen Passat,Volkswagen,2018,137985,Petrol,2807826
+Mercedes-Benz SLK,Mercedes-Benz,2014,145043,Petrol,6234751
+Skoda Octavia RS,Skoda,2019,126588,Petrol,3552534
+Rolls Royce Ghost,Rolls,2025,15868,Diesel,71086771
+Ferrari Portofino,Ferrari,2024,22570,Diesel,40353330
+Maruti Suzuki S-Cross,Maruti,2020,53041,Diesel,866301
+Porsche Cayenne,Porsche,2024,26854,Electric,18072446
+Audi Q5,Audi,2019,119737,Petrol,7555581
+Mahindra Thar 5-Door,Mahindra,2024,30174,Diesel,1947075
+Citroen eC3,Citroen,2016,178831,Petrol,1208736
+Nissan Leaf,Nissan,2024,19568,Petrol,4167198
+Maruti Suzuki Swift,Maruti,2026,4946,Petrol,719739
+Maruti Suzuki Invicto,Maruti,2011,143598,Diesel,2580846
+Renault Kiger,Renault,2016,175916,Petrol,856898
+Lamborghini Temerario,Lamborghini,2021,90630,Petrol,56099938
+Genesis GV70,Genesis,2010,312627,Petrol,5891366
+Cadillac XT5,Cadillac,2020,80169,Petrol,5785133
+Tata Tigor,Tata,2010,158262,Petrol,807141
+BMW 4 Series,BMW,2025,10987,Petrol,5688873
+Audi Q8,Audi,2018,143279,Petrol,13341721
+Porsche 718 Spyder,Porsche,2025,13760,Diesel,18291058
+Audi e-tron,Audi,2011,235817,Electric,17451756
+Audi RS3,Audi,2016,182415,Petrol,9015468
+McLaren P1,McLaren,2016,104249,Petrol,81547433
+MG 4 EV,MG,2024,36197,Electric,3243864
+BMW 3 Series,BMW,2026,1754,Petrol,6136554
+Ferrari Daytona SP3,Ferrari,2021,46498,Petrol,49089372
+Nissan Magnite,Nissan,2018,109511,Petrol,942606
+Audi RSQ8,Audi,2012,248321,Petrol,23910533
+Lincoln MKZ,Lincoln,2024,32300,Petrol,4850430
+Skoda Rapid,Skoda,2015,147700,Diesel,1192055
+Tata Punch EV,Tata,2017,90275,Electric,1213873
+Audi Q7,Audi,2023,40551,Petrol,9000595
+Tata Nexon,Tata,2012,272249,Petrol,1210419
+Toyota Innova,Toyota,2026,2755,Petrol,2099794
+Audi RS4,Audi,2017,88448,Petrol,10624319
+Aston Martin Valhalla,Aston,2026,1375,Petrol,77552829
+Maruti Suzuki Alto,Maruti,2010,134007,Petrol,412331
+Jaguar F-Type,Jaguar,2012,228569,Petrol,13754634
+BMW Z4 M40i,BMW,2010,233023,Petrol,8394557
+Genesis G80,Genesis,2019,85539,Petrol,5806821
+Hyundai Exter,Hyundai,2013,133840,Petrol,686739
+McLaren P1,McLaren,2013,135399,Petrol,87622319
+Hyundai Ioniq 5,Hyundai,2016,134339,Petrol,4760133
+McLaren 750S,McLaren,2021,82765,Petrol,44719808
+Mahindra XUV300,Mahindra,2010,193377,Diesel,1095260
+Lexus RX,Lexus,2012,270369,Diesel,9850249
+Jaguar XJ,Jaguar,2020,54947,Diesel,11839394
+Citroen C5 Aircross,Citroen,2020,75249,Diesel,3329434
+Genesis GV80,Genesis,2020,52912,Petrol,6966853
+Bentley Mulliner Bacalar,Bentley,2020,80112,Petrol,88490084
+Nissan GT-R,Nissan,2015,168087,Petrol,24123471
+Honda City,Honda,2015,158216,Petrol,1184868
+MG HS,MG,2024,27075,Petrol,2101429
+Audi RS5,Audi,2012,248059,Diesel,12151609
+Aston Martin Vantage,Aston,2026,2327,Petrol,34121644
+BMW 6 Series,BMW,2015,183521,Petrol,6854498
+Genesis G80,Genesis,2016,176104,Petrol,5312252
+BMW 5 Series,BMW,2020,50272,Diesel,7923759
+BMW M3,BMW,2024,22023,Diesel,13389150
+Renault Triber,Renault,2020,68388,Diesel,747971
+Renault Duster,Renault,2010,234701,Diesel,1329342
+Toyota Corolla,Toyota,2019,121404,Diesel,2042433
+Volvo Polestar 2,Volvo,2010,183734,Diesel,8154976
+Kia Sonet,Kia,2012,259855,Diesel,881108
+Volkswagen Passat,Volkswagen,2016,124222,Petrol,2504702
+Bentley Azure,Bentley,2018,123547,Petrol,61796035
+MG Comet EV,MG,2014,128560,Electric,835224
+Porsche 718 Cayman,Porsche,2016,155451,Petrol,15266671
+Ferrari 812 Superfast,Ferrari,2025,9118,Petrol,67916486
+Volvo V40,Volvo,2019,128063,Petrol,4930901
+Audi A3,Audi,2010,241812,Petrol,3696150
+Mercedes-Benz C-Class,Mercedes-Benz,2011,153769,Diesel,6468924
+Lexus UX 300e,Lexus,2019,92335,Petrol,6015639
+Audi RS6,Audi,2016,131917,Petrol,15655843
+Aston Martin DB11,Aston,2013,213100,Petrol,43224984
+BMW M5,BMW,2020,109693,Petrol,19080201
+Toyota Fortuner Legender,Toyota,2014,141173,Petrol,4595920
+Volvo S60,Volvo,2013,208059,Petrol,5738045
+McLaren 765LT,McLaren,2015,123523,Diesel,56626643
+Mercedes-Benz GLE,Mercedes-Benz,2012,210989,Petrol,10084925
+Kia EV6,Kia,2017,171361,Electric,6161777
+Audi RS e-tron GT,Audi,2011,138312,Electric,21867853
+BMW X5 M,BMW,2014,115780,Petrol,17690913
+Genesis G90,Genesis,2021,96148,Diesel,7498407
+Hyundai i20,Hyundai,2023,50055,Petrol,1021804
+Lincoln Corsair,Lincoln,2021,64552,Diesel,6328320
+Mercedes-Benz A-Class,Mercedes-Benz,2025,17386,Diesel,4515323
+Mercedes-Benz SL,Mercedes-Benz,2022,35352,Petrol,17972147
+Honda Jazz,Honda,2013,205942,Petrol,1002436
+MG Cyberster,MG,2022,40984,Diesel,4634543
+Audi A5,Audi,2015,113203,Diesel,5372279
+Land Rover Discovery Sport,Land Rover,2010,293214,Petrol,6780969
+Maruti Suzuki Celerio,Maruti,2021,73114,Petrol,656986
+Cadillac Lyriq,Cadillac,2025,13016,Petrol,6239074
+Toyota Corolla,Toyota,2016,80446,Diesel,2030527
+Maruti Suzuki Invicto,Maruti,2015,139514,Petrol,2867027
+Rolls Royce Boat Tail,Rolls,2010,220495,Petrol,206243414
+Lexus RX,Lexus,2022,75623,Petrol,9557233
+Lexus UX 300e,Lexus,2026,728,Petrol,6053574
+Skoda Octavia,Skoda,2021,91906,Petrol,2965015
+Volkswagen Ameo,Volkswagen,2014,164879,Petrol,964639
+Mahindra XUV900,Mahindra,2023,26344,Petrol,3029033
+Mercedes-Benz E-Class,Mercedes-Benz,2011,203427,Petrol,9666774
+BMW X3 M,BMW,2016,178388,Electric,8745132
+BMW 4 Series,BMW,2013,133795,Petrol,5796634
+BMW X3 M,BMW,2015,163074,Petrol,8335038
+BMW X5 M,BMW,2022,61211,Diesel,17537508
+Land Rover Discovery Sport,Land Rover,2014,158191,Diesel,7010082
+Volvo S60,Volvo,2015,101574,Petrol,5433223
+Aston Martin DBS Superleggera,Aston,2012,206327,Diesel,54566958
+Hyundai i20,Hyundai,2010,243370,Petrol,822967
+Tata Nexon EV,Tata,2021,51439,Electric,1591256
+MG ZS EV,MG,2017,136833,Electric,2368274
+MG Hector,MG,2013,114704,Diesel,1952863
+Cadillac XT6,Cadillac,2021,87086,Diesel,7220059
+Toyota Fortuner,Toyota,2015,117318,Diesel,3811542
+Porsche Taycan,Porsche,2013,239593,Petrol,24294425
+Audi RS4,Audi,2018,150621,Diesel,10508702
+Lincoln Aviator,Lincoln,2017,111022,Petrol,8093143
+Volkswagen Tiguan,Volkswagen,2024,29236,Petrol,3727537
+Honda City,Honda,2010,230139,Petrol,1374959
+MG 5 EV,MG,2012,191398,Electric,2959829
+BMW M4,BMW,2015,211485,Petrol,15101120
+Mercedes-Benz AMG SL63,Mercedes-Benz,2024,31843,Diesel,29398994
+Toyota Vellfire,Toyota,2014,132242,Petrol,98459932
+Tata Nexon EV,Tata,2021,57029,Electric,1538549
+Volvo Polestar 2,Volvo,2023,32950,Petrol,7357635
+Mercedes-Benz AMG C43,Mercedes-Benz,2010,256840,Diesel,9774716
+Mahindra XUV 3XO,Mahindra,2019,82582,Petrol,1542634
+Mercedes-Benz E-Class,Mercedes-Benz,2014,233374,Petrol,8735231
+BMW M2,BMW,2023,35443,Diesel,10279399
+Maruti Suzuki Ignis,Maruti,2019,139631,Petrol,726112
+Tata Tiago,Tata,2013,195772,Diesel,680262
+Citroen C3,Citroen,2015,215158,Diesel,621854
+Citroen C5 Aircross,Citroen,2016,128997,Petrol,3315876
+Mercedes-Benz AMG C43,Mercedes-Benz,2016,126748,Petrol,9433390
+Kia Carnival,Kia,2016,178983,Electric,2876066
+Land Rover Discovery Sport,Land Rover,2022,46554,Petrol,6919936
+Audi R8,Audi,2019,65980,Diesel,23571970
+Hyundai Aura,Hyundai,2020,84076,Petrol,827372
+Honda City e:HEV,Honda,2023,59207,Electric,2007374
+Mahindra XUV400,Mahindra,2024,19330,Petrol,1838195
+Mahindra XUV 3XO,Mahindra,2018,129164,Petrol,1742128
+Audi A4,Audi,2017,118195,Petrol,4838129
+BMW X5 M,BMW,2020,61138,Petrol,16418588
+Hyundai i20,Hyundai,2016,105617,Diesel,807709
+Audi A3,Audi,2016,195283,Diesel,3935807
+Mercedes-Benz CLA,Mercedes-Benz,2014,148723,Diesel,5092016
+Jaguar XF Sportbrake,Jaguar,2013,215691,Petrol,6465876
+Volvo S60,Volvo,2019,134653,Petrol,5914015
+Volkswagen Vento,Volkswagen,2015,144075,Diesel,1229585
+Maruti Suzuki Dzire,Maruti,2025,19467,Diesel,811759
+Nissan Leaf,Nissan,2021,59487,Petrol,4002788
+Honda City e:HEV,Honda,2012,244366,Electric,1946032
+Toyota Land Cruiser,Toyota,2012,134955,Diesel,21551572
+Maruti Suzuki Swift,Maruti,2019,104573,Diesel,909123
+Bentley Continental GT,Bentley,2017,173559,Petrol,50675386
+McLaren P1,McLaren,2026,1920,Diesel,85361718
+Maserati Levante,Maserati,2014,157265,Diesel,18213210
+Tata Harrier EV,Tata,2025,18915,Electric,2669255
+Tata Punch EV,Tata,2011,147753,Electric,1292329
+MG Comet EV,MG,2026,4129,Electric,787460
+Audi A5,Audi,2021,98969,Petrol,5081935
+Jaguar XE,Jaguar,2025,13466,Petrol,5103050
+Mercedes-Benz GLE,Mercedes-Benz,2025,8612,Petrol,11372220
+Cadillac CT5,Cadillac,2018,142884,Diesel,6400296
+Mercedes-Benz AMG A35,Mercedes-Benz,2011,280909,Diesel,5967990
+BMW X4,BMW,2022,49477,Electric,7910863
+Porsche Cayenne,Porsche,2017,135717,Diesel,23351508
+Aston Martin DBX,Aston,2026,3406,Petrol,40048574
+Mercedes-Benz A-Class,Mercedes-Benz,2026,4930,Petrol,4334936
+BMW 2 Series,BMW,2022,61303,Diesel,4877868
+Honda HR-V,Honda,2018,148509,Petrol,1649190
+BMW M8,BMW,2026,3542,Petrol,22342329
+Nissan Leaf,Nissan,2024,37799,Diesel,4139867
+Mercedes-Benz S-Class,Mercedes-Benz,2019,107860,Petrol,17615205
+Volvo XC40,Volvo,2014,165463,Diesel,4725152
+Volvo XC40,Volvo,2019,109801,Petrol,4780547
+Tata Curvv,Tata,2020,81094,Petrol,1634232
+Mercedes-Benz GLC,Mercedes-Benz,2025,15391,Petrol,7498293
+Toyota Fortuner,Toyota,2017,167803,Petrol,4055384
+Maruti Suzuki S-Presso,Maruti,2024,18169,Petrol,434949
+Kia Sportage,Kia,2014,96219,Petrol,3341852
+Audi Q7,Audi,2013,114279,Petrol,9338018
+Mercedes-Benz GLS,Mercedes-Benz,2015,150459,Petrol,13632647
+Ferrari 812 Superfast,Ferrari,2022,50393,Petrol,65205633
+Kia Sportage,Kia,2024,33309,Petrol,3102733
+Ferrari F8 Tributo,Ferrari,2020,103864,Diesel,48512170
+Volkswagen Golf GTI,Volkswagen,2016,195156,Petrol,3259823
+McLaren 720S,McLaren,2025,9336,Petrol,49059106
+Honda Civic,Honda,2011,226237,Petrol,1876590
+Lexus LC,Lexus,2012,197899,Diesel,22607371
+Genesis GV80,Genesis,2011,280462,Petrol,6905831
+Maserati Levante,Maserati,2019,110065,Diesel,16152791
+BMW Z4,BMW,2010,226096,Petrol,9459902
+Mercedes-Benz CLS,Mercedes-Benz,2012,240191,Petrol,9806820
+Mahindra XUV 3XO,Mahindra,2013,184977,Petrol,1457678
+Jeep Wagoneer,Jeep,2026,3984,Petrol,4330633
+Cadillac Lyriq,Cadillac,2012,137318,Petrol,6525191
+Mercedes-Benz GLC,Mercedes-Benz,2012,161657,Petrol,8647304
+Lamborghini Revuelto,Lamborghini,2017,101508,Petrol,83851925
+Renault Kiger,Renault,2015,179763,Petrol,936652
+Hyundai Alcazar,Hyundai,2020,94284,Diesel,1731782
+Audi A8,Audi,2023,53616,Petrol,14441918
+BMW 8 Series,BMW,2020,63489,Petrol,16327152
+Mercedes-Benz AMG A35,Mercedes-Benz,2024,21762,Diesel,6041938
+Hyundai Ioniq 5,Hyundai,2014,189938,Petrol,4582828
+BMW 3 Series,BMW,2020,102906,Petrol,6255834
+Audi RS5,Audi,2024,29708,Diesel,12522234
+Mercedes-Benz AMG C43,Mercedes-Benz,2014,119930,Diesel,9158504
+Kia EV9,Kia,2026,1976,Electric,13241317
+Cadillac Lyriq,Cadillac,2022,42576,Petrol,6600689
+BMW X3 M,BMW,2019,133191,Diesel,8762005
+Volvo V40,Volvo,2012,178849,Diesel,4686660
+Hyundai Aura,Hyundai,2019,85602,Petrol,672041
+BMW 5 Series,BMW,2018,99315,Petrol,7738749
+Audi RS7,Audi,2020,52168,Petrol,17480176
+Maruti Suzuki Baleno,Maruti,2025,13565,Petrol,929429
+Ferrari 812 Superfast,Ferrari,2015,91467,Petrol,68320383
+Nissan Kicks,Nissan,2012,117136,Petrol,930578
+Maruti Suzuki Invicto,Maruti,2019,100830,Petrol,2682747
+McLaren GT,McLaren,2012,255558,Petrol,44334244
+Ferrari SF90 Stradale,Ferrari,2017,86781,Petrol,80361572
+Mercedes-Benz GLS,Mercedes-Benz,2021,71961,Petrol,13491544
+Tata Harrier EV,Tata,2011,170723,Electric,2051829
+BMW 3 Series,BMW,2026,1572,Petrol,6262889
+Mercedes-Benz A-Class,Mercedes-Benz,2014,124899,Diesel,4291859
+Citroen eC3,Citroen,2011,210374,Diesel,1259551
+Audi RS e-tron GT,Audi,2026,2939,Electric,20804016
+Nissan Sunny,Nissan,2014,118707,Petrol,1073572
+Hyundai Verna,Hyundai,2012,204149,Diesel,1594439
+Audi A3,Audi,2016,191841,Petrol,3957476
+Volvo Polestar 2,Volvo,2016,88647,Petrol,7812005
+Nissan Magnite,Nissan,2015,104601,Petrol,946988
+Aston Martin DBS Superleggera,Aston,2022,44476,Petrol,59017400
+Tata Tiago EV,Tata,2012,244220,Electric,1141570
+Mercedes-Benz AMG SL63,Mercedes-Benz,2024,17231,Petrol,26554470
+BMW M8,BMW,2015,196760,Diesel,22695449
+BMW Z4 M40i,BMW,2013,255443,Petrol,8944363
+Cadillac CT5,Cadillac,2021,91024,Diesel,5307271
+BMW X6,BMW,2024,26570,Electric,11961314
+Volvo EX90,Volvo,2022,37099,Petrol,8590465
+Audi RS5,Audi,2020,89216,Electric,12618703
+Porsche 718 Spyder,Porsche,2024,25237,Petrol,17551371
+Maserati Quattroporte,Maserati,2012,157109,Petrol,20234803
+Jaguar XF,Jaguar,2012,162891,Petrol,5646768
+Mahindra XUV900,Mahindra,2019,69188,Diesel,2815014
+BMW 6 Series,BMW,2011,188779,Diesel,7240957
+Rolls Royce Cullinan,Rolls,2015,214614,Diesel,71164811
+Aston Martin Vantage,Aston,2026,2744,Diesel,31823128
+Cadillac XT4,Cadillac,2016,99952,Petrol,5388840
+BMW 5 Series,BMW,2024,35358,Petrol,7813466
+Ferrari Purosangue,Ferrari,2020,75167,Petrol,51442195
+Genesis G90,Genesis,2015,134803,Petrol,7094301
+Hyundai Aura,Hyundai,2020,64534,Petrol,716522
+BMW M5,BMW,2011,246832,Petrol,19104960
+MG Hector,MG,2019,75155,Petrol,1519906
+Mahindra BE 5,Mahindra,2019,58460,Petrol,3222108
+Tata Altroz,Tata,2014,202176,Petrol,884148
+Rolls Royce Ghost,Rolls,2024,21071,Petrol,74703973
+BMW 5 Series,BMW,2019,119956,Diesel,7530528
+Nissan Sunny,Nissan,2021,71343,Diesel,1182257
+BMW X7,BMW,2012,232457,Petrol,14709412
+Kia EV6,Kia,2017,149319,Electric,6301651
+Audi RS7,Audi,2014,231357,Diesel,17283199
+Volvo V40,Volvo,2014,154691,Petrol,4860316
+Land Rover Range Rover Evoque,Land Rover,2019,56040,Petrol,7089212
+Volkswagen Golf GTI,Volkswagen,2016,193589,Petrol,3031721
+Tata Nexon EV,Tata,2025,8587,Electric,1585657
+Mercedes-Benz AMG GT,Mercedes-Benz,2016,90723,Petrol,28980706
+BMW M5,BMW,2020,101842,Petrol,19074759
+Mahindra XUV700,Mahindra,2015,130585,Petrol,1680746
+Kia Carens,Kia,2021,78317,Petrol,1297532
+Land Rover Defender,Land Rover,2012,210529,Diesel,12480960
+Aston Martin DB12,Aston,2020,118338,Petrol,46187043
+Jaguar XJ,Jaguar,2015,106392,Petrol,12737756
+BMW X5,BMW,2026,2289,Diesel,10224808
+Honda HR-V,Honda,2024,23077,Diesel,1292243
+Mercedes-Benz B-Class,Mercedes-Benz,2024,20918,Petrol,4775750
+Lexus RZ 450e,Lexus,2024,34060,Petrol,11973264
+Skoda Slavia,Skoda,2016,172759,Petrol,1429026
+Volvo XC90,Volvo,2010,278867,Petrol,10405921
+Genesis GV70,Genesis,2020,98229,Petrol,5858253
+Volkswagen Tiguan,Volkswagen,2022,66624,Diesel,3549319
+Skoda Octavia,Skoda,2018,149397,Diesel,2929949
+Land Rover Discovery,Land Rover,2011,148141,Petrol,9064126
+Genesis G80,Genesis,2026,2702,Petrol,5997346
+Lexus ES,Lexus,2026,3679,Petrol,6232581
+Volvo EX30,Volvo,2023,51594,Diesel,4477245
+Genesis GV80,Genesis,2018,112730,Petrol,7512607
+Bentley Mulliner Bacalar,Bentley,2023,51794,Diesel,83450654
+BMW 6 Series,BMW,2022,72896,Petrol,7402123
+Honda HR-V,Honda,2021,53351,Diesel,1639201
+Renault Kwid,Renault,2016,88034,Diesel,532963
+Porsche 718 Cayman,Porsche,2018,152020,Petrol,14636960
+Land Rover Range Rover Sport,Land Rover,2014,108018,Diesel,15768318
+Mercedes-Benz S-Class,Mercedes-Benz,2026,2870,Petrol,17196692
+Honda Amaze,Honda,2010,138084,Petrol,957457
+Cadillac Escalade,Cadillac,2022,66601,Petrol,11989717
+BMW X3 M,BMW,2021,42179,Petrol,8151130
+Hyundai Casper,Hyundai,2011,249593,Diesel,623571
+Tata Safari EV,Tata,2019,103401,Electric,2223077
+McLaren 750S,McLaren,2019,115759,Petrol,40640793
+Audi A4,Audi,2018,75294,Diesel,4637652
+Maruti Suzuki Fronx,Maruti,2010,199125,Petrol,861648
+Maruti Suzuki Invicto,Maruti,2012,169337,Diesel,2781778
+Honda WR-V,Honda,2017,126702,Petrol,959033
+Rolls Royce Ghost,Rolls,2020,53936,Petrol,73463629
+Bentley Continental GT,Bentley,2010,216927,Diesel,50938312
+Rolls Royce Cullinan,Rolls,2015,186934,Petrol,75625127
+Maruti Suzuki Ignis,Maruti,2010,318858,Diesel,606525
+McLaren GT,McLaren,2020,102364,Diesel,42758870
+McLaren GT,McLaren,2026,3492,Diesel,44759440
+Mahindra XUV300,Mahindra,2011,206356,Petrol,1061513
+Cadillac XT4,Cadillac,2011,297662,Diesel,4455527
+Lamborghini Revuelto,Lamborghini,2011,281857,Petrol,87902495
+Lamborghini Temerario,Lamborghini,2015,204054,Petrol,55695807
+Tata Punch,Tata,2018,106427,Diesel,752806
+Volvo EX30,Volvo,2020,81150,Diesel,4932028
+Lexus NX,Lexus,2022,74658,Petrol,7055972
+Maruti Suzuki Invicto,Maruti,2012,163086,Petrol,2810895
+Maruti Suzuki S-Cross,Maruti,2021,96526,Diesel,1162787
+Genesis GV80,Genesis,2010,188943,Petrol,6865670
+BMW M5,BMW,2012,211113,Petrol,18609824
+Mercedes-Benz AMG GTR,Mercedes-Benz,2022,74811,Diesel,39116872
+Mercedes-Benz AMG A35,Mercedes-Benz,2017,100429,Petrol,6166867
+Volkswagen Taigun,Volkswagen,2024,37973,Petrol,1586774
+Ferrari Portofino,Ferrari,2013,159484,Petrol,38920822
+Renault Duster,Renault,2013,172135,Diesel,1141642
+Toyota Land Cruiser,Toyota,2023,39216,Diesel,22227568
+Mercedes-Benz SLK,Mercedes-Benz,2013,150940,Petrol,6797451
+Lamborghini Huracan,Lamborghini,2021,68903,Petrol,43502766
+Tata Punch EV,Tata,2026,2176,Electric,1353304
+Citroen C3,Citroen,2013,157513,Diesel,704771
+Rolls Royce Boat Tail,Rolls,2015,97713,Petrol,208423227
+BMW 7 Series,BMW,2017,85115,Diesel,14331608
+Genesis G80,Genesis,2010,182052,Petrol,5300859
+McLaren 570S,McLaren,2013,180437,Petrol,40498502
+Audi RS5,Audi,2023,48513,Diesel,12337657
+Hyundai Grand i10,Hyundai,2010,273052,Diesel,675260
+Toyota Vellfire,Toyota,2019,104134,Diesel,96701471
+Mahindra Bolero Neo,Mahindra,2026,1488,Petrol,1215379
+Volvo V90,Volvo,2026,4273,Petrol,7209776
+Lexus UX 300e,Lexus,2020,65996,Petrol,5446365
+Lexus UX,Lexus,2012,123883,Petrol,4481504
+Jaguar XE,Jaguar,2016,140827,Petrol,4893308
+Toyota Vellfire,Toyota,2011,172758,Diesel,98401261
+Mahindra Scorpio,Mahindra,2013,243466,Petrol,1707431
+Maruti Suzuki Baleno,Maruti,2017,116929,Diesel,866206
+BMW X5 M,BMW,2017,84021,Electric,17447011
+BMW M4,BMW,2013,143497,Diesel,15326780
+BMW 2 Series,BMW,2019,101446,Petrol,4639818
+Lincoln MKZ,Lincoln,2022,64812,Petrol,4284914
+BMW 2 Series,BMW,2011,120785,Diesel,4600726
+McLaren 765LT,McLaren,2025,13772,Petrol,59248128
+Tata Nexon EV,Tata,2014,131369,Electric,1486210
+Mercedes-Benz AMG A45,Mercedes-Benz,2020,118076,Petrol,7611571
+BMW X3 M,BMW,2016,173533,Petrol,8248668
+Volvo XC60,Volvo,2021,42750,Petrol,7053321
+Cadillac XT6,Cadillac,2014,203827,Petrol,7976670
+Volvo XC60,Volvo,2026,727,Diesel,7620108
+BMW X6 M,BMW,2022,78094,Petrol,19306969
+Toyota Yaris,Toyota,2023,45239,Petrol,1885100
+Mercedes-Benz AMG GTR,Mercedes-Benz,2026,343,Petrol,39110160
+Mercedes-Benz AMG GTR,Mercedes-Benz,2018,97338,Diesel,40273242
+Tata Tiago EV,Tata,2025,18665,Electric,975018
+Rolls Royce Boat Tail,Rolls,2015,202354,Petrol,242256619
+Land Rover Defender,Land Rover,2022,75003,Petrol,11360623
+Mercedes-Benz CLS,Mercedes-Benz,2026,2832,Petrol,10027710
+Maruti Suzuki Swift,Maruti,2019,76165,Petrol,793462
+Mercedes-Benz AMG E63,Mercedes-Benz,2020,103643,Petrol,18077511
+Kia Sonet,Kia,2020,101645,Petrol,1248959
+BMW Z4,BMW,2022,49604,Petrol,9640094
+Hyundai Alcazar,Hyundai,2026,4912,Electric,2012307
+Cadillac XT4,Cadillac,2025,12577,Petrol,4272250
+Citroen C3 Aircross,Citroen,2012,186239,Petrol,1092200
+Audi Q6 e-tron,Audi,2025,14794,Electric,12814025
+BMW 8 Series,BMW,2018,85541,Petrol,17421587
+Porsche Macan,Porsche,2017,149042,Diesel,20161051
+Kia Seltos,Kia,2014,191044,Petrol,1990863
+Mercedes-Benz AMG A45,Mercedes-Benz,2016,139000,Petrol,7945509
+McLaren 750S,McLaren,2020,102867,Diesel,43406982
+Kia EV6,Kia,2025,16815,Electric,6500456
+Mercedes-Benz CLS,Mercedes-Benz,2011,273865,Petrol,10584975
+Aston Martin Valhalla,Aston,2017,156552,Diesel,76510425
+Hyundai Verna,Hyundai,2023,57923,Petrol,1408656
+McLaren P1,McLaren,2015,90041,Petrol,85012767
+Volvo S90,Volvo,2016,187060,Petrol,6478638
+Toyota Urban Cruiser Hyryder,Toyota,2017,171147,Petrol,1452661
+Mahindra XUV300,Mahindra,2018,142142,Petrol,1365184
+Jaguar F-Pace,Jaguar,2018,139134,Petrol,7977479
+Volvo S60,Volvo,2020,88621,Diesel,6045459
+Honda WR-V,Honda,2016,99780,Diesel,1081799
+Mahindra Thar 5-Door,Mahindra,2016,196887,Petrol,1994618
+MG 5 EV,MG,2014,114216,Electric,2720948
+Skoda Kushaq,Skoda,2010,209632,Petrol,1842354
+Audi Q6 e-tron,Audi,2019,103532,Electric,12251196
+Jeep Meridian,Jeep,2013,247087,Petrol,3063965
+Mercedes-Benz GLS,Mercedes-Benz,2018,159389,Petrol,12150342
+Audi Q6 e-tron,Audi,2013,168840,Electric,13358675
+MG ZS EV,MG,2024,32231,Electric,2539115
+Hyundai Ioniq 5,Hyundai,2022,65941,Petrol,4664373
+MG ZS EV,MG,2025,17700,Electric,2595719
+Audi RS e-tron GT,Audi,2022,46478,Electric,19817593
+Maruti Suzuki S-Presso,Maruti,2012,240938,Diesel,442104
+Mercedes-Benz GLE,Mercedes-Benz,2011,260205,Diesel,11705477
+Mercedes-Benz GLC,Mercedes-Benz,2019,109598,Petrol,8455451
+Volvo V90,Volvo,2013,129370,Diesel,7491747
+MG Gloster,MG,2018,91088,Petrol,3260950
+Mahindra Scorpio,Mahindra,2020,80919,Diesel,1418591
+Renault Kiger,Renault,2013,113127,Petrol,630280
+Mercedes-Benz CLA,Mercedes-Benz,2014,197150,Petrol,5353076
+Jaguar XE,Jaguar,2022,47916,Petrol,5142455
+Mahindra XUV400,Mahindra,2020,114944,Petrol,2058141
+Genesis GV70,Genesis,2014,235250,Petrol,5306700
+Volvo C40,Volvo,2015,168055,Petrol,5743303
+Volkswagen Golf GTI,Volkswagen,2021,48025,Petrol,3267857
+Tata Curvv,Tata,2020,48372,Petrol,1394112
+Ferrari 296 GTB,Ferrari,2023,36409,Petrol,58739104
+Porsche 911,Porsche,2022,70690,Petrol,25701190
+BMW X7,BMW,2024,38490,Diesel,13940337
+Citroen C3 Aircross,Citroen,2018,81440,Petrol,1104396
+BMW X6,BMW,2011,286502,Petrol,11938816
+Hyundai Venue,Hyundai,2019,135931,Electric,1126656
+Cadillac XT5,Cadillac,2014,134449,Diesel,6012640
+Bentley Bentayga,Bentley,2019,62851,Diesel,49580396
+BMW 7 Series,BMW,2014,119522,Petrol,14681768
+Audi A8,Audi,2021,56485,Electric,14093136
+Volvo XC90,Volvo,2012,169758,Petrol,11168276
+Mercedes-Benz GLC,Mercedes-Benz,2023,27095,Diesel,7895576
+Citroen C5 Aircross,Citroen,2010,264432,Diesel,3216913
+Renault Kwid EV,Renault,2013,227768,Electric,851743
+Citroen C3,Citroen,2013,135074,Petrol,610754
+Maruti Suzuki Ertiga,Maruti,2023,52060,Petrol,1219397
+Cadillac XT5,Cadillac,2014,137522,Petrol,6206754
+Volvo V60,Volvo,2024,16947,Petrol,6151421
+MG Hector,MG,2016,141017,Diesel,1771532
+Jeep Renegade,Jeep,2023,43962,Petrol,1820342
+Audi R8,Audi,2015,88007,Diesel,22998997
+Toyota Camry,Toyota,2014,99296,Diesel,4722313
+Cadillac XT5,Cadillac,2026,3666,Petrol,5467049
+Volvo V90,Volvo,2010,204083,Diesel,7620398
+Maruti Suzuki Ciaz,Maruti,2013,138858,Petrol,1064721
+BMW 3 Series,BMW,2021,79510,Electric,6378931
+Tata Nexon,Tata,2026,1687,Petrol,824915
+Volvo S60,Volvo,2025,10724,Petrol,6110789
+Tata Tiago EV,Tata,2026,3603,Electric,1050413
+BMW M2,BMW,2022,66914,Petrol,10779405
+Toyota Fortuner,Toyota,2015,113988,Diesel,3714180
+Kia Sonet,Kia,2019,123303,Petrol,869705
+Mercedes-Benz A-Class,Mercedes-Benz,2025,15843,Diesel,4675378
+Tata Nexon EV,Tata,2025,15675,Electric,1476574
+Mercedes-Benz E-Class,Mercedes-Benz,2020,115831,Petrol,9217527
+Kia Sportage,Kia,2013,237690,Petrol,3405325
+Maruti Suzuki Ciaz,Maruti,2026,3382,Petrol,972642
+Ferrari 296 GTB,Ferrari,2026,1307,Diesel,57543431
+Volvo XC90,Volvo,2023,29703,Petrol,10833165
+Toyota Innova,Toyota,2017,106170,Petrol,1776400
+Jaguar F-Pace,Jaguar,2016,101123,Diesel,8312768
+Volvo Polestar 2,Volvo,2021,42249,Petrol,7722566
+Honda Elevate,Honda,2010,201781,Petrol,1550922
+Jeep Gladiator,Jeep,2013,146590,Diesel,5724103
+Tata Tiago,Tata,2023,44517,Petrol,798040
+Mercedes-Benz CLS,Mercedes-Benz,2014,172050,Petrol,9692129
+Honda HR-V,Honda,2014,138798,Petrol,1222759
+Maserati Ghibli,Maserati,2016,163476,Petrol,13890259
+Lexus IS,Lexus,2018,155826,Diesel,6099792
+BMW M2,BMW,2013,133126,Petrol,10982940
+Lincoln Nautilus,Lincoln,2014,170428,Diesel,7358198
+Rolls Royce Dawn,Rolls,2019,115032,Petrol,79342340
+Volvo V40,Volvo,2014,207077,Petrol,4898092
+Lamborghini Revuelto,Lamborghini,2021,43127,Diesel,84011794
+Rolls Royce Wraith,Rolls,2023,54665,Petrol,73904664
+Genesis G70,Genesis,2019,111713,Diesel,4274007
+MG Gloster,MG,2024,25770,Petrol,3364938
+MG Comet EV,MG,2024,17612,Electric,835647
+Maserati Levante,Maserati,2012,190253,Diesel,18135653
+BMW 3 Series,BMW,2026,4844,Petrol,5922819
+Mercedes-Benz CLA,Mercedes-Benz,2022,59777,Petrol,5094376
+Nissan Micra,Nissan,2020,58858,Petrol,865831
+Aston Martin Vantage,Aston,2021,76381,Diesel,31651931
+BMW 6 Series,BMW,2023,38371,Diesel,7115090
+Land Rover Range Rover,Land Rover,2010,165818,Petrol,32484753
+Lexus NX,Lexus,2022,72729,Petrol,7204135
+Lincoln Navigator,Lincoln,2014,223584,Petrol,8373346
+Mercedes-Benz AMG C63,Mercedes-Benz,2023,36428,Petrol,15184684
+Bentley Continental GT,Bentley,2026,1616,Petrol,47507947
+Lamborghini Revuelto,Lamborghini,2023,33063,Petrol,85903595
+Maruti Suzuki Baleno,Maruti,2022,63795,Petrol,899937
+Bentley Azure,Bentley,2021,41534,Petrol,64887763
+Aston Martin Vantage,Aston,2020,54605,Petrol,31039735
+Mahindra Thar 5-Door,Mahindra,2026,316,Petrol,2149485
+Lamborghini Aventador,Lamborghini,2026,1103,Petrol,67519715
+Audi RS6,Audi,2012,217500,Petrol,15653928
+Renault Kwid EV,Renault,2015,204673,Electric,820391
+Ferrari Purosangue,Ferrari,2023,41527,Petrol,53904330
+BMW X3,BMW,2017,162131,Diesel,7319423
+Porsche 911 Turbo S,Porsche,2026,2423,Petrol,33861362
+McLaren 765LT,McLaren,2024,19397,Petrol,58732356
+Mahindra BE 5,Mahindra,2025,10036,Petrol,2944352
+Lexus ES,Lexus,2022,47849,Petrol,6612276
+BMW Z4 M40i,BMW,2020,101843,Diesel,9254388
+Maruti Suzuki Alto,Maruti,2011,168224,Diesel,362861
+BMW Z4 M40i,BMW,2018,154050,Diesel,9436050
+Hyundai i20,Hyundai,2016,90818,Petrol,1049060
+Tata Altroz,Tata,2019,95318,Diesel,967281
+Ferrari Purosangue,Ferrari,2019,91686,Diesel,51463698
+Honda Elevate,Honda,2025,19203,Petrol,1269141
+Porsche 911 Turbo S,Porsche,2017,73620,Petrol,33404112
+Lamborghini Temerario,Lamborghini,2017,116021,Petrol,52003316
+Porsche Macan,Porsche,2022,34810,Petrol,18347192
+Skoda Kushaq,Skoda,2014,139630,Petrol,1726347
+Audi Q8,Audi,2024,33414,Petrol,13704991
+Porsche 718 Cayman,Porsche,2018,87901,Petrol,14844036
+Skoda Octavia,Skoda,2023,29968,Petrol,3007036
+Renault Kwid EV,Renault,2012,249272,Electric,878143
+Hyundai Grand i10,Hyundai,2012,232172,Petrol,776930
+Toyota Hilux,Toyota,2021,78763,Diesel,3110053
+McLaren 750S,McLaren,2010,282945,Petrol,42176891
+Porsche Panamera,Porsche,2011,269578,Diesel,20297079
+Cadillac CT4,Cadillac,2013,111913,Diesel,5828707
+Bentley Bentayga,Bentley,2018,72378,Petrol,46854093
+Rolls Royce Spectre,Rolls,2023,56651,Diesel,97992006
+Skoda Rapid,Skoda,2023,26062,Petrol,1073152
+Lincoln Corsair,Lincoln,2026,1072,Petrol,6698457
+BMW 6 Series,BMW,2021,54172,Petrol,6915868
+Audi e-tron,Audi,2025,9555,Electric,16362813
+Jeep Grand Cherokee,Jeep,2026,1093,Petrol,8355819
+Hyundai Casper,Hyundai,2026,919,Diesel,641706
+BMW Z4 M40i,BMW,2023,48350,Petrol,8918270
+Maserati Ghibli,Maserati,2015,109780,Petrol,11864127
+Audi RS4,Audi,2025,19991,Diesel,10223025
+Lexus ES,Lexus,2013,215564,Petrol,6321487
+Mercedes-Benz GLC,Mercedes-Benz,2020,57690,Petrol,8206856
+Mahindra XUV300,Mahindra,2022,32549,Petrol,1132719
+Toyota Hilux,Toyota,2010,227198,Petrol,3452232
+Lexus ES,Lexus,2021,57311,Diesel,6372976
+Skoda Superb,Skoda,2022,36329,Petrol,3318982
+Toyota Fortuner Legender,Toyota,2018,108402,Petrol,4602812
+Volvo XC90,Volvo,2018,100652,Petrol,10723346
+Jeep Renegade,Jeep,2017,83102,Diesel,1934461
+BMW Z4 M40i,BMW,2020,50651,Petrol,8918458
+Maserati Ghibli,Maserati,2010,201554,Diesel,13855859
+Jaguar F-Pace,Jaguar,2026,2459,Petrol,8090536
+BMW 4 Series,BMW,2016,100924,Electric,5874619
+Volvo V90,Volvo,2016,158936,Petrol,7050493
+Volvo V60,Volvo,2022,50571,Petrol,6329593
+Porsche 911 Turbo S,Porsche,2015,151442,Electric,35019292
+Jaguar XJ,Jaguar,2024,34669,Diesel,11418726
+BMW 7 Series,BMW,2021,44164,Diesel,16227292
+Lexus ES,Lexus,2023,42899,Diesel,6134516
+Rolls Royce Wraith,Rolls,2014,116396,Petrol,73399788
+Maruti Suzuki XL6,Maruti,2021,99575,Petrol,1207803
+Porsche 718 Boxster,Porsche,2023,47986,Petrol,15680036
+Mercedes-Benz AMG E63,Mercedes-Benz,2013,207322,Diesel,18644961
+Skoda Superb,Skoda,2019,128523,Petrol,3474753
+Skoda Slavia,Skoda,2020,104384,Diesel,1155136
+Mercedes-Benz AMG A35,Mercedes-Benz,2012,128649,Petrol,5816937
+Land Rover Discovery,Land Rover,2020,117913,Petrol,9210801
+Tata Safari,Tata,2019,82643,Petrol,1649643
+Kia Carnival,Kia,2012,255724,Diesel,2873130
+MG Astor,MG,2014,179790,Petrol,1753842
+Bentley Continental GT,Bentley,2023,30583,Petrol,45376121
+Lincoln Navigator,Lincoln,2015,214491,Petrol,8721331
+BMW 3 Series,BMW,2014,230131,Petrol,5997185
+Audi RS5,Audi,2013,118885,Petrol,12603396
+Citroen C3 Aircross,Citroen,2015,218571,Diesel,1079211
+Volkswagen Golf GTI,Volkswagen,2023,30323,Petrol,3383994
+Porsche 718 Spyder,Porsche,2026,1513,Electric,17047174
+Audi RS3,Audi,2020,81317,Diesel,8804931
+BMW X3 M,BMW,2012,279264,Petrol,8269767
+Kia EV9,Kia,2025,12570,Electric,13428598
+Mercedes-Benz A-Class,Mercedes-Benz,2013,220942,Diesel,4630588
+Lexus LX,Lexus,2021,53907,Diesel,15655309
+Hyundai Grand i10,Hyundai,2015,97674,Petrol,570799
+Jeep Grand Cherokee,Jeep,2019,108877,Petrol,8150077
+Cadillac XT5,Cadillac,2016,163275,Petrol,5853767
+Genesis GV60,Genesis,2011,174731,Petrol,6582823
+BMW 2 Series,BMW,2023,27134,Petrol,4974087
+Audi e-tron,Audi,2015,136680,Electric,17355228
+Volvo EX90,Volvo,2011,127720,Petrol,8220621
+Toyota Innova,Toyota,2018,90662,Petrol,1924403
+Hyundai Casper,Hyundai,2015,210971,Petrol,729810
+Maruti Suzuki WagonR,Maruti,2012,183171,Petrol,552159
+Aston Martin Valhalla,Aston,2012,235659,Petrol,70594941
+Lincoln Aviator,Lincoln,2021,98722,Diesel,8949628
+Renault Kiger,Renault,2021,98754,Petrol,656235
+Lexus LX,Lexus,2015,118516,Diesel,16971870
+Renault Triber,Renault,2014,166880,Diesel,724685
+Renault Triber,Renault,2012,248409,Petrol,696775
+Maruti Suzuki Celerio,Maruti,2010,195243,Petrol,653252
+Genesis G80,Genesis,2021,42382,Petrol,5092598
+Land Rover Discovery 5,Land Rover,2012,142768,Diesel,13064501
+Maruti Suzuki Swift,Maruti,2026,4896,Diesel,849826
+Volkswagen Golf GTI,Volkswagen,2017,127200,Petrol,3455043
+Maruti Suzuki XL6,Maruti,2016,127316,Diesel,1215108
+MG Astor,MG,2010,265632,Diesel,1673825
+Jaguar E-Pace,Jaguar,2016,87108,Diesel,7220845
+Mercedes-Benz AMG E63,Mercedes-Benz,2025,9954,Petrol,18297283
+Tata Harrier,Tata,2014,188099,Petrol,2102794
+Lexus IS,Lexus,2014,99814,Diesel,5992068
+Porsche 718 Boxster,Porsche,2015,154179,Diesel,16257407
+Tata Nexon EV,Tata,2020,107033,Electric,1818209
+Maruti Suzuki Invicto,Maruti,2013,228357,Petrol,2840139
+Cadillac Lyriq,Cadillac,2013,228865,Petrol,6595319
+Lexus LS,Lexus,2011,271376,Petrol,20018366
+Audi RSQ8,Audi,2010,227221,Petrol,23643144
+Maruti Suzuki WagonR,Maruti,2021,41128,Petrol,658449
+Lexus RZ 450e,Lexus,2012,131321,Petrol,13466280
+Genesis G80,Genesis,2015,208498,Petrol,5762796
+Volvo V90,Volvo,2026,2728,Petrol,7561118
+Ferrari 296 GTB,Ferrari,2013,170457,Diesel,56089734
+Jeep Wagoneer,Jeep,2025,13207,Petrol,4187231
+Lamborghini Urus,Lamborghini,2016,186863,Petrol,46254869
+Audi A5,Audi,2019,118620,Diesel,4932641
+Ferrari Purosangue,Ferrari,2024,23931,Petrol,54741037
+Renault Triber,Renault,2010,212718,Diesel,649936
+Skoda Kushaq,Skoda,2017,104814,Petrol,1574625
+Audi Q8,Audi,2015,193994,Petrol,13140100
+McLaren GT,McLaren,2010,249834,Diesel,45856021
+Porsche 911,Porsche,2010,177444,Petrol,26660477
+Audi RS7,Audi,2012,190564,Petrol,17402860
+Tata Harrier,Tata,2020,106158,Petrol,2251891
+Renault Kwid,Renault,2026,2655,Diesel,558867
+MG ZS EV,MG,2020,65647,Electric,2454406
+Toyota Camry Hybrid,Toyota,2021,41423,Electric,5290548
+Audi RS e-tron GT,Audi,2021,51017,Electric,21578902
+Porsche Taycan,Porsche,2011,235084,Diesel,23325534
+Honda HR-V,Honda,2012,228284,Petrol,1818820
+Cadillac Lyriq,Cadillac,2014,201786,Diesel,7493257
+Mercedes-Benz C-Class,Mercedes-Benz,2013,213608,Petrol,6165703
+Porsche Cayenne,Porsche,2024,34539,Petrol,23709688
+Citroen C3 Aircross,Citroen,2017,173330,Petrol,1244673
+Tata Tiago EV,Tata,2018,84364,Electric,1070926
+Toyota Land Cruiser,Toyota,2023,55279,Diesel,22009870
+Mercedes-Benz AMG E53,Mercedes-Benz,2023,55351,Petrol,13847248
+Maserati Grecale,Maserati,2022,74565,Diesel,14088926
+Jaguar I-Pace,Jaguar,2017,152340,Petrol,12165793
+Honda Civic,Honda,2014,237048,Diesel,1839101
+Volvo V40,Volvo,2021,57073,Petrol,4990423
+Porsche Cayenne,Porsche,2014,205833,Petrol,17109463
+Mahindra XUV 3XO,Mahindra,2014,142154,Diesel,1866255
+Mercedes-Benz E-Class,Mercedes-Benz,2014,168999,Diesel,9359898
+Mercedes-Benz CLS,Mercedes-Benz,2017,149351,Petrol,11156321
+Cadillac XT4,Cadillac,2021,57941,Petrol,4257567
+Tata Nexon,Tata,2011,182407,Petrol,1615537
+Bentley Bentayga,Bentley,2013,149824,Diesel,53965449
+Honda Amaze,Honda,2026,4454,Petrol,898840
+Tata Punch EV,Tata,2012,184575,Electric,1171191
+Maruti Suzuki WagonR,Maruti,2010,222723,Petrol,644834
+Lexus ES,Lexus,2011,129788,Petrol,6492017
+Mercedes-Benz GLE,Mercedes-Benz,2010,218362,Petrol,10416129
+Hyundai Verna,Hyundai,2012,162973,Diesel,1218742
+Aston Martin DB11,Aston,2024,36178,Petrol,45316499
+MG HS,MG,2022,66118,Diesel,2011083
+McLaren Artura,McLaren,2018,76592,Petrol,52655424
+Volvo XC90,Volvo,2022,68573,Petrol,9799708
+Porsche Macan,Porsche,2019,107699,Petrol,18563089
+Maserati MC20,Maserati,2020,57959,Petrol,22668660
+Land Rover Defender,Land Rover,2014,235040,Petrol,11342427
+Citroen C3 Aircross,Citroen,2012,190185,Diesel,1224352
+Kia EV9,Kia,2022,75223,Electric,13528276
+BMW 7 Series,BMW,2025,9217,Petrol,15280523
+Audi RS3,Audi,2018,76476,Electric,9078424
+Porsche 718 Cayman,Porsche,2011,297128,Petrol,14461193
+Audi e-tron,Audi,2013,165463,Electric,18081171
+BMW X3,BMW,2017,176365,Diesel,7255617
+Lincoln Nautilus,Lincoln,2017,85782,Diesel,6871841
+Renault Kwid,Renault,2023,26134,Petrol,498970
+Jeep Wagoneer,Jeep,2018,97795,Petrol,4250337
+Volkswagen Ameo,Volkswagen,2010,297604,Diesel,1057963
+Lamborghini Aventador,Lamborghini,2021,94117,Diesel,69329735
+Hyundai Verna,Hyundai,2010,318944,Diesel,1747652
+MG Gloster,MG,2012,260515,Petrol,3304447
+Tata Harrier EV,Tata,2017,82987,Electric,2364771
+Volvo C40,Volvo,2016,131961,Diesel,5740860
+Mahindra XUV400,Mahindra,2013,243704,Diesel,2073442
+Bentley Bentayga,Bentley,2011,221233,Diesel,52684856
+Mahindra Scorpio N,Mahindra,2013,194571,Petrol,2277118
+Mercedes-Benz GLB,Mercedes-Benz,2017,112797,Diesel,5899419
+Jeep Wagoneer,Jeep,2023,55201,Petrol,4655003
+Volvo EX90,Volvo,2015,157013,Petrol,8816991
+Lincoln Aviator,Lincoln,2023,43000,Petrol,8947687
+Kia Seltos,Kia,2012,214651,Diesel,1862327
+Kia EV6,Kia,2019,121939,Electric,6465315
+Honda CR-V,Honda,2016,87003,Diesel,4511788
+Mercedes-Benz B-Class,Mercedes-Benz,2023,26259,Diesel,4839920
+Audi A5,Audi,2025,12475,Diesel,5487365
+MG Astor,MG,2011,254843,Petrol,1372476
+Maruti Suzuki Invicto,Maruti,2015,170126,Petrol,2686113
+Renault Kwid EV,Renault,2010,273678,Electric,980525
+Mercedes-Benz AMG SL63,Mercedes-Benz,2015,103786,Petrol,25706338
+Cadillac CT5,Cadillac,2010,314802,Diesel,6856254
+Lamborghini Revuelto,Lamborghini,2019,58561,Petrol,86211360
+Mahindra XUV300,Mahindra,2023,35479,Petrol,893631
+Volvo XC60,Volvo,2010,226545,Diesel,7205580
+BMW 7 Series,BMW,2024,34167,Diesel,16265255
+Volvo EX90,Volvo,2013,217224,Petrol,8332979
+Toyota Urban Cruiser Hyryder,Toyota,2012,256373,Petrol,1588148
+Cadillac XT6,Cadillac,2025,11611,Diesel,7046948
+BMW 7 Series,BMW,2012,197504,Petrol,14133505
+MG 5 EV,MG,2014,127264,Electric,3022439
+Audi A4,Audi,2025,17271,Petrol,4814596
+Kia EV6,Kia,2016,193607,Electric,6408837
+Jaguar XE,Jaguar,2014,195822,Diesel,4831537
+BMW X3,BMW,2012,139103,Diesel,7419630
+Porsche 911 Turbo S,Porsche,2024,39378,Petrol,32325810
+Land Rover Defender,Land Rover,2020,106464,Petrol,13669386
+Mercedes-Benz SL,Mercedes-Benz,2019,83449,Petrol,16937392
+BMW X6 M,BMW,2017,95566,Petrol,19458842
+Aston Martin DBS Superleggera,Aston,2012,185414,Diesel,57601738
+Tata Nexon,Tata,2020,80967,Petrol,1149411
+Cadillac XT4,Cadillac,2013,220602,Petrol,4791792
+Aston Martin Valhalla,Aston,2025,17752,Diesel,73929267
+Maserati Ghibli,Maserati,2025,16917,Petrol,14000716
+Audi RS6,Audi,2023,53518,Petrol,15914799
+Tata Harrier EV,Tata,2011,176607,Electric,2095964
+Skoda Octavia RS,Skoda,2021,93062,Petrol,3525867
+Renault Kwid EV,Renault,2026,4532,Electric,884054
+Porsche 911 Turbo S,Porsche,2021,56625,Electric,31688152
+Maserati Ghibli,Maserati,2020,48694,Petrol,14582636
+Porsche 911 Turbo S,Porsche,2013,214650,Petrol,30372568
+McLaren P1,McLaren,2011,202791,Petrol,85837474
+Toyota Hilux,Toyota,2021,80623,Petrol,3324022
+Aston Martin DB11,Aston,2020,82131,Diesel,43121437
+Nissan Micra,Nissan,2012,220929,Diesel,776313
+Volkswagen Tiguan,Volkswagen,2013,187961,Petrol,3504374
+Porsche Cayenne,Porsche,2026,1842,Diesel,22637580
+Audi RSQ8,Audi,2025,9773,Diesel,23435631
+Volkswagen Virtus,Volkswagen,2013,234064,Petrol,1638851
+McLaren 570S,McLaren,2022,51281,Diesel,40501605
+Bentley Continental GT,Bentley,2017,114125,Petrol,49019681
+Audi TT,Audi,2015,176437,Diesel,6446701
+Audi A3,Audi,2020,109020,Diesel,3661036
+Mahindra BE 6,Mahindra,2010,138350,Petrol,3240051
+Kia EV9,Kia,2017,178387,Electric,13714036
+Volvo C40,Volvo,2011,173958,Petrol,5922310
+Jaguar I-Pace,Jaguar,2025,18698,Petrol,13085932
+Maserati Ghibli,Maserati,2011,230101,Diesel,13999855
+Mahindra Thar,Mahindra,2017,159396,Petrol,1573755
+Audi A7,Audi,2017,167492,Petrol,8407573
+Volvo V90,Volvo,2012,242780,Petrol,7418688
+Audi RSQ8,Audi,2018,98640,Diesel,23474685
+Audi RS3,Audi,2023,39431,Petrol,8540145
+Hyundai Exter,Hyundai,2017,106798,CNG,689303
+Rolls Royce Dawn,Rolls,2024,33307,Petrol,78156948
+Audi e-tron,Audi,2011,133572,Electric,15989366
+MG 5 EV,MG,2011,212519,Electric,2884277
+Lamborghini Urus,Lamborghini,2014,171142,Diesel,48886039
+Mercedes-Benz GLS,Mercedes-Benz,2013,195237,Petrol,13950802
+Jeep Wagoneer,Jeep,2017,158301,Diesel,4362171
+BMW M2,BMW,2015,147157,Diesel,10197404
+Audi TT,Audi,2015,111515,Petrol,6920220
+Tata Nexon,Tata,2022,68748,Diesel,1593966
+BMW M3,BMW,2016,158558,Petrol,13800116
+Mercedes-Benz AMG GT,Mercedes-Benz,2015,216224,Diesel,28425181
+Skoda Slavia,Skoda,2017,135735,Petrol,1289052
+Audi A5,Audi,2020,71560,Petrol,5373417
+Mercedes-Benz AMG GTR,Mercedes-Benz,2012,163935,Petrol,35658783
+Lamborghini Temerario,Lamborghini,2019,105149,Petrol,58157082
+Nissan Magnite,Nissan,2025,11056,Petrol,970196
+Porsche 718 Cayman,Porsche,2012,130010,Petrol,15613272
+Mercedes-Benz AMG A35,Mercedes-Benz,2018,129849,Petrol,5943408
+Renault Duster,Renault,2021,93092,Petrol,1300190
+Rolls Royce Cullinan,Rolls,2016,188249,Diesel,72739338
+Volkswagen Taigun,Volkswagen,2021,45604,Diesel,1138030
+Lexus GX,Lexus,2013,192457,Diesel,11689026
+Volkswagen Vento,Volkswagen,2016,93943,Diesel,1140818
+Land Rover Range Rover,Land Rover,2014,104768,Petrol,33931489
+BMW 8 Series,BMW,2016,114874,Petrol,16899028
+Mahindra BE 6,Mahindra,2020,50220,Petrol,3388120
+Lamborghini Huracan,Lamborghini,2010,182797,Diesel,40333608
+MG Gloster,MG,2012,266517,Petrol,3562654
+Honda HR-V,Honda,2012,113638,Diesel,1730289
+Mahindra BE 5,Mahindra,2026,3769,Petrol,2638826
+Skoda Octavia RS,Skoda,2012,190628,Diesel,3591312
+Maruti Suzuki Baleno,Maruti,2017,120768,Petrol,1065283
+Rolls Royce Dawn,Rolls,2019,68576,Petrol,81883464
+Mercedes-Benz AMG A45,Mercedes-Benz,2015,162390,Petrol,8021588
+Skoda Superb,Skoda,2023,27059,Petrol,3593361
+Toyota Fortuner,Toyota,2021,95230,Diesel,4201169
+Cadillac Lyriq,Cadillac,2024,24631,Petrol,7190514
+Maserati Quattroporte,Maserati,2025,16109,Diesel,20747079
+Audi Q6 e-tron,Audi,2026,1160,Electric,12572758
+Maserati Quattroporte,Maserati,2017,132829,Petrol,19126727
+Citroen C3 Aircross,Citroen,2022,38764,Diesel,1275420
+MG HS,MG,2020,117663,Petrol,2475544
+Skoda Superb,Skoda,2015,169464,Diesel,3359479
+Land Rover Range Rover Sport,Land Rover,2013,211243,Petrol,14963750
+Lincoln Nautilus,Lincoln,2020,68031,Petrol,6266616
+Lexus UX 300e,Lexus,2022,64898,Petrol,5585935
+Kia Seltos,Kia,2020,68395,Electric,1760764
+Maserati Ghibli,Maserati,2014,103892,Petrol,12436981
+Jeep Wagoneer,Jeep,2021,71706,Petrol,4303348
+MG HS,MG,2012,209634,Diesel,2167308
+Hyundai Ioniq 5,Hyundai,2014,97289,Petrol,4796529
+Citroen C5 Aircross,Citroen,2026,3017,Petrol,3248359
+Porsche 718 Boxster,Porsche,2021,49900,Petrol,16647807
+Cadillac XT4,Cadillac,2013,196006,Diesel,4810043
+Tata Tigor,Tata,2024,34545,Petrol,798663
+Skoda Slavia,Skoda,2019,104807,Petrol,1143354
+Volkswagen Virtus,Volkswagen,2011,219336,Diesel,1342283
+Mahindra BE 6,Mahindra,2017,136241,Petrol,3341374
+Tata Punch,Tata,2013,108054,Petrol,638160
+Mahindra Bolero Neo,Mahindra,2026,4583,Petrol,978318
+Porsche 911 GT3,Porsche,2019,58023,Diesel,26514957
+Jaguar F-Type,Jaguar,2013,137842,Diesel,12886187
+Lincoln Nautilus,Lincoln,2017,138380,Petrol,6917141
+Ferrari SF90 Stradale,Ferrari,2012,149954,Petrol,78675247
+Lexus UX,Lexus,2017,109996,Petrol,4921809
+Ferrari 296 GTB,Ferrari,2024,27116,Petrol,57654119
+Ferrari 812 Superfast,Ferrari,2025,8700,Diesel,70758517
+Land Rover Discovery Sport,Land Rover,2013,170555,Diesel,6825006
+Renault Kiger,Renault,2026,2003,Petrol,770706
+Land Rover Range Rover Evoque,Land Rover,2014,199586,Diesel,7529346
+Mahindra Bolero,Mahindra,2012,253489,Petrol,1004399
+Hyundai Creta,Hyundai,2024,31482,CNG,1552135
+Skoda Rapid,Skoda,2018,78097,Diesel,1283515
+Jaguar XF,Jaguar,2010,247122,Petrol,5507184
+Rolls Royce Wraith,Rolls,2023,40603,Petrol,67743792
+Mercedes-Benz AMG SL63,Mercedes-Benz,2021,63976,Petrol,26122710
+Hyundai Ioniq 5,Hyundai,2011,246029,Diesel,4701696
+Volvo XC60,Volvo,2012,122337,Petrol,7051858
+Mercedes-Benz AMG A45,Mercedes-Benz,2023,50783,Diesel,7672013
+Renault Kwid EV,Renault,2019,57750,Electric,959726
+Lexus RZ 450e,Lexus,2025,16468,Diesel,12728380
+Skoda Octavia,Skoda,2023,59661,Diesel,2685581
+Honda Civic,Honda,2023,32620,Petrol,2036620
+Hyundai Exter,Hyundai,2012,221854,Diesel,676014
+Ferrari F8 Tributo,Ferrari,2014,219923,Diesel,49913602
+Nissan Micra,Nissan,2010,165501,Petrol,703409
+Tata Punch,Tata,2013,212619,Petrol,723038
+Mercedes-Benz AMG E63,Mercedes-Benz,2025,11283,Diesel,19281149
+Volkswagen Tiguan,Volkswagen,2022,48540,Petrol,3580095
+MG Comet EV,MG,2010,308321,Electric,874304
+Audi Q4 e-tron,Audi,2023,25089,Electric,11098195
+Cadillac Escalade,Cadillac,2021,88590,Petrol,14571059
+Lamborghini Huracan,Lamborghini,2014,133008,Petrol,40387088
+Audi RSQ8,Audi,2020,58023,Petrol,24118287
+Land Rover Range Rover Sport,Land Rover,2026,1903,Diesel,15637212
+Jaguar XF Sportbrake,Jaguar,2021,41389,Petrol,6203017
+Mahindra XUV400,Mahindra,2013,105956,Diesel,2010072
+Audi Q4 e-tron,Audi,2010,165288,Electric,10220231
+Audi RS e-tron GT,Audi,2023,42918,Electric,20431997
+BMW X5,BMW,2011,297484,Petrol,10511155
+Maruti Suzuki Swift,Maruti,2012,145601,Diesel,722914
+Ferrari Portofino,Ferrari,2017,112568,Diesel,41341883
+Toyota Yaris,Toyota,2012,125970,Petrol,1825338
+Hyundai Alcazar,Hyundai,2017,128254,Petrol,1784958
+Genesis G80,Genesis,2016,196666,Petrol,5584738
+Toyota Camry Hybrid,Toyota,2012,175459,Electric,5126518
+Bentley Azure,Bentley,2017,124923,Petrol,68798801
+Audi A5,Audi,2020,90606,Diesel,5373947
+Jaguar XE,Jaguar,2021,86899,Petrol,4608522
+BMW X3 M,BMW,2026,2898,Petrol,8781719
+Land Rover Discovery,Land Rover,2019,95895,Petrol,9198525
+Audi RSQ8,Audi,2019,112329,Petrol,22491791
+Ferrari F8 Tributo,Ferrari,2012,223888,Petrol,44946543
+Audi Q6 e-tron,Audi,2012,112951,Electric,12094022
+Volvo V90,Volvo,2014,102899,Petrol,7225468
+MG Gloster,MG,2010,252156,Diesel,3323069
+Volvo S90,Volvo,2022,34619,Petrol,7048073
+Maruti Suzuki Celerio,Maruti,2024,16412,Petrol,631007
+Mercedes-Benz AMG SL63,Mercedes-Benz,2013,151355,Petrol,25739516
+Aston Martin DB11,Aston,2017,85847,Diesel,45981889
+Lincoln Aviator,Lincoln,2011,145338,Petrol,7444875
+Land Rover Range Rover Evoque,Land Rover,2026,4209,Petrol,6993032
+Tata Punch,Tata,2024,22370,Petrol,856995
+Kia EV9,Kia,2021,45504,Electric,13761552
+MG Hector,MG,2021,65752,Petrol,1876906
+Toyota Corolla,Toyota,2023,35691,Petrol,2045710
+Tata Punch EV,Tata,2010,224986,Electric,1159632
+Toyota Corolla,Toyota,2011,141653,Petrol,1994562
+Kia Sonet,Kia,2023,52533,Diesel,1194543
+Ferrari Purosangue,Ferrari,2023,25873,Petrol,49723422
+Honda Amaze,Honda,2026,3688,Petrol,903935
+Mercedes-Benz SLK,Mercedes-Benz,2018,135609,Petrol,6058655
+Volvo XC60,Volvo,2021,69492,Diesel,7388872
+Aston Martin DBX,Aston,2021,90941,Diesel,39007033
+Audi e-tron GT,Audi,2016,187427,Electric,19170513
+Mercedes-Benz AMG C63,Mercedes-Benz,2020,119627,Petrol,15733669
+Jaguar XF Sportbrake,Jaguar,2015,179549,Diesel,6694796
+Audi Q5,Audi,2024,23699,Petrol,7607113
+Nissan Kicks,Nissan,2023,57736,Petrol,1059867
+BMW X3,BMW,2021,63207,Petrol,6995016
+Toyota Fortuner,Toyota,2020,104812,Petrol,4082232
+Mercedes-Benz AMG C43,Mercedes-Benz,2010,277366,Diesel,8987064
+Volvo XC40,Volvo,2016,198595,Petrol,4691637
+Porsche 911 Turbo S,Porsche,2016,85368,Petrol,33303603
+Porsche 718 Boxster,Porsche,2026,239,Diesel,16115528
+Maruti Suzuki Fronx,Maruti,2016,159566,Petrol,1250951
+Jaguar E-Pace,Jaguar,2013,212884,Petrol,6783361
+Honda Elevate,Honda,2018,134065,Petrol,1274205
+Maruti Suzuki Ertiga,Maruti,2013,208347,Petrol,1047058
+Toyota Innova Hycross,Toyota,2024,39630,Petrol,2959133
+Skoda Octavia RS,Skoda,2012,114525,Petrol,3614748
+Mercedes-Benz AMG C63,Mercedes-Benz,2018,115611,Diesel,16591508
+Cadillac XT5,Cadillac,2018,86100,Petrol,5859878
+BMW 3 Series,BMW,2020,100252,Petrol,6442555
+BMW M5,BMW,2011,132977,Diesel,18042530
+Mercedes-Benz CLS,Mercedes-Benz,2022,59658,Petrol,9903501
+Cadillac XT6,Cadillac,2016,90632,Diesel,6451149
+Ferrari SF90 Stradale,Ferrari,2020,49034,Diesel,78951988
+Tata Punch EV,Tata,2021,97691,Electric,1449675
+Aston Martin Valhalla,Aston,2020,81363,Petrol,74807278
+Toyota Urban Cruiser Hyryder,Toyota,2012,247578,Petrol,1765087
+Audi TT,Audi,2021,41752,Petrol,7015482
+Volkswagen Taigun,Volkswagen,2010,148805,Petrol,1492971
+Hyundai i20,Hyundai,2014,215321,Petrol,955966
+McLaren 720S,McLaren,2017,144118,Diesel,47807911
+Tata Altroz,Tata,2011,253656,Petrol,758485
+Tata Safari EV,Tata,2013,173724,Electric,2478372
+Mahindra Thar,Mahindra,2020,80331,Petrol,1509617
+Audi RS7,Audi,2026,3601,Petrol,17429473
+Mercedes-Benz AMG A35,Mercedes-Benz,2017,144646,Petrol,5734811
+Toyota Fortuner,Toyota,2010,234741,Petrol,3926828
+Nissan Leaf,Nissan,2012,119379,Diesel,4329643
+Maruti Suzuki XL6,Maruti,2015,113272,Petrol,1227877
+Jeep Wagoneer,Jeep,2025,10026,Petrol,4552311
+Jaguar I-Pace,Jaguar,2021,84009,Petrol,12618021
+Lexus UX,Lexus,2018,83312,Petrol,4895127
+Volkswagen Tiguan,Volkswagen,2026,3,Diesel,3707816
+Nissan GT-R,Nissan,2013,159904,Petrol,23403175
+Tata Safari,Tata,2013,188777,Petrol,1950749
+Tata Safari EV,Tata,2019,100019,Electric,1682196
+Citroen C3,Citroen,2024,39339,Diesel,698284
+Cadillac XT5,Cadillac,2023,58319,Petrol,5624948
+Maruti Suzuki Grand Vitara,Maruti,2021,58887,Diesel,1272258
+Jeep Grand Cherokee,Jeep,2025,10120,Diesel,8092848
+Mercedes-Benz AMG GT,Mercedes-Benz,2015,155257,Diesel,28465481
+Honda City,Honda,2023,41026,Petrol,1120590
+Mercedes-Benz AMG C43,Mercedes-Benz,2012,130889,Diesel,8987306
+Lexus IS,Lexus,2016,176836,Petrol,6184216
+Rolls Royce Boat Tail,Rolls,2012,236123,Petrol,201223538
+Tata Harrier,Tata,2012,215296,Diesel,1839328
+Volvo S90,Volvo,2025,8183,Petrol,6926158
+Audi RS6,Audi,2013,215880,Petrol,15032103
+Nissan GT-R,Nissan,2012,135540,Petrol,23406949
+Jaguar I-Pace,Jaguar,2018,79942,Petrol,12432823
+Mahindra XUV900,Mahindra,2020,72757,Petrol,2222946
+Jeep Gladiator,Jeep,2026,2019,Diesel,5861906
+Maruti Suzuki Grand Vitara,Maruti,2015,218371,Petrol,1489046
+Hyundai Alcazar,Hyundai,2011,154741,Petrol,1839308
+Mercedes-Benz AMG S63,Mercedes-Benz,2011,232200,Petrol,31207476
+Porsche 911,Porsche,2010,190481,Petrol,29008308
+Lincoln Nautilus,Lincoln,2015,161622,Petrol,6646409
+McLaren 750S,McLaren,2022,35376,Diesel,41949529
+Land Rover Range Rover Sport,Land Rover,2021,76437,Petrol,14396704
+BMW X6,BMW,2022,56099,Petrol,11068111
+MG Cyberster,MG,2015,187156,Diesel,5292179
+Tata Safari,Tata,2011,139887,Petrol,2307648
+Aston Martin DB12,Aston,2018,113760,Petrol,49426482
+Land Rover Range Rover Evoque,Land Rover,2019,61806,Petrol,7235246
+Jaguar F-Pace,Jaguar,2016,124807,Petrol,8024210
+Honda City e:HEV,Honda,2011,231947,Electric,1939488
+Audi RS5,Audi,2016,122251,Petrol,12766928
+MG Astor,MG,2011,186192,Diesel,1385849
+Toyota Innova Hycross,Toyota,2015,108978,Diesel,2288622
+Tata Altroz,Tata,2010,171192,Petrol,819209
+Genesis GV80,Genesis,2023,49439,Diesel,7247831
+Renault Kwid,Renault,2011,185623,Diesel,603732
+Audi Q5,Audi,2016,139112,Petrol,7570440
+Aston Martin DBX,Aston,2020,112966,Diesel,39332423
+BMW M5,BMW,2012,207521,Diesel,19094710
+Hyundai Grand i10,Hyundai,2024,32879,Petrol,772284
+Land Rover Range Rover Sport,Land Rover,2016,189243,Petrol,14609863
+Audi Q5,Audi,2013,255498,Petrol,7332328
+Skoda Superb,Skoda,2021,73780,Petrol,3524458
+Mercedes-Benz AMG C43,Mercedes-Benz,2015,206822,Diesel,9364695
+Tata Harrier EV,Tata,2014,188056,Electric,2659871
+Mahindra Thar 5-Door,Mahindra,2026,2615,Petrol,2161599
+Aston Martin DB11,Aston,2020,100476,Petrol,45841124
+BMW Z4,BMW,2011,273481,Petrol,9815953
+Mahindra XUV 3XO,Mahindra,2026,3439,Petrol,1876545
+McLaren 720S,McLaren,2017,113571,Diesel,46706091
+BMW 4 Series,BMW,2014,228783,Petrol,6029189
+MG Astor,MG,2022,60564,Petrol,1266199
+Toyota Fortuner,Toyota,2013,112166,Diesel,3868349
+Aston Martin Valhalla,Aston,2019,124842,Petrol,79930579
+Audi Q8,Audi,2024,29253,Electric,14157027
+Tata Tigor,Tata,2022,46726,Diesel,596851
+Audi A8,Audi,2026,1010,Diesel,14445100
+Volvo XC90,Volvo,2022,57661,Petrol,10810201
+Audi RS4,Audi,2023,59415,Electric,10416083
+Skoda Slavia,Skoda,2016,132048,Petrol,1621554
+Renault Kwid,Renault,2020,116220,Petrol,478780
+Toyota Camry Hybrid,Toyota,2026,4582,Electric,5223461
+Kia Sportage,Kia,2020,72548,Petrol,3345333
+Mahindra BE 6,Mahindra,2015,151804,Petrol,3203076
+Audi A3,Audi,2010,209542,Petrol,3938225
+Bentley Bentayga,Bentley,2014,227473,Petrol,47583738
+Land Rover Range Rover Evoque,Land Rover,2012,162014,Petrol,7553325
+Nissan Micra,Nissan,2026,4943,Diesel,821925
+Maruti Suzuki Baleno,Maruti,2018,146068,Petrol,1061090
+Mercedes-Benz AMG E63,Mercedes-Benz,2021,84601,Diesel,19152065
+BMW 7 Series,BMW,2011,284647,Petrol,17795659
+Mahindra XUV 3XO,Mahindra,2020,89210,Petrol,1841617
+Jaguar XJ,Jaguar,2019,138918,Diesel,12352652
+Land Rover Range Rover,Land Rover,2020,80939,Petrol,40068061
+Volvo C40,Volvo,2024,30936,Petrol,5408357
+Bentley Flying Spur,Bentley,2013,169693,Petrol,54829817
+Maruti Suzuki XL6,Maruti,2011,259160,Diesel,1367612
+Genesis GV70,Genesis,2016,106199,Petrol,5291217
+Mahindra KUV100,Mahindra,2011,262199,Diesel,785082
+Maserati MC20,Maserati,2020,113158,Diesel,22885206
+Skoda Rapid,Skoda,2018,76758,Diesel,853539
+Volvo XC40,Volvo,2016,184913,Petrol,4845680
+Jeep Meridian,Jeep,2017,132487,Petrol,3266891
+Mahindra BE 5,Mahindra,2013,159989,Diesel,2906689
+Renault Kiger,Renault,2020,93800,Petrol,748905
+Aston Martin DB11,Aston,2013,189820,Petrol,45639371
+BMW X6,BMW,2013,232004,Petrol,11695688
+Citroen C3 Aircross,Citroen,2015,200016,Diesel,1026248
+Land Rover Discovery 5,Land Rover,2016,135174,Diesel,12379612
+Tata Tigor,Tata,2015,207479,Petrol,798247
+Toyota Glanza,Toyota,2023,36516,Petrol,791983
+BMW X7,BMW,2018,70584,Petrol,13186922
+Jeep Wrangler,Jeep,2024,35605,Petrol,5743462
+Nissan GT-R,Nissan,2018,130688,Petrol,21768950
+BMW 8 Series,BMW,2015,107618,Petrol,16067401
+BMW Z4,BMW,2018,96984,Petrol,9736321
+Mahindra Thar 5-Door,Mahindra,2017,133076,Petrol,2086885
+Cadillac Escalade,Cadillac,2014,131404,Petrol,13593463
+Nissan Sunny,Nissan,2016,133364,Petrol,1055166
+Porsche 718 Boxster,Porsche,2025,17220,Petrol,15599490
+Mahindra BE 5,Mahindra,2024,39290,Petrol,3362985
+BMW 5 Series,BMW,2023,44998,Petrol,7576108
+Honda CR-V,Honda,2026,3362,Petrol,4455362
+BMW M8,BMW,2019,62225,Petrol,24670821
+Lincoln Nautilus,Lincoln,2016,173486,Diesel,6710141
+Land Rover Range Rover,Land Rover,2023,37373,Petrol,30159893
+Porsche Cayenne,Porsche,2024,26680,Petrol,20261455
+Mahindra Bolero,Mahindra,2014,158905,Diesel,1037588
+Mercedes-Benz GLA,Mercedes-Benz,2016,133931,Petrol,4995633
+Volkswagen Tiguan,Volkswagen,2020,54066,Petrol,3618881
+Volkswagen Passat,Volkswagen,2021,84346,Petrol,2939086
+McLaren 750S,McLaren,2019,132585,Petrol,43816524
+Honda HR-V,Honda,2013,194098,Petrol,1419213
+Jeep Meridian,Jeep,2015,176853,Petrol,3178938
+BMW 5 Series,BMW,2020,97662,Petrol,7586925
+Tata Safari EV,Tata,2016,80500,Electric,2516536
+Hyundai Tucson,Hyundai,2018,98052,Petrol,3233793
+Mahindra Bolero,Mahindra,2020,99179,Diesel,1020034
+Tata Tigor,Tata,2026,3945,Petrol,642412
+MG Hector,MG,2012,156658,Petrol,1588907
+Skoda Rapid,Skoda,2023,46003,Petrol,905089
+Volvo XC40,Volvo,2012,144761,Diesel,4786622
+Mercedes-Benz A-Class,Mercedes-Benz,2012,167479,Petrol,4558811
+Tata Nexon,Tata,2021,56112,Diesel,936360
+Lexus RC,Lexus,2020,84602,Diesel,7174794
+BMW M3,BMW,2021,82770,Diesel,13560827
+Tata Safari EV,Tata,2021,98736,Electric,2421998
+Lincoln Nautilus,Lincoln,2021,44851,Petrol,6400925
+Porsche 718 Boxster,Porsche,2024,28822,Petrol,16427936
+Land Rover Range Rover Evoque,Land Rover,2024,38237,Petrol,7688296
+Lincoln MKZ,Lincoln,2020,70859,Diesel,5092653
+Renault Kwid,Renault,2021,82164,Petrol,596155
+Mahindra Bolero,Mahindra,2017,165903,Petrol,957846
+Audi Q4 e-tron,Audi,2023,54668,Electric,11610392
+Toyota Camry Hybrid,Toyota,2023,29121,Electric,4994400
+BMW X1,BMW,2016,191038,Diesel,5019247
+Mercedes-Benz CLA,Mercedes-Benz,2019,62166,Petrol,5141167
+McLaren 750S,McLaren,2019,88922,Petrol,41474672
+Bentley Azure,Bentley,2010,177069,Petrol,68364254
+Maruti Suzuki Ignis,Maruti,2021,47255,Petrol,726708
+Land Rover Range Rover,Land Rover,2019,59873,Diesel,31336480
+BMW 5 Series,BMW,2014,173637,Petrol,7260215
+Volkswagen Polo,Volkswagen,2014,184303,Diesel,974038
+McLaren 570S,McLaren,2013,255350,Petrol,41665063
+Maruti Suzuki Ciaz,Maruti,2019,133853,Petrol,1044623
+Jeep Gladiator,Jeep,2018,127399,Petrol,5982194
+BMW X7,BMW,2016,160808,Diesel,13212501
+Toyota Corolla,Toyota,2023,49024,Diesel,1805016
+Mercedes-Benz AMG S63,Mercedes-Benz,2019,84516,Diesel,31465157
+Jaguar XF,Jaguar,2011,212499,Petrol,6003207
+Lincoln Navigator,Lincoln,2020,66286,Petrol,8213061
+Maruti Suzuki Baleno,Maruti,2021,99859,Diesel,885063
+Rolls Royce Ghost,Rolls,2024,34959,Petrol,77708629
+Mahindra KUV100,Mahindra,2013,257504,Diesel,745127
+BMW Z4,BMW,2013,215259,Petrol,9050971
+Rolls Royce Wraith,Rolls,2026,4782,Diesel,70409200
+Volkswagen Taigun,Volkswagen,2023,39886,Petrol,1449852
+Lincoln MKZ,Lincoln,2011,179737,Diesel,4480237
+Jeep Wagoneer,Jeep,2016,87188,Diesel,4336070
+Skoda Kodiaq,Skoda,2010,180897,Petrol,4032543
+BMW M5,BMW,2016,121481,Petrol,19655441
+Honda WR-V,Honda,2015,171078,Petrol,1056195
+Lamborghini Temerario,Lamborghini,2017,134204,Petrol,57936912
+Toyota Fortuner,Toyota,2010,294515,Petrol,3916259
+Tata Tigor,Tata,2021,55709,Diesel,678439
+Lexus RZ 450e,Lexus,2010,307248,Petrol,12990265
+Mahindra Bolero,Mahindra,2016,155361,Diesel,1021998
+Porsche 911 GT3 RS,Porsche,2024,26061,Petrol,41012856
+Toyota Hilux,Toyota,2021,46097,Petrol,3085853
+BMW X5 M,BMW,2017,110955,Diesel,18107011
+Mercedes-Benz GLC,Mercedes-Benz,2017,133442,Diesel,7659216
+Mahindra XUV900,Mahindra,2025,18640,Diesel,2352542
+Audi TT,Audi,2012,185599,Diesel,6851153
+Hyundai Creta,Hyundai,2022,66580,Petrol,1673077
+Mercedes-Benz GLC,Mercedes-Benz,2021,98528,Petrol,7945591
+Volkswagen Taigun,Volkswagen,2019,74915,Petrol,1284805
+Volkswagen Ameo,Volkswagen,2012,211718,Diesel,909612
+Hyundai Exter,Hyundai,2017,141833,Diesel,736665
+Maruti Suzuki XL6,Maruti,2015,133421,Petrol,1253284
+Kia Sportage,Kia,2010,239592,Petrol,2783689
+Lamborghini Huracan,Lamborghini,2016,135615,Petrol,41833704
+Tata Harrier EV,Tata,2020,77894,Electric,2495425
+Jaguar F-Pace,Jaguar,2016,158518,Petrol,8147487
+Renault Kwid EV,Renault,2016,80782,Electric,961818
+Mercedes-Benz AMG S63,Mercedes-Benz,2012,192573,Petrol,30861440
+BMW X4,BMW,2019,97432,Diesel,7689471
+Toyota Fortuner Legender,Toyota,2010,304205,Diesel,4463989
+Audi A7,Audi,2010,133154,Petrol,8400077
+Audi A6,Audi,2015,179330,Petrol,6728208
+Audi Q6 e-tron,Audi,2021,86913,Electric,12712785
+Volvo XC60,Volvo,2016,99731,Petrol,6966625
+Mercedes-Benz GLA,Mercedes-Benz,2022,58307,Petrol,4875058
+Lincoln Corsair,Lincoln,2026,677,Diesel,6743714
+Audi TT RS,Audi,2013,154676,Diesel,8736358
+Porsche Macan,Porsche,2023,54052,Petrol,19465304
+Volvo XC90,Volvo,2025,13102,Petrol,10008059
+Hyundai Grand i10,Hyundai,2021,70302,Diesel,714511
+Jaguar XF Sportbrake,Jaguar,2012,171894,Petrol,6637300
+Kia EV6,Kia,2016,163500,Electric,6120392
+Audi RS4,Audi,2024,28665,Electric,10091184
+Mercedes-Benz AMG C43,Mercedes-Benz,2016,116989,Petrol,9488849
+Kia Sportage,Kia,2019,61778,Petrol,2515693
+Toyota Corolla,Toyota,2011,164660,Petrol,1833880
+Mercedes-Benz C-Class,Mercedes-Benz,2016,121615,Petrol,5848758
+Jaguar XF Sportbrake,Jaguar,2012,241021,Petrol,6917169
+Skoda Rapid,Skoda,2012,246777,Diesel,1024664
+Toyota Yaris,Toyota,2024,38944,Petrol,1727036
+Toyota Fortuner Legender,Toyota,2020,78792,Diesel,4345364
+Tata Harrier,Tata,2023,44294,Diesel,2267303
+BMW X5 M,BMW,2011,210448,Petrol,15708171
+Hyundai Venue,Hyundai,2013,125133,Diesel,1209933
+Audi Q8,Audi,2024,30351,Petrol,13920044
+BMW M3,BMW,2023,50736,Petrol,15016480
+BMW 3 Series,BMW,2023,56656,Petrol,6195074
+Bentley Mulliner Bacalar,Bentley,2011,211265,Petrol,88194682
+Lexus IS,Lexus,2016,159775,Diesel,6455861
+Maruti Suzuki Ciaz,Maruti,2011,155307,Diesel,1062517
+Porsche 718 Boxster,Porsche,2014,207801,Petrol,15168461
+Maruti Suzuki Grand Vitara,Maruti,2014,194965,Petrol,1841448
+Kia Sonet,Kia,2017,94837,Petrol,943630
+BMW 2 Series,BMW,2017,135731,Petrol,4687643
+Aston Martin DBX,Aston,2022,69154,Petrol,41148310
+Tata Tiago EV,Tata,2024,24946,Electric,1107038
+Maruti Suzuki Ertiga,Maruti,2010,198815,Diesel,1154337
+Ferrari Roma,Ferrari,2014,185649,Diesel,39812536
+Lexus LC,Lexus,2020,119901,Petrol,24076997
+Mercedes-Benz AMG C63,Mercedes-Benz,2010,277729,Petrol,16913240
+Bentley Azure,Bentley,2010,174941,Petrol,67163185
+Renault Triber,Renault,2017,145666,Petrol,723920
+Hyundai Venue,Hyundai,2021,63312,Electric,897243
+Toyota Hilux,Toyota,2019,137589,Petrol,3415649
+BMW M3,BMW,2016,182328,Electric,14157734
+Mahindra Bolero Neo,Mahindra,2013,245477,Diesel,988045
+Land Rover Discovery 5,Land Rover,2022,61027,Diesel,12596813
+BMW X4,BMW,2014,125828,Diesel,7432410
+Nissan Leaf,Nissan,2015,94023,Petrol,4415470
+Renault Kwid EV,Renault,2012,204702,Electric,825194
+Nissan Kicks,Nissan,2019,103569,Diesel,1055652
+Maruti Suzuki S-Cross,Maruti,2016,98667,Petrol,954771
+Lexus RC,Lexus,2013,138879,Diesel,7651150
+Audi Q3,Audi,2013,140260,Petrol,4386014
+Rolls Royce Cullinan,Rolls,2018,149572,Petrol,74366620
+Renault Kwid,Renault,2024,25154,Diesel,514494
+Lexus IS,Lexus,2022,45652,Petrol,6596770
+Aston Martin DBS Superleggera,Aston,2022,67638,Petrol,57392978
+Lexus LS,Lexus,2013,195799,Petrol,18420430
+BMW M4,BMW,2026,1862,Petrol,15508240
+Renault Kiger,Renault,2017,109164,Diesel,925281
+Audi RS e-tron GT,Audi,2020,52653,Electric,20488727
+Audi RS4,Audi,2024,16258,Petrol,10501209
+McLaren 570S,McLaren,2017,115769,Petrol,40484248
+BMW X3,BMW,2017,139692,Petrol,6781296
+Jeep Renegade,Jeep,2020,110180,Petrol,1837506
+MG Comet EV,MG,2015,201283,Electric,748631
+Bentley Continental GT,Bentley,2019,86748,Petrol,46960822
+Porsche Panamera,Porsche,2020,89867,Electric,24291002
+Lexus LX,Lexus,2016,91288,Diesel,15993978
+Kia EV9,Kia,2015,151490,Electric,12872876
+Mahindra Thar,Mahindra,2019,122060,Petrol,1424365
+Volkswagen Ameo,Volkswagen,2026,517,Diesel,1066687
+Lexus GX,Lexus,2026,4684,Petrol,10413273
+Tata Safari EV,Tata,2016,91755,Electric,2011056
+Hyundai i20,Hyundai,2014,214147,Diesel,800486
+Porsche Panamera,Porsche,2019,96500,Electric,17651611
+Jaguar XJ,Jaguar,2026,290,Petrol,11252712
+Citroen eC3,Citroen,2022,45572,Diesel,1244789
+Volvo EX90,Volvo,2014,162840,Diesel,8553203
+Lexus GX,Lexus,2025,12112,Petrol,11386563
+Hyundai Casper,Hyundai,2012,144898,Diesel,761830
+Mahindra BE 6,Mahindra,2024,37339,Petrol,3294327
+Skoda Rapid,Skoda,2018,149521,Petrol,1278534
+Honda CR-V,Honda,2014,145800,Petrol,4437608
+Mercedes-Benz AMG E53,Mercedes-Benz,2021,86206,Petrol,13333645
+Porsche 911,Porsche,2023,54308,Electric,29389405
+Bentley Continental GT,Bentley,2015,212400,Diesel,48485559
+Rolls Royce Boat Tail,Rolls,2017,142097,Diesel,224605215
+Tata Punch EV,Tata,2023,53558,Electric,1347948
+Lexus LX,Lexus,2014,238535,Petrol,17128192
+Porsche Cayenne,Porsche,2018,148425,Diesel,18204197
+Rolls Royce Boat Tail,Rolls,2010,133559,Diesel,237094581
+Aston Martin DB11,Aston,2013,192099,Petrol,44492851
+Lincoln Aviator,Lincoln,2019,92061,Diesel,7749395
+Audi A8,Audi,2024,18309,Petrol,14102056
+Volkswagen Taigun,Volkswagen,2016,87901,Petrol,1897363
+Volvo EX90,Volvo,2014,106364,Diesel,8290920
+Jeep Meridian,Jeep,2018,121482,Diesel,3483191
+Aston Martin DBS Superleggera,Aston,2014,181937,Petrol,55846470
+Aston Martin Valhalla,Aston,2026,4659,Petrol,75501955
+Ferrari SF90 Stradale,Ferrari,2018,156118,Petrol,76767310
+Rolls Royce Phantom,Rolls,2020,64042,Petrol,92953119
+Aston Martin DBS Superleggera,Aston,2022,40286,Petrol,54733815
+Lincoln Aviator,Lincoln,2014,130449,Petrol,8639090
+Maruti Suzuki Jimny,Maruti,2024,23256,Petrol,1473675
+Ferrari Daytona SP3,Ferrari,2026,4252,Petrol,48958854
+Mahindra XUV400,Mahindra,2010,206654,Petrol,1891348
+BMW M5,BMW,2016,186572,Diesel,19191323
+Kia EV9,Kia,2024,23946,Electric,12778970
+MG Hector,MG,2016,139582,Petrol,1918523
+Land Rover Defender,Land Rover,2014,201292,Diesel,10429944
+Honda Elevate,Honda,2026,3579,Petrol,1383396
+Tata Altroz,Tata,2024,28372,Diesel,1109788
+Cadillac Lyriq,Cadillac,2019,114207,Diesel,8077091
+Porsche 911 Turbo S,Porsche,2018,129900,Petrol,31807500
+Cadillac Lyriq,Cadillac,2011,188972,Diesel,6349763
+Aston Martin Valhalla,Aston,2023,55320,Diesel,75293805
+Ferrari Daytona SP3,Ferrari,2023,58421,Petrol,44615947
+Mahindra Thar,Mahindra,2024,28000,Petrol,1247474
+Mercedes-Benz E-Class,Mercedes-Benz,2024,21464,Petrol,8573772
+BMW M4,BMW,2012,160868,Diesel,15543386
+Aston Martin Valhalla,Aston,2023,32110,Petrol,70292279
+Cadillac XT4,Cadillac,2026,4442,Petrol,4030684
+Tata Harrier,Tata,2016,91862,Diesel,1813919
+Maruti Suzuki Ignis,Maruti,2015,172048,Petrol,643194
+Ferrari Roma,Ferrari,2016,169890,Petrol,36790150
+BMW X5 M,BMW,2019,93299,Petrol,17410425
+Honda WR-V,Honda,2021,63301,Diesel,1153652
+Ferrari 812 Superfast,Ferrari,2021,93184,Petrol,67371078
+Genesis GV60,Genesis,2022,59462,Petrol,6314183
+Nissan GT-R,Nissan,2012,247936,Petrol,23444895
+Toyota Camry,Toyota,2011,155685,Diesel,4671027
+Tata Tigor,Tata,2019,94196,Petrol,670360
+Mahindra Thar 5-Door,Mahindra,2016,154451,Diesel,2127917
+Rolls Royce Boat Tail,Rolls,2023,30441,Petrol,233280988
+Audi e-tron GT,Audi,2015,174399,Electric,19471523
+Mercedes-Benz GLA,Mercedes-Benz,2019,111059,Electric,4787440
+Aston Martin DB11,Aston,2017,122835,Petrol,46822879
+Mercedes-Benz C-Class,Mercedes-Benz,2016,177766,Petrol,5994500
+Tata Tiago,Tata,2017,95540,Petrol,638313
+Cadillac CT4,Cadillac,2022,33853,Diesel,6000246
+MG ZS EV,MG,2021,87842,Electric,2428040
+Skoda Octavia,Skoda,2012,185318,Petrol,2789645
+Volkswagen Taigun,Volkswagen,2024,17827,Petrol,1389331
+Aston Martin DB12,Aston,2016,106150,Petrol,49017600
+Porsche 718 Spyder,Porsche,2020,118441,Petrol,17915599
+Hyundai Ioniq 5,Hyundai,2022,69776,Petrol,4533738
+Maserati Quattroporte,Maserati,2023,29546,Diesel,19440367
+Citroen C5 Aircross,Citroen,2024,20446,Petrol,3367556
+Audi Q4 e-tron,Audi,2025,12754,Electric,10914927
+Aston Martin Vantage,Aston,2012,260650,Petrol,30210302
+Volvo S60,Volvo,2020,111048,Diesel,5557143
+McLaren 750S,McLaren,2022,49405,Petrol,40795051
+Tata Altroz,Tata,2015,137577,Petrol,936467
+McLaren 750S,McLaren,2010,223922,Diesel,45247411
+Jeep Compass,Jeep,2016,169113,Petrol,2739222
+Lexus NX,Lexus,2011,126628,Petrol,7018635
+Kia Seltos,Kia,2010,140585,Petrol,1790258
+Hyundai Ioniq 5,Hyundai,2024,34543,Diesel,4563102
+Bentley Flying Spur,Bentley,2022,54842,Diesel,57384519
+Lincoln Navigator,Lincoln,2018,101444,Petrol,9511988
+Cadillac XT6,Cadillac,2023,30810,Petrol,6336084
+Citroen eC3,Citroen,2026,594,Petrol,1286445
+Genesis GV80,Genesis,2018,129919,Petrol,7001030
+McLaren 720S,McLaren,2022,70558,Petrol,47244159
+BMW 2 Series,BMW,2016,137233,Diesel,4706466
+BMW 6 Series,BMW,2017,126261,Diesel,7057993
+Audi e-tron GT,Audi,2011,259949,Electric,18949615
+Land Rover Discovery 5,Land Rover,2010,167880,Diesel,13514468
+Renault Kiger,Renault,2025,15777,Petrol,1073129
+Bentley Continental GT,Bentley,2023,40616,Diesel,50065514
+Skoda Superb,Skoda,2019,73375,Petrol,3225545
+MG 5 EV,MG,2016,146390,Electric,2609333
+Lexus LC,Lexus,2025,17352,Petrol,23731998
+Honda Elevate,Honda,2018,137702,Petrol,1537888
+Toyota Corolla,Toyota,2012,208349,Diesel,1964698
+Toyota Innova,Toyota,2019,119253,Diesel,2291697
+Audi Q6 e-tron,Audi,2020,91917,Electric,12061894
+Porsche Cayenne,Porsche,2012,144249,Diesel,23838058
+Mahindra XUV700,Mahindra,2011,183222,Petrol,2514753
+Mercedes-Benz E-Class,Mercedes-Benz,2011,222462,Petrol,8769131
+Audi e-tron,Audi,2014,210827,Electric,17396909
+McLaren GT,McLaren,2017,88549,Petrol,46029075
+Volvo XC40,Volvo,2018,114259,Petrol,4633762
+Hyundai Venue,Hyundai,2017,110721,Petrol,1276489
+Maruti Suzuki Alto,Maruti,2021,47189,Petrol,430047
+MG Hector,MG,2014,179506,Petrol,1899932
+BMW 4 Series,BMW,2015,211357,Petrol,5891835
+MG ZS EV,MG,2024,30674,Electric,2733241
+McLaren Artura,McLaren,2017,146739,Petrol,55373088
+Tata Tigor,Tata,2023,47569,Diesel,632614
+Lamborghini Temerario,Lamborghini,2011,199929,Diesel,55030669
+Kia Seltos,Kia,2017,132221,Petrol,1708855
+Hyundai Grand i10,Hyundai,2023,47565,Diesel,641828
+Hyundai Creta,Hyundai,2016,103184,Diesel,1586195
+Mercedes-Benz C-Class,Mercedes-Benz,2020,73640,Diesel,6422209
+Renault Kwid,Renault,2013,243877,Petrol,567709
+McLaren 570S,McLaren,2018,64715,Petrol,38267748
+Land Rover Defender,Land Rover,2015,217964,Petrol,14154876
+Kia Seltos,Kia,2020,101051,Diesel,1912444
+Hyundai Venue,Hyundai,2019,120952,Petrol,1196759
+Mercedes-Benz AMG S63,Mercedes-Benz,2013,224088,Petrol,34960328
+Aston Martin DB11,Aston,2021,90268,Petrol,44803483
+Genesis GV60,Genesis,2013,203599,Petrol,6663966
+Lamborghini Urus,Lamborghini,2013,209769,Diesel,46007114
+Honda WR-V,Honda,2025,10365,Diesel,993725
+Mercedes-Benz AMG E63,Mercedes-Benz,2022,35576,Petrol,19475808
+Audi A8,Audi,2014,140296,Petrol,15882712
+BMW X5,BMW,2024,21524,Petrol,9709291
+Aston Martin DBX,Aston,2025,11684,Petrol,39047920
+Porsche 718 Spyder,Porsche,2017,116596,Petrol,16156685
+BMW X6,BMW,2017,73055,Diesel,12927895
+Maruti Suzuki Ciaz,Maruti,2025,11861,Petrol,1230799
+Ferrari F8 Tributo,Ferrari,2022,71701,Petrol,46621504
+Mercedes-Benz AMG A35,Mercedes-Benz,2021,72365,Petrol,5940208
+MG ZS EV,MG,2018,158080,Electric,2495651
+Lexus LX,Lexus,2023,32154,Petrol,17704001
+Maruti Suzuki Alto,Maruti,2017,149986,Diesel,434401
+Toyota Hilux,Toyota,2023,34338,Petrol,3008911
+Ferrari Portofino,Ferrari,2013,136044,Diesel,41565036
+Lexus RC,Lexus,2019,137581,Diesel,7944683
+Tata Harrier,Tata,2012,204126,Diesel,2182346
+Ferrari 296 GTB,Ferrari,2013,112250,Petrol,56751421
+Nissan GT-R,Nissan,2018,98415,Petrol,22598217
+Mercedes-Benz AMG S63,Mercedes-Benz,2025,10126,Diesel,32255786
+Volkswagen Polo,Volkswagen,2015,130478,Petrol,879073
+MG Gloster,MG,2014,187714,Petrol,3814456
+Land Rover Range Rover Sport,Land Rover,2021,77504,Petrol,13852467
+Audi A6,Audi,2018,84709,Diesel,7005160
+Mahindra BE 6,Mahindra,2013,216664,Petrol,3249159
+Audi Q6 e-tron,Audi,2010,273812,Electric,13699570
+Toyota Urban Cruiser Hyryder,Toyota,2014,134387,Petrol,1635249
+Volkswagen Vento,Volkswagen,2026,3846,Diesel,1299659
+Jeep Wrangler,Jeep,2013,218445,Diesel,5837778
+Honda Civic,Honda,2011,248407,Petrol,1780622
+Ferrari 812 Superfast,Ferrari,2016,97443,Diesel,69743488
+BMW M3,BMW,2020,107253,Diesel,13628560
+Rolls Royce Spectre,Rolls,2021,99111,Petrol,92796990
+Lamborghini Temerario,Lamborghini,2013,212768,Diesel,50552423
+Mercedes-Benz GLA,Mercedes-Benz,2023,44945,Petrol,4709250
+MG Comet EV,MG,2011,185386,Electric,896952
+Mercedes-Benz AMG SL63,Mercedes-Benz,2025,17529,Petrol,27254550
+Land Rover Defender,Land Rover,2018,72249,Petrol,14306900
+Mercedes-Benz C-Class,Mercedes-Benz,2026,4460,Electric,6506014
+Mahindra BE 6,Mahindra,2022,68080,Diesel,3173686
+Audi Q6 e-tron,Audi,2016,120399,Electric,13864987
+Bentley Azure,Bentley,2015,168991,Petrol,69889963
+Mahindra Scorpio,Mahindra,2013,185798,Petrol,1606495
+Maruti Suzuki Celerio,Maruti,2026,762,Diesel,589472
+MG 5 EV,MG,2019,113513,Electric,2977308
+Rolls Royce Spectre,Rolls,2021,94439,Diesel,94921576
+Tata Tiago EV,Tata,2021,94616,Electric,827811
+Audi RS3,Audi,2013,116015,Diesel,8718326
+Nissan Sunny,Nissan,2019,61232,Petrol,931278
+Hyundai Creta,Hyundai,2016,121061,Petrol,1484837
+Maruti Suzuki Grand Vitara,Maruti,2011,228509,Petrol,1251772
+Porsche 911,Porsche,2025,8904,Petrol,22915651
+Rolls Royce Boat Tail,Rolls,2016,131668,Petrol,221992964
+Tata Punch,Tata,2011,176240,Petrol,714786
+Jeep Renegade,Jeep,2019,98148,Petrol,1706472
+Lexus RZ 450e,Lexus,2018,100355,Petrol,13504733
+Lexus NX,Lexus,2021,58287,Petrol,7247186
+Skoda Kodiaq,Skoda,2015,198105,Petrol,4026257
+Jaguar F-Pace,Jaguar,2016,165678,Petrol,8616635
+Toyota Corolla,Toyota,2011,261673,Diesel,2041012
+Lexus RC,Lexus,2017,145224,Petrol,7703117
+Lexus LS,Lexus,2020,90732,Petrol,18304620
+Mahindra BE 5,Mahindra,2011,145134,Petrol,3045544
+Toyota Glanza,Toyota,2018,76276,Petrol,803619
+Maruti Suzuki Grand Vitara,Maruti,2020,109115,Petrol,1837939
+Toyota Vellfire,Toyota,2013,152892,Diesel,97695908
+Audi e-tron GT,Audi,2018,118917,Electric,19773802
+BMW X5 M,BMW,2021,52898,Diesel,17584906
+Audi Q5,Audi,2017,117367,Petrol,7292960
+MG Astor,MG,2023,29102,Petrol,1633637
+Mercedes-Benz AMG E63,Mercedes-Benz,2012,234142,Petrol,19252854
+Land Rover Range Rover Sport,Land Rover,2013,239528,Diesel,15521514
+Lexus LX,Lexus,2018,127983,Diesel,15340954
+Hyundai i20,Hyundai,2021,44833,CNG,888227
+Ferrari 296 GTB,Ferrari,2012,201915,Petrol,58074142
+Audi Q5,Audi,2011,140906,Diesel,7213196
+Genesis GV80,Genesis,2019,121473,Petrol,7163252
+Audi R8,Audi,2011,269202,Petrol,22622735
+Volvo S60,Volvo,2024,38652,Petrol,5664217
+Hyundai Exter,Hyundai,2022,66007,Petrol,680999
+Audi TT RS,Audi,2019,113891,Petrol,8139648
+Jeep Renegade,Jeep,2017,139036,Petrol,1699294
+Tata Punch,Tata,2018,112622,Petrol,725852
+Skoda Superb,Skoda,2010,284157,Petrol,3281306
+Mahindra Thar,Mahindra,2015,167881,Petrol,1292466
+Genesis G90,Genesis,2024,37101,Petrol,7768831
+Honda City e:HEV,Honda,2012,239397,Electric,2017297
+Ferrari 812 Superfast,Ferrari,2010,171088,Petrol,65858885
+Toyota Glanza,Toyota,2026,4146,Diesel,875956
+Toyota Camry Hybrid,Toyota,2016,180285,Electric,5046439
+Audi Q5,Audi,2012,259460,Diesel,7649529
+Mercedes-Benz GLA,Mercedes-Benz,2015,183186,Diesel,4668717
+Ferrari 812 Superfast,Ferrari,2023,32142,Diesel,69549301
+Nissan GT-R,Nissan,2010,309785,Diesel,23481027
+Nissan Micra,Nissan,2011,279883,Petrol,836201
+Jaguar E-Pace,Jaguar,2024,17271,Petrol,6600497
+Maruti Suzuki Swift,Maruti,2020,60132,Petrol,718488
+Lexus ES,Lexus,2016,185287,Petrol,6377837
+Tata Tiago,Tata,2021,82704,Diesel,567524
+Audi A8,Audi,2025,17510,Petrol,15057841
+Volvo Polestar 2,Volvo,2022,46043,Diesel,7778556
+Kia Sportage,Kia,2015,205790,Petrol,2710213
+Genesis GV80,Genesis,2011,239145,Petrol,7427496
+Skoda Octavia,Skoda,2016,149386,Petrol,2833318
+Honda City e:HEV,Honda,2016,140121,Electric,1971165
+Volvo XC90,Volvo,2017,165830,Petrol,10740584
+Lexus UX,Lexus,2011,160371,Petrol,4570858
+Tata Punch,Tata,2013,150657,Petrol,765535
+Mercedes-Benz GLE,Mercedes-Benz,2017,95773,Petrol,10478401
+Audi RS5,Audi,2016,124470,Diesel,12830680
+Maruti Suzuki XL6,Maruti,2023,31236,Petrol,1145513
+Kia Sportage,Kia,2015,98164,Diesel,2759050
+Cadillac Escalade,Cadillac,2023,40677,Diesel,12071218
+Audi Q8,Audi,2014,157661,Petrol,13396775
+Maserati Ghibli,Maserati,2016,127565,Diesel,14222996
+Lincoln Corsair,Lincoln,2016,159329,Petrol,6917708
+McLaren 720S,McLaren,2010,150985,Petrol,45478749
+Volkswagen Polo,Volkswagen,2012,231461,Diesel,702072
+Maserati Quattroporte,Maserati,2023,38829,Petrol,21002764
+Land Rover Discovery,Land Rover,2021,94967,Petrol,9383709
+Aston Martin DB12,Aston,2020,108515,Diesel,50397613
+Volkswagen Vento,Volkswagen,2011,293211,Diesel,1141550
+Tata Tiago,Tata,2015,176370,Diesel,571579
+Volvo EX30,Volvo,2010,302831,Diesel,4716235
+Toyota Innova,Toyota,2019,80574,Petrol,2195482
+MG 4 EV,MG,2018,91110,Electric,3065057
+Lexus UX 300e,Lexus,2014,138884,Petrol,5825915
+Hyundai Verna,Hyundai,2015,217228,Electric,1600081
+Genesis GV70,Genesis,2025,17001,Petrol,5298701
+Jaguar XF Sportbrake,Jaguar,2019,66337,Petrol,6106056
+Lexus RX,Lexus,2023,38472,Petrol,9777169
+Maserati MC20,Maserati,2025,17330,Diesel,23425122
+Rolls Royce Ghost,Rolls,2022,62127,Petrol,70182694
+Lincoln Aviator,Lincoln,2017,178852,Petrol,8327153
+Lexus UX 300e,Lexus,2020,104386,Petrol,6149949
+Toyota Yaris,Toyota,2014,173051,Petrol,1760333
+Cadillac CT5,Cadillac,2026,540,Petrol,5040867
+Mahindra Scorpio N,Mahindra,2022,57297,Diesel,1497444
+Maruti Suzuki XL6,Maruti,2020,114599,Petrol,1181340
+Renault Kwid EV,Renault,2024,21575,Electric,826961
+Lexus UX,Lexus,2026,1618,Petrol,5180532
+Cadillac Escalade,Cadillac,2013,190426,Diesel,13450475
+Honda CR-V,Honda,2010,255263,Petrol,4474289
+Maruti Suzuki Ertiga,Maruti,2012,141046,Diesel,1107548
+Toyota Fortuner Legender,Toyota,2024,38111,Diesel,4236661
+Mercedes-Benz E-Class,Mercedes-Benz,2025,15939,Diesel,8790528
+Audi A5,Audi,2021,60412,Petrol,5563348
+Mahindra XUV900,Mahindra,2013,130297,Diesel,2185613
+Kia EV6,Kia,2014,118420,Electric,6150285
+BMW X3 M,BMW,2025,14685,Petrol,8028451
+Toyota Camry Hybrid,Toyota,2020,115626,Electric,4945892
+Lexus NX,Lexus,2021,40357,Petrol,7552144
+Tata Harrier EV,Tata,2010,215195,Electric,2517025
+Bentley Continental GT,Bentley,2023,51957,Petrol,47286708
+Audi Q7,Audi,2023,46896,Diesel,9002239
+Lincoln MKZ,Lincoln,2012,147267,Diesel,5122533
+Hyundai Tucson,Hyundai,2024,36569,Diesel,3074244
+Lexus IS,Lexus,2025,15060,Diesel,6429840
+Rolls Royce Spectre,Rolls,2023,41720,Diesel,91228582
+Mercedes-Benz GLB,Mercedes-Benz,2019,80832,Petrol,5803523
+McLaren 720S,McLaren,2022,65554,Diesel,45378765
+Mercedes-Benz GLS,Mercedes-Benz,2010,186892,Diesel,12444370
+Mercedes-Benz AMG A35,Mercedes-Benz,2011,221237,Petrol,6238436
+Jaguar XE,Jaguar,2014,235301,Petrol,5168574
+BMW X3 M,BMW,2018,131762,Petrol,8831042
+Lexus RX,Lexus,2012,153941,Petrol,10597947
+Mahindra XUV400,Mahindra,2026,2786,Petrol,1872647
+Rolls Royce Boat Tail,Rolls,2017,84389,Petrol,243920663
+BMW X5,BMW,2017,109732,Diesel,10822121
+Mercedes-Benz SL,Mercedes-Benz,2021,87835,Electric,15406801
+Mahindra Thar,Mahindra,2019,78130,Diesel,1601717
+Jeep Wrangler,Jeep,2019,93671,Petrol,5763361
+Lexus UX 300e,Lexus,2010,220734,Diesel,5583688
+Volkswagen Taigun,Volkswagen,2010,201041,Diesel,1598150
+Aston Martin DBS Superleggera,Aston,2026,1009,Petrol,58204424
+Kia Seltos,Kia,2014,172658,Petrol,1318909
+Mercedes-Benz AMG E53,Mercedes-Benz,2016,185183,Petrol,13570864
+Volkswagen Polo,Volkswagen,2026,1916,Petrol,745004
+Kia EV9,Kia,2013,248714,Electric,13919603
+Porsche 718 Boxster,Porsche,2026,3176,Petrol,15721884
+Mercedes-Benz GLA,Mercedes-Benz,2018,93241,Petrol,4761234
+Genesis G90,Genesis,2012,119406,Diesel,7282057
+Land Rover Discovery 5,Land Rover,2013,109619,Diesel,12688689
+Volvo V60,Volvo,2014,114085,Petrol,5992005
+Mercedes-Benz E-Class,Mercedes-Benz,2016,89129,Petrol,9539201
+Toyota Fortuner,Toyota,2018,141797,Petrol,4266945
+Aston Martin DB12,Aston,2019,67416,Petrol,47020405
+Ferrari F8 Tributo,Ferrari,2025,19034,Diesel,46965278
+Maruti Suzuki Swift,Maruti,2013,219418,Diesel,851337
+Volvo XC90,Volvo,2023,54705,Petrol,10085570
+Tata Tigor,Tata,2025,17476,Diesel,712338
+Hyundai Alcazar,Hyundai,2011,190331,Petrol,1945033
+Audi TT,Audi,2023,41420,Petrol,6836235
+BMW X6,BMW,2016,91654,Diesel,11704776
+Bentley Continental GT,Bentley,2013,143558,Petrol,49801607
+Lexus RX,Lexus,2016,139188,Diesel,10692466
+Nissan Magnite,Nissan,2010,235911,Petrol,757425
+Mahindra Bolero,Mahindra,2018,131515,Diesel,1060866
+BMW X1,BMW,2023,56972,Petrol,4912331
+Mahindra Scorpio N,Mahindra,2020,93806,Petrol,1817932
+Lincoln Nautilus,Lincoln,2026,3562,Diesel,6723176
+Mercedes-Benz AMG E53,Mercedes-Benz,2017,122636,Diesel,13042081
+Hyundai Tucson,Hyundai,2023,31652,Petrol,3136651
+Rolls Royce Cullinan,Rolls,2025,12891,Petrol,73223371
+Land Rover Range Rover,Land Rover,2017,78442,Diesel,38601599
+Toyota Land Cruiser,Toyota,2016,121894,Petrol,22383363
+Cadillac CT5,Cadillac,2013,259149,Petrol,6273169
+Lexus LC,Lexus,2015,112373,Petrol,22744671
+BMW M3,BMW,2022,73883,Diesel,14647655
+MG Astor,MG,2011,165896,Diesel,1083420
+Mercedes-Benz AMG GT,Mercedes-Benz,2014,179920,Petrol,28115209
+BMW 6 Series,BMW,2020,69190,Diesel,7141262
+Ferrari 296 GTB,Ferrari,2012,277783,Diesel,54130294
+MG 5 EV,MG,2012,119204,Electric,2879721
+Land Rover Discovery 5,Land Rover,2011,236871,Petrol,13338289
+Jaguar XJ,Jaguar,2023,29109,Diesel,11682849
+Aston Martin DB12,Aston,2020,86917,Petrol,48333178
+Renault Duster,Renault,2018,101668,Petrol,1239402
+Lexus LS,Lexus,2022,56666,Petrol,18275372
+Porsche 911 GT3,Porsche,2026,1420,Diesel,29059919
+Lexus GX,Lexus,2022,51034,Petrol,10578744
+Volvo XC60,Volvo,2025,12762,Petrol,6925742
+Volkswagen Virtus,Volkswagen,2012,239073,Diesel,1628610
+Tata Harrier EV,Tata,2012,273599,Electric,2430143
+Aston Martin DBX,Aston,2016,125256,Petrol,42424348
+Audi RS5,Audi,2025,17775,Electric,12132508
+Tata Nexon,Tata,2012,199893,Petrol,1675441
+Honda WR-V,Honda,2024,22786,Petrol,1007400
+Lincoln MKZ,Lincoln,2017,120026,Petrol,5177697
+Jeep Renegade,Jeep,2019,71761,Diesel,1963688
+Jeep Grand Cherokee,Jeep,2021,83675,Petrol,8178227
+Jeep Compass,Jeep,2020,89730,Petrol,2112540
+Mercedes-Benz AMG A45,Mercedes-Benz,2023,47666,Petrol,7668805
+Maruti Suzuki Baleno,Maruti,2018,156464,Diesel,745428
+Mahindra XUV900,Mahindra,2021,76136,Petrol,2313489
+Skoda Slavia,Skoda,2013,252111,Petrol,1729567
+Mercedes-Benz SL,Mercedes-Benz,2019,75654,Petrol,17952279
+McLaren P1,McLaren,2022,67456,Petrol,79713174
+Aston Martin Valhalla,Aston,2024,16244,Petrol,74102445
+BMW 5 Series,BMW,2016,110832,Diesel,7667922
+Jeep Gladiator,Jeep,2021,49001,Petrol,5719193
+Jeep Renegade,Jeep,2011,154342,Diesel,1764763
+Bentley Bentayga,Bentley,2010,277310,Diesel,53709922
+Toyota Fortuner Legender,Toyota,2024,29914,Petrol,4635512
+Lamborghini Huracan,Lamborghini,2019,106542,Petrol,44264750
+Audi A7,Audi,2012,171212,Petrol,8519910
+Mahindra Scorpio,Mahindra,2024,26724,Petrol,1414658
+Mahindra XUV900,Mahindra,2012,213773,Diesel,2762867
+Toyota Fortuner Legender,Toyota,2010,173447,Diesel,4257427
+Genesis GV60,Genesis,2023,26278,Diesel,7055651
+Rolls Royce Dawn,Rolls,2013,186788,Petrol,82663171
+BMW X4,BMW,2011,247855,Petrol,7176201
+Honda Elevate,Honda,2019,127593,Diesel,1559601
+Mercedes-Benz AMG C63,Mercedes-Benz,2020,81570,Petrol,16914254
+BMW M4,BMW,2021,74023,Diesel,14819602
+Rolls Royce Wraith,Rolls,2024,31006,Petrol,66755128
+Tata Harrier,Tata,2015,123441,Petrol,1527426
+Mahindra KUV100,Mahindra,2021,58076,Petrol,761748
+Hyundai Venue,Hyundai,2013,245911,Petrol,1038591
+Mercedes-Benz B-Class,Mercedes-Benz,2022,34683,Diesel,4738472
+Volkswagen Vento,Volkswagen,2021,58308,Petrol,1468369
+Honda Jazz,Honda,2015,116524,Petrol,987059
+Honda Civic,Honda,2025,12854,Petrol,1795848
+Mercedes-Benz GLC,Mercedes-Benz,2025,19759,Petrol,7956712
+Bentley Flying Spur,Bentley,2020,117839,Diesel,61121831
+Mercedes-Benz AMG A45,Mercedes-Benz,2022,52920,Diesel,7756626
+Mercedes-Benz C-Class,Mercedes-Benz,2018,145019,Petrol,5864974
+Mercedes-Benz B-Class,Mercedes-Benz,2019,121430,Diesel,4798285
+Land Rover Discovery Sport,Land Rover,2022,67591,Diesel,7038682
+Hyundai i20,Hyundai,2013,211685,Diesel,747798
+Rolls Royce Dawn,Rolls,2015,126131,Petrol,78707756
+Audi Q4 e-tron,Audi,2025,18168,Electric,10578290
+Hyundai Alcazar,Hyundai,2017,174545,Electric,1679511
+Mercedes-Benz CLS,Mercedes-Benz,2025,11033,Petrol,9614030
+Ferrari Daytona SP3,Ferrari,2014,234122,Diesel,46628830
+Ferrari Roma,Ferrari,2018,121891,Petrol,37837613
+Ferrari Purosangue,Ferrari,2021,72641,Diesel,55520200
+Mercedes-Benz AMG GTR,Mercedes-Benz,2011,284852,Diesel,38173146
+MG Gloster,MG,2022,32369,Diesel,3537608
+BMW M8,BMW,2023,39911,Diesel,23508730
+BMW X1,BMW,2016,102440,Petrol,4937900
+Land Rover Range Rover Velar,Land Rover,2013,223645,Petrol,9878973
+Audi A5,Audi,2018,126168,Petrol,5349436
+Mahindra Scorpio,Mahindra,2014,201386,Petrol,1359026
+BMW X4,BMW,2020,116374,Petrol,7353415
+Audi A3,Audi,2018,85769,Petrol,3824308
+Mercedes-Benz AMG C43,Mercedes-Benz,2023,56360,Diesel,8898288
+Ferrari SF90 Stradale,Ferrari,2026,380,Petrol,78153416
+Volkswagen Golf GTI,Volkswagen,2025,15329,Petrol,3270426
+Ferrari Daytona SP3,Ferrari,2021,76748,Petrol,49088329
+BMW 4 Series,BMW,2022,45429,Petrol,5615550
+Honda WR-V,Honda,2025,14238,Petrol,916853
+Volkswagen Vento,Volkswagen,2016,95906,Petrol,1249252
+Nissan Kicks,Nissan,2018,72945,Petrol,929124
+Skoda Slavia,Skoda,2017,142212,Petrol,1204716
+BMW Z4,BMW,2016,92342,Petrol,9568168
+Audi RS5,Audi,2010,204842,Diesel,11822671
+Cadillac CT4,Cadillac,2025,8050,Petrol,5717441
+Renault Kiger,Renault,2010,155106,Diesel,660131
+Volkswagen Golf GTI,Volkswagen,2021,60607,Diesel,3337250
+Maruti Suzuki Ignis,Maruti,2018,158956,Petrol,695044
+Volvo Polestar 2,Volvo,2014,135097,Petrol,8220959
+Renault Kwid EV,Renault,2019,87952,Electric,983972
+Mercedes-Benz CLA,Mercedes-Benz,2017,103641,Electric,5230125
+Lincoln Aviator,Lincoln,2013,176048,Petrol,8309288
+Volkswagen Ameo,Volkswagen,2016,109670,Diesel,1014475
+Genesis G80,Genesis,2016,98354,Petrol,5355061
+Land Rover Range Rover Velar,Land Rover,2019,123863,Diesel,9000321
+Kia EV6,Kia,2022,53927,Electric,5928276
+Hyundai Casper,Hyundai,2016,134866,Petrol,641735
+Porsche 911,Porsche,2018,159199,Electric,21482392
+Renault Kwid,Renault,2012,130363,Diesel,458203
+BMW X7,BMW,2018,101562,Petrol,14446075
+Honda Amaze,Honda,2021,62868,Diesel,805641
+Lamborghini Urus,Lamborghini,2014,190602,Petrol,44718442
+Maruti Suzuki Fronx,Maruti,2023,28754,Petrol,1363399
+Hyundai Creta,Hyundai,2017,174328,Electric,1880034
+Genesis GV80,Genesis,2017,88507,Diesel,6731404
+Volkswagen Ameo,Volkswagen,2018,122825,Petrol,865983
+Kia Carens,Kia,2020,107595,Petrol,1023711
+Tata Nexon,Tata,2025,13376,Petrol,1049349
+Mercedes-Benz GLC,Mercedes-Benz,2010,138143,Petrol,7996954
+McLaren Artura,McLaren,2014,127119,Petrol,55886180
+Mercedes-Benz SL,Mercedes-Benz,2024,21866,Petrol,16026305
+Kia Carens,Kia,2019,65295,Petrol,1452364
+Nissan Kicks,Nissan,2021,49848,Petrol,975091
+Audi TT RS,Audi,2016,181548,Petrol,8868712
+BMW M3,BMW,2020,79221,Diesel,13143103
+Mercedes-Benz GLC,Mercedes-Benz,2017,155938,Electric,8251021
+Lexus LC,Lexus,2025,10171,Petrol,22532736
+Jeep Compass,Jeep,2020,97195,Diesel,2277127
+Kia EV6,Kia,2016,146664,Electric,6390593
+Renault Kwid,Renault,2023,59044,Diesel,487207
+Lincoln Navigator,Lincoln,2012,232103,Diesel,9938751
+Volvo EX30,Volvo,2021,56566,Petrol,4754495
+Mercedes-Benz B-Class,Mercedes-Benz,2026,504,Petrol,4947545
+Hyundai Casper,Hyundai,2017,132775,Electric,667372
+Tata Harrier,Tata,2013,256439,Petrol,1561068
+BMW M2,BMW,2021,96794,Petrol,10218129
+Mercedes-Benz SLK,Mercedes-Benz,2020,61646,Electric,7027535
+Lamborghini Revuelto,Lamborghini,2010,163948,Petrol,91280243
+Lexus LC,Lexus,2017,174455,Petrol,22058735
+Audi RS5,Audi,2019,79808,Diesel,12302449
+Tata Safari,Tata,2017,83012,Petrol,1701354
+McLaren GT,McLaren,2022,54691,Petrol,45559128
+Porsche 911 GT3,Porsche,2010,295046,Petrol,28548622
+Volvo C40,Volvo,2013,116868,Petrol,5868399
+Maruti Suzuki Alto,Maruti,2019,109975,Petrol,376841
+Audi A4,Audi,2015,126918,Diesel,4480849
+Maserati Levante,Maserati,2014,201342,Diesel,16751975
+Cadillac XT6,Cadillac,2011,207832,Petrol,6277049
+Jaguar F-Pace,Jaguar,2016,81455,Petrol,7826101
+Toyota Yaris,Toyota,2025,8371,Diesel,1987987
+Honda Amaze,Honda,2018,128949,Petrol,977623
+Maruti Suzuki Ignis,Maruti,2020,86415,Diesel,625344
+Lexus LS,Lexus,2022,38862,Petrol,18745188
+McLaren 750S,McLaren,2010,232816,Petrol,41687393
+Kia Carnival,Kia,2022,39639,Diesel,2771577
+Porsche 718 Boxster,Porsche,2019,113052,Diesel,16826833
+Maruti Suzuki Ciaz,Maruti,2023,38310,Petrol,1120368
+Kia Sportage,Kia,2017,136443,Petrol,2921532
+Volvo V40,Volvo,2020,72580,Petrol,4652768
+Audi Q3,Audi,2019,123792,Petrol,4829721
+Aston Martin Vantage,Aston,2022,35606,Petrol,30832467
+Skoda Superb,Skoda,2024,19482,Petrol,3172560
+Mahindra Scorpio,Mahindra,2012,196763,Diesel,1345367
+Nissan Kicks,Nissan,2024,20889,Petrol,1013460
+Renault Kwid,Renault,2024,16503,Diesel,577428
+Toyota Corolla,Toyota,2017,170733,Petrol,1940306
+MG Comet EV,MG,2024,39477,Electric,869406
+Toyota Vellfire,Toyota,2026,3558,Petrol,95170153
+Skoda Rapid,Skoda,2022,52238,Petrol,1085636
+Aston Martin DBX,Aston,2014,96255,Petrol,39371254
+Maruti Suzuki Fronx,Maruti,2019,134267,Petrol,880219
+MG ZS EV,MG,2016,122616,Electric,2558144
+Skoda Kushaq,Skoda,2011,290888,Diesel,1726321
+Lamborghini Huracan,Lamborghini,2017,91170,Petrol,40154483
+Lincoln Navigator,Lincoln,2014,215787,Diesel,8744479
+Volkswagen Taigun,Volkswagen,2015,207286,Petrol,1171921
+Cadillac XT5,Cadillac,2022,75454,Petrol,5381265
+MG Comet EV,MG,2016,147235,Electric,770626
+Porsche 718 Boxster,Porsche,2023,30343,Petrol,15508640
+McLaren P1,McLaren,2021,88183,Diesel,80807852
+Cadillac XT5,Cadillac,2018,68334,Diesel,6508148
+Skoda Kodiaq,Skoda,2025,15158,Petrol,3877374
+Volkswagen Vento,Volkswagen,2021,67361,Petrol,1120883
+Mercedes-Benz AMG C43,Mercedes-Benz,2012,120002,Petrol,9213155
+Jeep Grand Cherokee,Jeep,2026,3088,Diesel,8203345
+Tata Tiago,Tata,2017,75601,Diesel,783263
+Honda City,Honda,2019,110259,Petrol,1172809
+Land Rover Defender,Land Rover,2011,201034,Petrol,12167832
+Bentley Bentayga,Bentley,2017,78326,Petrol,45877481
+Hyundai Tucson,Hyundai,2019,81916,Petrol,3210116
+Hyundai Venue,Hyundai,2024,36047,Petrol,1077601
+McLaren P1,McLaren,2025,10195,Petrol,86085798
+Porsche Taycan,Porsche,2023,57912,Petrol,22191558
+BMW X5,BMW,2017,106717,Petrol,10511055
+Volvo V40,Volvo,2016,127105,Petrol,4811515
+Land Rover Range Rover Velar,Land Rover,2014,205470,Petrol,9207080
+Land Rover Discovery 5,Land Rover,2025,12756,Diesel,13036670
+Mahindra Scorpio N,Mahindra,2018,129493,Petrol,1756911
+Honda HR-V,Honda,2025,14942,Petrol,1651547
+Toyota Fortuner Legender,Toyota,2021,75810,Petrol,4451056
+BMW X1,BMW,2025,9488,Petrol,5132464
+Mahindra XUV300,Mahindra,2018,98746,Petrol,1288402
+Toyota Fortuner Legender,Toyota,2014,176682,Petrol,4512868
+MG 5 EV,MG,2012,127475,Electric,2844282
+Citroen C3 Aircross,Citroen,2026,928,Petrol,1140843
+Aston Martin DB11,Aston,2017,94452,Diesel,43619173
+Mercedes-Benz E-Class,Mercedes-Benz,2019,112708,Diesel,8795218
+Tata Safari EV,Tata,2023,55467,Electric,1789662
+Maruti Suzuki Invicto,Maruti,2014,229368,Petrol,2821745
+Genesis G70,Genesis,2021,50335,Petrol,4027145
