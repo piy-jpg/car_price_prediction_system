@@ -2,6 +2,8 @@
 class CarPricePredictor {
     constructor() {
         this.apiBase = '/api';
+        this.handleCompanyChange = this.handleCompanyChange.bind(this);
+        this.handlePredictionSubmit = this.handlePrediction.bind(this);
         this.initializeApp();
     }
 
@@ -32,6 +34,7 @@ class CarPricePredictor {
         this.populateSelect('company', companiesData.companies || []);
         this.populateSelect('year', yearsData.years || []);
         this.populateSelect('fuel_type', fuelData.fuel_types || []);
+        this.resetModelSelect();
     }
 
     populateSelect(elementId, options) {
@@ -52,43 +55,67 @@ class CarPricePredictor {
     }
 
     setupEventListeners() {
-        // Company change event to load models
         const companySelect = document.getElementById('company');
         if (companySelect) {
-            companySelect.addEventListener('change', (e) => this.loadModels(e.target.value));
+            companySelect.removeEventListener('change', this.handleCompanyChange);
+            companySelect.addEventListener('change', this.handleCompanyChange);
         }
 
-        // Form submission
         const form = document.getElementById('predictForm');
         if (form) {
-            form.addEventListener('submit', (e) => this.handlePrediction(e));
+            form.removeEventListener('submit', this.handlePredictionSubmit);
+            form.addEventListener('submit', this.handlePredictionSubmit);
         }
+    }
+
+    handleCompanyChange(event) {
+        this.loadModels(event.target.value);
+    }
+
+    resetModelSelect(message = 'Select model') {
+        const modelSelect = document.getElementById('car_model');
+        if (!modelSelect) return;
+
+        modelSelect.innerHTML = `<option value="">${message}</option>`;
+        modelSelect.disabled = true;
     }
 
     async loadModels(company) {
         const modelSelect = document.getElementById('car_model');
-        if (!modelSelect) return;
+        if (!modelSelect) return [];
 
-        // Clear existing models
-        while (modelSelect.children.length > 1) {
-            modelSelect.removeChild(modelSelect.lastChild);
+        if (!company) {
+            this.resetModelSelect();
+            return [];
         }
 
-        if (!company) return;
+        this.resetModelSelect('Loading models...');
 
         try {
             const response = await fetch(`${this.apiBase}/models?company=${encodeURIComponent(company)}`);
+            if (!response.ok) {
+                throw new Error(`Request failed with status ${response.status}`);
+            }
             const data = await response.json();
-            this.populateSelect('car_model', data.models);
+            const models = Array.isArray(data.models) ? data.models : [];
+
+            this.resetModelSelect(models.length ? 'Select model' : 'No models available');
+            this.populateSelect('car_model', models);
+            modelSelect.disabled = models.length === 0;
+            return models;
         } catch (error) {
             console.error('Failed to load models:', error);
+            this.resetModelSelect('Unable to load models');
+            this.showError('Failed to load models for the selected company');
+            return [];
         }
     }
 
     async handlePrediction(event) {
         event.preventDefault();
         
-        const btn = document.querySelector('.btn-predict');
+        const form = event.target;
+        const btn = form.querySelector('.btn-predict');
         if (!btn) return;
         const btnText = btn.querySelector('.btn-text');
         const spinner = btn.querySelector('.spinner');
@@ -120,7 +147,7 @@ class CarPricePredictor {
             
             if (response.ok && result.success) {
                 this.storeRecentPrediction(result);
-                this.showResult(result.predicted_price, result.actual_price);
+                this.showResult(result);
             } else {
                 this.showError(result.error || 'Prediction failed');
             }
@@ -136,18 +163,22 @@ class CarPricePredictor {
         }
     }
 
-    showResult(formattedPrice, actualPrice) {
+    showResult(result) {
         const resultCard = document.getElementById('predictionResult');
         const priceDisplay = document.getElementById('resultPrice');
         const priceDescription = document.getElementById('resultDetails');
         const placeholder = resultCard ? resultCard.querySelector('.result-placeholder') : null;
         const content = resultCard ? resultCard.querySelector('.result-content') : null;
+        const confidence = result.recent_entry?.confidence;
+        const matchType = String(result.match_type || 'estimate').replace(/_/g, ' ');
         
         if (priceDisplay) {
-            priceDisplay.textContent = formattedPrice;
+            priceDisplay.textContent = result.predicted_price;
         }
         if (priceDescription) {
-            priceDescription.textContent = `Estimated market value: ${actualPrice}`;
+            priceDescription.textContent = confidence
+                ? `Estimated market value: ${result.actual_price} • ${confidence}% confidence • ${matchType}`
+                : `Estimated market value: ${result.actual_price}`;
         }
         
         if (resultCard) {

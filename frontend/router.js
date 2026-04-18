@@ -955,22 +955,9 @@ class PageRouter {
     }
 
     initializePredictPage() {
-        // Initialize prediction form
         if (window.carPricePredictor) {
             window.carPricePredictor.loadInitialData();
-            // Set up form event listeners for the dynamically loaded form
-            const form = document.getElementById('predictForm');
-            if (form) {
-                // Remove existing listeners to avoid duplicates
-                form.removeEventListener('submit', window.carPricePredictor.handlePrediction);
-                // Add new listener
-                form.addEventListener('submit', (e) => window.carPricePredictor.handlePrediction(e));
-            }
-            // Set up company change listener
-            const companySelect = document.getElementById('company');
-            if (companySelect) {
-                companySelect.addEventListener('change', (e) => window.carPricePredictor.loadModels(e.target.value));
-            }
+            window.carPricePredictor.setupEventListeners();
         }
     }
 
@@ -1182,7 +1169,7 @@ class PageRouter {
         if (!company) return;
 
         try {
-            const response = await fetch(`${this.apiBase}/models/${encodeURIComponent(company)}`);
+            const response = await fetch(`${this.apiBase}/models?company=${encodeURIComponent(company)}`);
             const data = await response.json();
             (data.models || []).forEach(model => {
                 const option = document.createElement('option');
@@ -1260,11 +1247,14 @@ class PageRouter {
                 }),
             });
             const result = await response.json();
+            const score = result.recent_entry?.confidence
+                ? `${result.recent_entry.confidence}%`
+                : (result.match_type ? String(result.match_type).replace(/_/g, ' ') : 'Ready');
 
             document.getElementById(`comp${slotIndex + 1}-price`).textContent =
                 result.predicted_price || 'Unavailable';
             document.getElementById(`comp${slotIndex + 1}-score`).textContent =
-                result.success ? 'Ready' : 'Error';
+                result.success ? score : 'Error';
         } catch (error) {
             console.error('Failed to fetch comparison prediction:', error);
             document.getElementById(`comp${slotIndex + 1}-price`).textContent = 'Unavailable';
@@ -1397,18 +1387,49 @@ class PageRouter {
                     <td>${item.fuel_type}</td>
                     <td class="price-cell">Rs ${(Number(item.Price) / 100000).toFixed(1)}L</td>
                     <td>
-                        <button class="btn-predict" style="padding: 6px 12px; font-size: 11px;" onclick="predictFromDatabase('${item.company}', '${item.name}', ${item.year}, ${item.kms_driven}, '${item.fuel_type}')">
+                        <button
+                            class="btn-predict database-predict-btn"
+                            style="padding: 6px 12px; font-size: 11px;"
+                            data-company="${this.escapeAttribute(item.company)}"
+                            data-model="${this.escapeAttribute(item.name)}"
+                            data-year="${item.year}"
+                            data-km="${item.kms_driven}"
+                            data-fuel="${this.escapeAttribute(item.fuel_type)}"
+                        >
                             Predict
                         </button>
                     </td>
                 </tr>
             `).join('');
+            this.attachDatabasePredictionButtons();
         }
 
         const countElement = document.getElementById('recordCount');
         if (countElement) {
             countElement.textContent = `${records.length} of ${this.databaseRecords.length} records`;
         }
+    }
+
+    attachDatabasePredictionButtons() {
+        document.querySelectorAll('.database-predict-btn').forEach((button) => {
+            button.addEventListener('click', () => {
+                predictFromDatabase(
+                    button.dataset.company || '',
+                    button.dataset.model || '',
+                    button.dataset.year || '',
+                    button.dataset.km || '',
+                    button.dataset.fuel || '',
+                );
+            });
+        });
+    }
+
+    escapeAttribute(value) {
+        return String(value)
+            .replace(/&/g, '&amp;')
+            .replace(/"/g, '&quot;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;');
     }
 
     loadExportHistory() {

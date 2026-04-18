@@ -256,19 +256,25 @@ async function predictFromDatabase(company, model, year, km, fuel) {
 
     try {
         const { companySelect, modelSelect, yearSelect, kmInput, fuelSelect } = await waitForPredictForm();
+        const form = document.getElementById('predictForm');
 
         companySelect.value = company;
 
         if (window.carPricePredictor) {
-            await window.carPricePredictor.loadModels(company);
+            const models = await window.carPricePredictor.loadModels(company);
+            if (!models.includes(model)) {
+                throw new Error(`Model "${model}" is not available for ${company}`);
+            }
         }
 
         modelSelect.value = model;
         yearSelect.value = String(year);
         kmInput.value = km;
         fuelSelect.value = fuel;
+        form?.requestSubmit();
     } catch (error) {
         console.error('Failed to prefill prediction form from database:', error);
+        showToast('Failed to load this vehicle into the prediction form', 'error');
     }
 }
 
