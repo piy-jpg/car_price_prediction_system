@@ -4,6 +4,7 @@ class CarPricePredictor {
         this.apiBase = '/api';
         this.handleCompanyChange = this.handleCompanyChange.bind(this);
         this.handlePredictionSubmit = this.handlePrediction.bind(this);
+        this.initialDataPromise = null;
         this.initializeApp();
     }
 
@@ -19,22 +20,31 @@ class CarPricePredictor {
     }
 
     async loadInitialData() {
-        const [companiesResponse, yearsResponse, fuelResponse] = await Promise.all([
-            fetch(`${this.apiBase}/companies`),
-            fetch(`${this.apiBase}/years`),
-            fetch(`${this.apiBase}/fuel_types`)
-        ]);
+        if (!this.initialDataPromise) {
+            this.initialDataPromise = (async () => {
+                const [companiesResponse, yearsResponse, fuelResponse] = await Promise.all([
+                    fetch(`${this.apiBase}/companies`),
+                    fetch(`${this.apiBase}/years`),
+                    fetch(`${this.apiBase}/fuel_types`)
+                ]);
 
-        const [companiesData, yearsData, fuelData] = await Promise.all([
-            companiesResponse.json(),
-            yearsResponse.json(),
-            fuelResponse.json()
-        ]);
+                const [companiesData, yearsData, fuelData] = await Promise.all([
+                    companiesResponse.json(),
+                    yearsResponse.json(),
+                    fuelResponse.json()
+                ]);
 
-        this.populateSelect('company', companiesData.companies || []);
-        this.populateSelect('year', yearsData.years || []);
-        this.populateSelect('fuel_type', fuelData.fuel_types || []);
-        this.resetModelSelect();
+                this.populateSelect('company', companiesData.companies || []);
+                this.populateSelect('year', yearsData.years || []);
+                this.populateSelect('fuel_type', fuelData.fuel_types || []);
+                this.resetModelSelect();
+            })().catch((error) => {
+                this.initialDataPromise = null;
+                throw error;
+            });
+        }
+
+        await this.initialDataPromise;
     }
 
     populateSelect(elementId, options) {

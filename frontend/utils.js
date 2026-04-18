@@ -249,13 +249,36 @@ async function waitForPredictForm(timeoutMs = 3000) {
     throw new Error('Prediction form did not load in time');
 }
 
+async function waitForPredictFormOptions(timeoutMs = 3000) {
+    const startedAt = Date.now();
+
+    while (Date.now() - startedAt < timeoutMs) {
+        const companyReady = (document.getElementById('company')?.options.length || 0) > 1;
+        const yearReady = (document.getElementById('year')?.options.length || 0) > 1;
+        const fuelReady = (document.getElementById('fuel_type')?.options.length || 0) > 1;
+
+        if (companyReady && yearReady && fuelReady) {
+            return;
+        }
+
+        await new Promise(resolve => setTimeout(resolve, 50));
+    }
+
+    throw new Error('Prediction form options did not load in time');
+}
+
 async function predictFromDatabase(company, model, year, km, fuel) {
     if (!window.pageRouter) return;
 
     window.pageRouter.navigateTo('predict');
 
     try {
+        if (window.carPricePredictor) {
+            await window.carPricePredictor.loadInitialData();
+        }
+
         const { companySelect, modelSelect, yearSelect, kmInput, fuelSelect } = await waitForPredictForm();
+        await waitForPredictFormOptions();
         const form = document.getElementById('predictForm');
 
         companySelect.value = company;
